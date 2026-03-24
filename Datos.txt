@@ -1,0 +1,11 @@
+***Authors****
+
+ID,name,dateOfBirth,dateOfDeath,placeOfBirth,placeOfDeath
+f3b46973,Gabriel García Márquez,1927-03-06,,,Aracataca
+7e492292,Isabel Allende,1942-08-02,,,Lima
+
+
+****Books****
+ID,author_ID,title,descr,stock,price,isbn,currency_code,publisher_ID
+e8f2a1b1-6a2c-4b5d-9e6f-7a8b9c0d1e2f,f3b46973,Cien años de soledad,,50,25.50,9780307474728,EUR,
+c7d2e3f4-5b6a-4c1d-8e9f-0a1b2c3d4e5f,7e492292,La casa de los espíritus,,30,19.99,9781501117015,USD,

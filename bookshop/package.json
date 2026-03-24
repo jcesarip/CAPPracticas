@@ -1,0 +1,38 @@
+{
+  "name": "bookshop",
+  "version": "1.0.0",
+  "dependencies": {
+    "@sap-cloud-sdk/connectivity": "^4",
+    "@sap-cloud-sdk/http-client": "^4",
+    "@sap-cloud-sdk/resilience": "^4",
+    "@sap-cloud-sdk/util": "^4.5.1",
+    "@sap/cds": "^9",
+    "@sap/cds-common-content": "^3.1.0"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^2",
+    "cds-plugin-ui5": "^0.13.0"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "watch-mmbooks": "cds watch --open mmbooks/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "watch-salesbooks": "cds watch --open salesbooks/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "watch-mmlogisticabooks": "cds watch --open mmlogisticabooks/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "watch-sales": "cds watch --open sales/index.html?sap-ui-xx-viewCache=false --livereload false"
+  },
+  "private": true,
+  "workspaces": [
+    "app/*"
+  ],
+  "sapux": [
+    "app/sales"
+  ],
+  "cds": {
+    "requires": {
+      "BusinessPartnerA2X": {
+        "kind": "odata-v2",
+        "model": "srv/external/BusinessPartnerA2X"
+      }
+    }
+  }
+}

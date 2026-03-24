@@ -1,0 +1,443 @@
+@server=http://localhost:4004
+@username=alice
+@password=
+
+
+### Books
+# @name Books_GET
+GET {{server}}/admin/Books
+Authorization: Basic {{username}}:{{password}}
+
+
+### Books
+# @name Books_POST
+POST {{server}}/admin/Books
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "ID": "3698363c-0988-47a9-a454-0d54583b9566",
+  "author": {
+    "ID": "Ce782294"
+  },
+  "title": "Leer es resistir",
+  "descr": "Libro novela historia",
+  "genres": {
+    "ID": 101
+  },
+  "stock": 14,
+  "price": 17.99,
+  "isbn": "isbn-3698363",
+  "currency": {
+    "code": "ADP"
+  },
+  "publisher_ID": "",
+  "createdAt": "2006-03-09T05:00:00.000Z",
+  "createdBy": "createdBy.279ob@example.com",
+  "modifiedAt": "2013-06-29T05:00:00.000Z",
+  "modifiedBy": "modifiedBy.279ob@example.net"
+}
+
+
+### Books
+# @name Books_PATCH
+PATCH {{server}}/admin/Books/3698363c-0988-47a9-a454-0d54583b9566
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "ID": "3698363c-0988-47a9-a454-0d54583b9566",
+  "author": {
+    "ID": "Ce782294"
+  },
+  "title": "Leer es resistir!!!",
+  "descr": "Libro novela historia protestas",
+  "genres": {
+    "ID": 101
+  },
+  "stock": 10,
+  "price": 18.99,
+  "isbn": "",
+  "currency": {
+    "code": "ADP"
+  },
+  "publisher_ID": "",
+  "createdAt": "2006-03-09T05:00:00.000Z",
+  "createdBy": "createdBy.279ob@example.com",
+  "modifiedAt": "2013-06-29T05:00:00.000Z",
+  "modifiedBy": "modifiedBy.279ob@example.net"
+}
+
+
+### Books
+# @name Books_DELETE
+DELETE {{server}}/admin/Books/3698363c-0988-47a9-a454-0d54583b9566
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### Authors
+# @name Authors_GET
+GET {{server}}/admin/Authors
+Authorization: Basic {{username}}:{{password}}
+
+
+### Authors
+# @name Authors_POST
+POST {{server}}/admin/Authors
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "ID": "29930773-ff02-41dc-8a93-359416950d63",
+  "name": "Franz Khafka",
+  "dateOfBirth": "1937-03-06",
+  "dateOfDeath": "2003-02-07",
+  "placeOfBirth": "Alemania",
+  "placeOfDeath": "Alemania",
+  "createdAt": "2019-06-26T05:00:00.000Z",
+  "createdBy": "createdBy.htiqd@example.net",
+  "modifiedAt": "2016-07-30T05:00:00.000Z",
+  "modifiedBy": "modifiedBy.htiqd@example.com"
+}
+
+
+### Authors
+# @name Authors_PATCH
+PATCH {{server}}/admin/Authors/29930773-ff02-41dc-8a93-359416950d63
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "ID": "29930773-ff02-41dc-8a93-359416950d63",
+  "name": "Franz Khafka",
+  "dateOfBirth": "2011-05-28",
+  "dateOfDeath": "2023-02-07",
+  "placeOfBirth": "placeOfBirth-29930773",
+  "placeOfDeath": "placeOfDeath-29930773",
+  "createdAt": "2019-06-26T05:00:00.000Z",
+  "createdBy": "createdBy.htiqd@example.net",
+  "modifiedAt": "2016-07-30T05:00:00.000Z",
+  "modifiedBy": "modifiedBy.htiqd@example.com"
+}
+
+
+### Authors
+# @name Authors_DELETE
+DELETE {{server}}/admin/Authors/29930773-ff02-41dc-8a93-359416950d63
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### Genres
+# @name Genres_GET
+GET {{server}}/admin/Genres
+Authorization: Basic {{username}}:{{password}}
+
+
+### Currencies
+# @name Currencies_GET
+GET {{server}}/admin/Currencies
+Authorization: Basic {{username}}:{{password}}
+
+
+### Orders
+# @name Orders_GET
+GET {{server}}/admin/Orders
+Authorization: Basic {{username}}:{{password}}
+
+
+### Orders
+# @name Orders_POST
+POST {{server}}/admin/Orders
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "ID": "29416879-ead4-4326-987c-8cab1b12055a",
+  "orderNumber": "orderNumber-29416879",
+  "customer": "Diana Salamanca",
+  "totalPrice": 352.94,
+  "currency": {
+    "code": "USD"
+  },
+  "items": [
+    {
+      "ID": "18366249-f3d7-4b83-b4b2-5637e8af9000",
+      "book": {
+        "ID": "e8f2a1b1-6a2c-4b5d-9e6f-7a8b9c0d1e2f"
+      },
+      "quantity": 31,
+      "netAmount": 534.93
+    },
+    {
+      "ID": "18366250-343a-4e42-b6ae-dd79376d4d69",
+      "book": {
+        "ID": "c7d2e3f4-5b6a-4c1d-8e9f-0a1b2c3d4e5f"
+      },
+      "quantity": 21,
+      "netAmount": 1696237.37
+    }
+  ],
+  "createdAt": "2002-12-03T05:00:00.000Z",
+  "createdBy": "createdBy.hii7j@example.com",
+  "modifiedAt": "2013-02-24T05:00:00.000Z",
+  "modifiedBy": "modifiedBy.hii7j@example.net",
+  "isDigital": false,
+  "weight": 45400995.8
+}
+
+
+### Orders
+# @name Orders_PATCH
+PATCH {{server}}/admin/Orders/29416879-ead4-4326-987c-8cab1b12055a
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "ID": "29416879-ead4-4326-987c-8cab1b12055a",
+  "orderNumber": "orderNumber-29416879",
+  "customer": "Diana Carolina Salamanca",
+  "totalPrice": 3520607.94,
+  "currency": {
+    "code": "USD"
+  },
+  "items": [
+    {
+      "ID": "18366249-f3d7-4b83-b4b2-5637e8af9000",
+      "book": {
+        "ID": "c7d2e3f4-5b6a-4c1d-8e9f-0a1b2c3d4e5f"
+      },
+      "quantity": 31,
+      "netAmount": 5343328.93
+    },
+    {
+      "ID": "18366250-343a-4e42-b6ae-dd79376d4d69",
+      "book": {
+        "ID": "e8f2a1b1-6a2c-4b5d-9e6f-7a8b9c0d1e2f"
+      },
+      "quantity": 21,
+      "netAmount": 1696237.37
+    }
+  ],
+  "createdAt": "2002-12-03T05:00:00.000Z",
+  "createdBy": "createdBy.hii7j@example.com",
+  "modifiedAt": "2013-02-24T05:00:00.000Z",
+  "modifiedBy": "modifiedBy.hii7j@example.net",
+  "isDigital": false,
+  "weight": 45400995.8
+}
+
+
+### Orders
+# @name Orders_DELETE
+DELETE {{server}}/admin/Orders/29416879-ead4-4326-987c-8cab1b12055a
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BusinessPartner
+# @name A_BusinessPartner_GET
+GET {{server}}/admin/A_BusinessPartner
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BusinessPartner
+# @name A_BusinessPartner_POST
+POST {{server}}/admin/A_BusinessPartner
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "r-14818584",
+  "Customer": "r-14818584",
+  "Supplier": "r-14818584",
+  "AcademicTitle": "8584",
+  "AuthorizationGroup": "8584",
+  "BusinessPartnerCategory": "4",
+  "BusinessPartnerFullName": "BusinessPartnerFullName-14818584",
+  "BusinessPartnerGrouping": "8584",
+  "BusinessPartnerName": "BusinessPartnerName-14818584",
+  "BusinessPartnerUUID": "14818584-4979-4015-820c-66d2e30b8a0e",
+  "CorrespondenceLanguage": "84",
+  "CreatedByUser": "ser-14818584",
+  "CreationDate": "2008-02-11",
+  "CreationTime": "22:59:53",
+  "FirstName": "FirstName-14818584",
+  "FormOfAddress": "8584",
+  "Industry": "y-14818584",
+  "InternationalLocationNumber1": "4818584",
+  "InternationalLocationNumber2": "18584",
+  "IsFemale": true,
+  "IsMale": true,
+  "IsNaturalPerson": "4",
+  "IsSexUnknown": true,
+  "GenderCodeName": "4",
+  "Language": "84",
+  "LastChangeDate": "2004-04-17",
+  "LastChangeTime": "22:59:53",
+  "LastChangedByUser": "ser-14818584",
+  "LastName": "LastName-14818584",
+  "LegalForm": "84",
+  "OrganizationBPName1": "OrganizationBPName1-14818584",
+  "OrganizationBPName2": "OrganizationBPName2-14818584",
+  "OrganizationBPName3": "OrganizationBPName3-14818584",
+  "OrganizationBPName4": "OrganizationBPName4-14818584",
+  "OrganizationFoundationDate": "2023-04-10",
+  "OrganizationLiquidationDate": "2017-02-23",
+  "SearchTerm1": "SearchTerm1-14818584",
+  "SearchTerm2": "SearchTerm2-14818584",
+  "AdditionalLastName": "AdditionalLastName-14818584",
+  "BirthDate": "2007-12-05",
+  "BusinessPartnerBirthDateStatus": "4",
+  "BusinessPartnerBirthplaceName": "BusinessPartnerBirthplaceName-14818584",
+  "BusinessPartnerDeathDate": "2016-08-19",
+  "BusinessPartnerIsBlocked": true,
+  "BusinessPartnerType": "8584",
+  "ETag": "ETag-14818584",
+  "GroupBusinessPartnerName1": "GroupBusinessPartnerName1-14818584",
+  "GroupBusinessPartnerName2": "GroupBusinessPartnerName2-14818584",
+  "IndependentAddressID": "D-14818584",
+  "InternationalLocationNumber3": "4",
+  "MiddleName": "MiddleName-14818584",
+  "NameCountry": "584",
+  "NameFormat": "84",
+  "PersonFullName": "PersonFullName-14818584",
+  "PersonNumber": "r-14818584",
+  "IsMarkedForArchiving": true,
+  "BusinessPartnerIDByExtSystem": "ByExtSystem-14818584",
+  "BusinessPartnerPrintFormat": "4",
+  "BusinessPartnerOccupation": "8584",
+  "BusPartMaritalStatus": "4",
+  "BusPartNationality": "584",
+  "BusinessPartnerBirthName": "BusinessPartnerBirthName-14818584",
+  "BusinessPartnerSupplementName": "8584",
+  "NaturalPersonEmployerName": "NaturalPersonEmployerName-14818584",
+  "LastNamePrefix": "8584",
+  "LastNameSecondPrefix": "8584",
+  "Initials": "s-14818584",
+  "BPDataControllerIsNotRequired": true,
+  "TradingPartner": "818584",
+  "to_BPCreditWorthiness": {
+    "BusinessPartner": "s-20370774"
+  },
+  "to_BPFinServicesReporting": {
+    "BusinessPartner": "g-31088969"
+  },
+  "to_BusinessPartner": {
+    "BusinessPartner": "tn-1714854"
+  },
+  "to_BusinessPartnerIsBank": {
+    "BusinessPartner": "k-20686187"
+  },
+  "to_Customer": {
+    "Customer": "r-27443134"
+  },
+  "to_Supplier": {
+    "Supplier": "r-31742140"
+  }
+}
+
+
+### A_BusinessPartner
+# @name A_BusinessPartner_PATCH
+PATCH {{server}}/admin/A_BusinessPartner/r-14818584
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "r-14818584",
+  "Customer": "r-14818584",
+  "Supplier": "r-14818584",
+  "AcademicTitle": "8584",
+  "AuthorizationGroup": "8584",
+  "BusinessPartnerCategory": "4",
+  "BusinessPartnerFullName": "BusinessPartnerFullName-14818584",
+  "BusinessPartnerGrouping": "8584",
+  "BusinessPartnerName": "BusinessPartnerName-14818584",
+  "BusinessPartnerUUID": "14818584-4979-4015-820c-66d2e30b8a0e",
+  "CorrespondenceLanguage": "84",
+  "CreatedByUser": "ser-14818584",
+  "CreationDate": "2008-02-11",
+  "CreationTime": "22:59:53",
+  "FirstName": "FirstName-14818584",
+  "FormOfAddress": "8584",
+  "Industry": "y-14818584",
+  "InternationalLocationNumber1": "4818584",
+  "InternationalLocationNumber2": "18584",
+  "IsFemale": true,
+  "IsMale": true,
+  "IsNaturalPerson": "4",
+  "IsSexUnknown": true,
+  "GenderCodeName": "4",
+  "Language": "84",
+  "LastChangeDate": "2004-04-17",
+  "LastChangeTime": "22:59:53",
+  "LastChangedByUser": "ser-14818584",
+  "LastName": "LastName-14818584",
+  "LegalForm": "84",
+  "OrganizationBPName1": "OrganizationBPName1-14818584",
+  "OrganizationBPName2": "OrganizationBPName2-14818584",
+  "OrganizationBPName3": "OrganizationBPName3-14818584",
+  "OrganizationBPName4": "OrganizationBPName4-14818584",
+  "OrganizationFoundationDate": "2023-04-10",
+  "OrganizationLiquidationDate": "2017-02-23",
+  "SearchTerm1": "SearchTerm1-14818584",
+  "SearchTerm2": "SearchTerm2-14818584",
+  "AdditionalLastName": "AdditionalLastName-14818584",
+  "BirthDate": "2007-12-05",
+  "BusinessPartnerBirthDateStatus": "4",
+  "BusinessPartnerBirthplaceName": "BusinessPartnerBirthplaceName-14818584",
+  "BusinessPartnerDeathDate": "2016-08-19",
+  "BusinessPartnerIsBlocked": true,
+  "BusinessPartnerType": "8584",
+  "ETag": "ETag-14818584",
+  "GroupBusinessPartnerName1": "GroupBusinessPartnerName1-14818584",
+  "GroupBusinessPartnerName2": "GroupBusinessPartnerName2-14818584",
+  "IndependentAddressID": "D-14818584",
+  "InternationalLocationNumber3": "4",
+  "MiddleName": "MiddleName-14818584",
+  "NameCountry": "584",
+  "NameFormat": "84",
+  "PersonFullName": "PersonFullName-14818584",
+  "PersonNumber": "r-14818584",
+  "IsMarkedForArchiving": true,
+  "BusinessPartnerIDByExtSystem": "ByExtSystem-14818584",
+  "BusinessPartnerPrintFormat": "4",
+  "BusinessPartnerOccupation": "8584",
+  "BusPartMaritalStatus": "4",
+  "BusPartNationality": "584",
+  "BusinessPartnerBirthName": "BusinessPartnerBirthName-14818584",
+  "BusinessPartnerSupplementName": "8584",
+  "NaturalPersonEmployerName": "NaturalPersonEmployerName-14818584",
+  "LastNamePrefix": "8584",
+  "LastNameSecondPrefix": "8584",
+  "Initials": "s-14818584",
+  "BPDataControllerIsNotRequired": true,
+  "TradingPartner": "818584",
+  "to_BPCreditWorthiness": {
+    "BusinessPartner": "s-20370774"
+  },
+  "to_BPFinServicesReporting": {
+    "BusinessPartner": "g-31088969"
+  },
+  "to_BusinessPartner": {
+    "BusinessPartner": "tn-1714854"
+  },
+  "to_BusinessPartnerIsBank": {
+    "BusinessPartner": "k-20686187"
+  },
+  "to_Customer": {
+    "Customer": "r-27443134"
+  },
+  "to_Supplier": {
+    "Supplier": "r-31742140"
+  }
+}
+
+
+### A_BusinessPartner
+# @name A_BusinessPartner_DELETE
+DELETE {{server}}/admin/A_BusinessPartner/r-14818584
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}

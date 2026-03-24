@@ -1,0 +1,134 @@
+@server=http://localhost:4004
+@username=alice
+@password=
+
+
+### Books
+# @name Books_GET
+GET {{server}}/shop/Books
+Authorization: Basic {{username}}:{{password}}
+
+
+### Author
+# @name Author_GET
+GET {{server}}/shop/Author
+Authorization: Basic {{username}}:{{password}}
+
+
+### Genres
+# @name Genres_GET
+GET {{server}}/shop/Genres
+Authorization: Basic {{username}}:{{password}}
+
+
+### Currencies
+# @name Currencies_GET
+GET {{server}}/shop/Currencies
+Authorization: Basic {{username}}:{{password}}
+
+
+### Orders
+# @name Orders_GET
+GET {{server}}/shop/Orders
+Authorization: Basic {{username}}:{{password}}
+
+
+### Orders
+# @name Orders_POST
+POST {{server}}/shop/Orders
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "ID": "11103534-2fc2-4592-8089-773240542004",
+  "orderNumber": "orderNumber-11103534",
+  "customer": "customer-11103534",
+  "totalPrice": 2096864.71,
+  "currency": {
+    "code": "275"
+  },
+  "items": [
+    {
+      "ID": "13113786-64fe-4d7e-9f96-77ac206a88db",
+      "book": {
+        "ID": "4825289a-eb9f-4daf-abd2-9146d244084c"
+      },
+      "quantity": 38,
+      "netAmount": 1543554.59
+    },
+    {
+      "ID": "13113787-831f-49e6-96e9-b0969601e2c1",
+      "book": {
+        "ID": "4825289a-eb9f-4daf-abd2-9146d244084c"
+      },
+      "quantity": 41,
+      "netAmount": 8946333.06
+    }
+  ],
+  "createdAt": "2003-03-27T05:00:00.000Z",
+  "createdBy": "createdBy.6lzji@example.com",
+  "modifiedAt": "2007-11-14T05:00:00.000Z",
+  "modifiedBy": "modifiedBy.6lzji@example.org",
+  "isDigital": true,
+  "weight": 58395310.83
+}
+
+
+### Orders
+# @name Orders_PATCH
+PATCH {{server}}/shop/Orders/11103534-2fc2-4592-8089-773240542004
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "ID": "11103534-2fc2-4592-8089-773240542004",
+  "orderNumber": "orderNumber-11103534",
+  "customer": "customer-11103534",
+  "totalPrice": 2096864.71,
+  "currency": {
+    "code": "275"
+  },
+  "items": [
+    {
+      "ID": "13113786-64fe-4d7e-9f96-77ac206a88db",
+      "book": {
+        "ID": "4825289a-eb9f-4daf-abd2-9146d244084c"
+      },
+      "quantity": 38,
+      "netAmount": 1543554.59
+    },
+    {
+      "ID": "13113787-831f-49e6-96e9-b0969601e2c1",
+      "book": {
+        "ID": "4825289a-eb9f-4daf-abd2-9146d244084c"
+      },
+      "quantity": 41,
+      "netAmount": 8946333.06
+    }
+  ],
+  "createdAt": "2003-03-27T05:00:00.000Z",
+  "createdBy": "createdBy.6lzji@example.com",
+  "modifiedAt": "2007-11-14T05:00:00.000Z",
+  "modifiedBy": "modifiedBy.6lzji@example.org",
+  "isDigital": true,
+  "weight": 58395310.83
+}
+
+
+### Orders
+# @name Orders_DELETE
+DELETE {{server}}/shop/Orders/11103534-2fc2-4592-8089-773240542004
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### submitOrder
+# @name submitOrder_POST
+POST {{server}}/shop/submitOrder
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "book": "26543382-afb9-4ce6-a8a9-f0ebf29ec310",
+  "quantity": 71
+}

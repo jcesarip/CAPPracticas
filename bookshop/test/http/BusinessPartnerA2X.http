@@ -1,0 +1,4434 @@
+@server=http://localhost:4004
+@username=alice
+@password=
+
+
+### A_BusinessPartner
+# @name A_BusinessPartner_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartner
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BusinessPartner
+# @name A_BusinessPartner_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartner
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "r-15945277",
+  "Customer": "r-15945277",
+  "Supplier": "r-15945277",
+  "AcademicTitle": "5277",
+  "AuthorizationGroup": "5277",
+  "BusinessPartnerCategory": "7",
+  "BusinessPartnerFullName": "BusinessPartnerFullName-15945277",
+  "BusinessPartnerGrouping": "5277",
+  "BusinessPartnerName": "BusinessPartnerName-15945277",
+  "BusinessPartnerUUID": "15945277-cb4a-4d15-8860-53c8c23b668c",
+  "CorrespondenceLanguage": "77",
+  "CreatedByUser": "ser-15945277",
+  "CreationDate": "2011-01-11",
+  "CreationTime": "22:59:53",
+  "FirstName": "FirstName-15945277",
+  "FormOfAddress": "5277",
+  "Industry": "y-15945277",
+  "InternationalLocationNumber1": "5945277",
+  "InternationalLocationNumber2": "45277",
+  "IsFemale": false,
+  "IsMale": false,
+  "IsNaturalPerson": "7",
+  "IsSexUnknown": false,
+  "GenderCodeName": "7",
+  "Language": "77",
+  "LastChangeDate": "2018-06-12",
+  "LastChangeTime": "22:59:53",
+  "LastChangedByUser": "ser-15945277",
+  "LastName": "LastName-15945277",
+  "LegalForm": "77",
+  "OrganizationBPName1": "OrganizationBPName1-15945277",
+  "OrganizationBPName2": "OrganizationBPName2-15945277",
+  "OrganizationBPName3": "OrganizationBPName3-15945277",
+  "OrganizationBPName4": "OrganizationBPName4-15945277",
+  "OrganizationFoundationDate": "2018-12-27",
+  "OrganizationLiquidationDate": "2012-08-22",
+  "SearchTerm1": "SearchTerm1-15945277",
+  "SearchTerm2": "SearchTerm2-15945277",
+  "AdditionalLastName": "AdditionalLastName-15945277",
+  "BirthDate": "2004-06-30",
+  "BusinessPartnerBirthDateStatus": "7",
+  "BusinessPartnerBirthplaceName": "BusinessPartnerBirthplaceName-15945277",
+  "BusinessPartnerDeathDate": "2023-04-15",
+  "BusinessPartnerIsBlocked": false,
+  "BusinessPartnerType": "5277",
+  "ETag": "ETag-15945277",
+  "GroupBusinessPartnerName1": "GroupBusinessPartnerName1-15945277",
+  "GroupBusinessPartnerName2": "GroupBusinessPartnerName2-15945277",
+  "IndependentAddressID": "D-15945277",
+  "InternationalLocationNumber3": "7",
+  "MiddleName": "MiddleName-15945277",
+  "NameCountry": "277",
+  "NameFormat": "77",
+  "PersonFullName": "PersonFullName-15945277",
+  "PersonNumber": "r-15945277",
+  "IsMarkedForArchiving": false,
+  "BusinessPartnerIDByExtSystem": "ByExtSystem-15945277",
+  "BusinessPartnerPrintFormat": "7",
+  "BusinessPartnerOccupation": "5277",
+  "BusPartMaritalStatus": "7",
+  "BusPartNationality": "277",
+  "BusinessPartnerBirthName": "BusinessPartnerBirthName-15945277",
+  "BusinessPartnerSupplementName": "5277",
+  "NaturalPersonEmployerName": "NaturalPersonEmployerName-15945277",
+  "LastNamePrefix": "5277",
+  "LastNameSecondPrefix": "5277",
+  "Initials": "s-15945277",
+  "BPDataControllerIsNotRequired": false,
+  "TradingPartner": "945277",
+  "to_BPCreditWorthiness": {
+    "BusinessPartner": "s-20370774"
+  },
+  "to_BPFinServicesReporting": {
+    "BusinessPartner": "g-31088969"
+  },
+  "to_BusinessPartner": {
+    "BusinessPartner": "tn-1714854"
+  },
+  "to_BusinessPartnerIsBank": {
+    "BusinessPartner": "k-20686187"
+  },
+  "to_Customer": {
+    "Customer": "r-27443134"
+  },
+  "to_Supplier": {
+    "Supplier": "r-31742140"
+  }
+}
+
+
+### A_BusinessPartner
+# @name A_BusinessPartner_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartner/r-15945277
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "r-15945277",
+  "Customer": "r-15945277",
+  "Supplier": "r-15945277",
+  "AcademicTitle": "5277",
+  "AuthorizationGroup": "5277",
+  "BusinessPartnerCategory": "7",
+  "BusinessPartnerFullName": "BusinessPartnerFullName-15945277",
+  "BusinessPartnerGrouping": "5277",
+  "BusinessPartnerName": "BusinessPartnerName-15945277",
+  "BusinessPartnerUUID": "15945277-cb4a-4d15-8860-53c8c23b668c",
+  "CorrespondenceLanguage": "77",
+  "CreatedByUser": "ser-15945277",
+  "CreationDate": "2011-01-11",
+  "CreationTime": "22:59:53",
+  "FirstName": "FirstName-15945277",
+  "FormOfAddress": "5277",
+  "Industry": "y-15945277",
+  "InternationalLocationNumber1": "5945277",
+  "InternationalLocationNumber2": "45277",
+  "IsFemale": false,
+  "IsMale": false,
+  "IsNaturalPerson": "7",
+  "IsSexUnknown": false,
+  "GenderCodeName": "7",
+  "Language": "77",
+  "LastChangeDate": "2018-06-12",
+  "LastChangeTime": "22:59:53",
+  "LastChangedByUser": "ser-15945277",
+  "LastName": "LastName-15945277",
+  "LegalForm": "77",
+  "OrganizationBPName1": "OrganizationBPName1-15945277",
+  "OrganizationBPName2": "OrganizationBPName2-15945277",
+  "OrganizationBPName3": "OrganizationBPName3-15945277",
+  "OrganizationBPName4": "OrganizationBPName4-15945277",
+  "OrganizationFoundationDate": "2018-12-27",
+  "OrganizationLiquidationDate": "2012-08-22",
+  "SearchTerm1": "SearchTerm1-15945277",
+  "SearchTerm2": "SearchTerm2-15945277",
+  "AdditionalLastName": "AdditionalLastName-15945277",
+  "BirthDate": "2004-06-30",
+  "BusinessPartnerBirthDateStatus": "7",
+  "BusinessPartnerBirthplaceName": "BusinessPartnerBirthplaceName-15945277",
+  "BusinessPartnerDeathDate": "2023-04-15",
+  "BusinessPartnerIsBlocked": false,
+  "BusinessPartnerType": "5277",
+  "ETag": "ETag-15945277",
+  "GroupBusinessPartnerName1": "GroupBusinessPartnerName1-15945277",
+  "GroupBusinessPartnerName2": "GroupBusinessPartnerName2-15945277",
+  "IndependentAddressID": "D-15945277",
+  "InternationalLocationNumber3": "7",
+  "MiddleName": "MiddleName-15945277",
+  "NameCountry": "277",
+  "NameFormat": "77",
+  "PersonFullName": "PersonFullName-15945277",
+  "PersonNumber": "r-15945277",
+  "IsMarkedForArchiving": false,
+  "BusinessPartnerIDByExtSystem": "ByExtSystem-15945277",
+  "BusinessPartnerPrintFormat": "7",
+  "BusinessPartnerOccupation": "5277",
+  "BusPartMaritalStatus": "7",
+  "BusPartNationality": "277",
+  "BusinessPartnerBirthName": "BusinessPartnerBirthName-15945277",
+  "BusinessPartnerSupplementName": "5277",
+  "NaturalPersonEmployerName": "NaturalPersonEmployerName-15945277",
+  "LastNamePrefix": "5277",
+  "LastNameSecondPrefix": "5277",
+  "Initials": "s-15945277",
+  "BPDataControllerIsNotRequired": false,
+  "TradingPartner": "945277",
+  "to_BPCreditWorthiness": {
+    "BusinessPartner": "s-20370774"
+  },
+  "to_BPFinServicesReporting": {
+    "BusinessPartner": "g-31088969"
+  },
+  "to_BusinessPartner": {
+    "BusinessPartner": "tn-1714854"
+  },
+  "to_BusinessPartnerIsBank": {
+    "BusinessPartner": "k-20686187"
+  },
+  "to_Customer": {
+    "Customer": "r-27443134"
+  },
+  "to_Supplier": {
+    "Supplier": "r-31742140"
+  }
+}
+
+
+### A_BusinessPartner
+# @name A_BusinessPartner_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartner/r-15945277
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPAddressIndependentEmail
+# @name A_BPAddressIndependentEmail_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BPAddressIndependentEmail
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPAddressIndependentEmail
+# @name A_BPAddressIndependentEmail_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BPAddressIndependentEmail
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "l-20008142",
+  "AddressID": "l-20008142",
+  "Person": "l-20008142",
+  "OrdinalNumber": "142",
+  "EmailAddress": "EmailAddress-20008142",
+  "IsDefaultEmailAddress": true,
+  "ValidityStartDate": "2019-07-19",
+  "ValidityEndDate": "2006-12-19"
+}
+
+
+### A_BPAddressIndependentEmail
+# @name A_BPAddressIndependentEmail_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BPAddressIndependentEmail(BusinessPartner='l-20008142',AddressID='l-20008142',Person='l-20008142',OrdinalNumber='142')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "l-20008142",
+  "AddressID": "l-20008142",
+  "Person": "l-20008142",
+  "OrdinalNumber": "142",
+  "EmailAddress": "EmailAddress-20008142",
+  "IsDefaultEmailAddress": true,
+  "ValidityStartDate": "2019-07-19",
+  "ValidityEndDate": "2006-12-19"
+}
+
+
+### A_BPAddressIndependentEmail
+# @name A_BPAddressIndependentEmail_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BPAddressIndependentEmail(BusinessPartner='l-20008142',AddressID='l-20008142',Person='l-20008142',OrdinalNumber='142')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPAddressIndependentFax
+# @name A_BPAddressIndependentFax_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BPAddressIndependentFax
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPAddressIndependentFax
+# @name A_BPAddressIndependentFax_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BPAddressIndependentFax
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "x-22101418",
+  "AddressID": "x-22101418",
+  "Person": "x-22101418",
+  "OrdinalNumber": "418",
+  "FaxCountry": "418",
+  "FaxAreaCodeSubscriberNumber": "aCodeSubscriberNumber-22101418",
+  "FaxNumberExtension": "n-22101418",
+  "InternationalFaxNumber": "nternationalFaxNumber-22101418",
+  "IsDefaultFaxNumber": true,
+  "ValidityEndDate": "2006-02-22",
+  "ValidityStartDate": "2005-09-22"
+}
+
+
+### A_BPAddressIndependentFax
+# @name A_BPAddressIndependentFax_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BPAddressIndependentFax(BusinessPartner='x-22101418',AddressID='x-22101418',Person='x-22101418',OrdinalNumber='418')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "x-22101418",
+  "AddressID": "x-22101418",
+  "Person": "x-22101418",
+  "OrdinalNumber": "418",
+  "FaxCountry": "418",
+  "FaxAreaCodeSubscriberNumber": "aCodeSubscriberNumber-22101418",
+  "FaxNumberExtension": "n-22101418",
+  "InternationalFaxNumber": "nternationalFaxNumber-22101418",
+  "IsDefaultFaxNumber": true,
+  "ValidityEndDate": "2006-02-22",
+  "ValidityStartDate": "2005-09-22"
+}
+
+
+### A_BPAddressIndependentFax
+# @name A_BPAddressIndependentFax_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BPAddressIndependentFax(BusinessPartner='x-22101418',AddressID='x-22101418',Person='x-22101418',OrdinalNumber='418')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPAddressIndependentMobile
+# @name A_BPAddressIndependentMobile_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BPAddressIndependentMobile
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPAddressIndependentMobile
+# @name A_BPAddressIndependentMobile_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BPAddressIndependentMobile
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "le-4386039",
+  "AddressID": "le-4386039",
+  "Person": "le-4386039",
+  "OrdinalNumber": "039",
+  "InternationalPhoneNumber": "ternationalPhoneNumber-4386039",
+  "IsDefaultPhoneNumber": false,
+  "MobilePhoneCountry": "039",
+  "MobilePhoneNumber": "MobilePhoneNumber-4386039",
+  "PhoneNumberExtension": "on-4386039",
+  "PhoneNumberType": "9",
+  "ValidityStartDate": "2011-08-10",
+  "ValidityEndDate": "2013-03-29"
+}
+
+
+### A_BPAddressIndependentMobile
+# @name A_BPAddressIndependentMobile_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BPAddressIndependentMobile(BusinessPartner='le-4386039',AddressID='le-4386039',Person='le-4386039',OrdinalNumber='039')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "le-4386039",
+  "AddressID": "le-4386039",
+  "Person": "le-4386039",
+  "OrdinalNumber": "039",
+  "InternationalPhoneNumber": "ternationalPhoneNumber-4386039",
+  "IsDefaultPhoneNumber": false,
+  "MobilePhoneCountry": "039",
+  "MobilePhoneNumber": "MobilePhoneNumber-4386039",
+  "PhoneNumberExtension": "on-4386039",
+  "PhoneNumberType": "9",
+  "ValidityStartDate": "2011-08-10",
+  "ValidityEndDate": "2013-03-29"
+}
+
+
+### A_BPAddressIndependentMobile
+# @name A_BPAddressIndependentMobile_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BPAddressIndependentMobile(BusinessPartner='le-4386039',AddressID='le-4386039',Person='le-4386039',OrdinalNumber='039')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPAddressIndependentPhone
+# @name A_BPAddressIndependentPhone_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BPAddressIndependentPhone
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPAddressIndependentPhone
+# @name A_BPAddressIndependentPhone_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BPAddressIndependentPhone
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "e-16861190",
+  "AddressID": "e-16861190",
+  "Person": "e-16861190",
+  "OrdinalNumber": "190",
+  "DestinationLocationCountry": "190",
+  "InternationalPhoneNumber": "ernationalPhoneNumber-16861190",
+  "IsDefaultPhoneNumber": true,
+  "PhoneNumber": "PhoneNumber-16861190",
+  "PhoneNumberExtension": "n-16861190",
+  "PhoneNumberType": "0",
+  "ValidityStartDate": "2015-12-29",
+  "ValidityEndDate": "2023-12-31"
+}
+
+
+### A_BPAddressIndependentPhone
+# @name A_BPAddressIndependentPhone_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BPAddressIndependentPhone(BusinessPartner='e-16861190',AddressID='e-16861190',Person='e-16861190',OrdinalNumber='190')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "e-16861190",
+  "AddressID": "e-16861190",
+  "Person": "e-16861190",
+  "OrdinalNumber": "190",
+  "DestinationLocationCountry": "190",
+  "InternationalPhoneNumber": "ernationalPhoneNumber-16861190",
+  "IsDefaultPhoneNumber": true,
+  "PhoneNumber": "PhoneNumber-16861190",
+  "PhoneNumberExtension": "n-16861190",
+  "PhoneNumberType": "0",
+  "ValidityStartDate": "2015-12-29",
+  "ValidityEndDate": "2023-12-31"
+}
+
+
+### A_BPAddressIndependentPhone
+# @name A_BPAddressIndependentPhone_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BPAddressIndependentPhone(BusinessPartner='e-16861190',AddressID='e-16861190',Person='e-16861190',OrdinalNumber='190')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPAddressIndependentWebsite
+# @name A_BPAddressIndependentWebsite_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BPAddressIndependentWebsite
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPAddressIndependentWebsite
+# @name A_BPAddressIndependentWebsite_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BPAddressIndependentWebsite
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "te-7998894",
+  "AddressID": "te-7998894",
+  "Person": "te-7998894",
+  "OrdinalNumber": "894",
+  "IsDefaultURLAddress": true,
+  "URLFieldLength": 89,
+  "WebsiteURL": "WebsiteURL-7998894"
+}
+
+
+### A_BPAddressIndependentWebsite
+# @name A_BPAddressIndependentWebsite_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BPAddressIndependentWebsite(BusinessPartner='te-7998894',AddressID='te-7998894',Person='te-7998894',OrdinalNumber='894')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "te-7998894",
+  "AddressID": "te-7998894",
+  "Person": "te-7998894",
+  "OrdinalNumber": "894",
+  "IsDefaultURLAddress": true,
+  "URLFieldLength": 89,
+  "WebsiteURL": "WebsiteURL-7998894"
+}
+
+
+### A_BPAddressIndependentWebsite
+# @name A_BPAddressIndependentWebsite_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BPAddressIndependentWebsite(BusinessPartner='te-7998894',AddressID='te-7998894',Person='te-7998894',OrdinalNumber='894')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPCreditWorthiness
+# @name A_BPCreditWorthiness_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BPCreditWorthiness
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPCreditWorthiness
+# @name A_BPCreditWorthiness_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BPCreditWorthiness
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "s-20370774",
+  "BusPartCreditStanding": "4",
+  "BPCreditStandingStatus": "4",
+  "CreditRatingAgency": "0774",
+  "BPCreditStandingComment": "BPCreditStandingComment-20370774",
+  "BPCreditStandingDate": "2000-02-11",
+  "BPCreditStandingRating": "774",
+  "BPLegalProceedingStatus": "74",
+  "BPLglProceedingInitiationDate": "2015-01-05",
+  "BusinessPartnerIsUnderOath": true,
+  "BusinessPartnerOathDate": "2023-07-03",
+  "BusinessPartnerIsBankrupt": true,
+  "BusinessPartnerBankruptcyDate": "2023-12-22",
+  "BPForeclosureIsInitiated": true,
+  "BPForeclosureDate": "2023-04-08",
+  "BPCrdtWrthnssAccessChkIsActive": "4"
+}
+
+
+### A_BPCreditWorthiness
+# @name A_BPCreditWorthiness_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BPCreditWorthiness/s-20370774
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "s-20370774",
+  "BusPartCreditStanding": "4",
+  "BPCreditStandingStatus": "4",
+  "CreditRatingAgency": "0774",
+  "BPCreditStandingComment": "BPCreditStandingComment-20370774",
+  "BPCreditStandingDate": "2000-02-11",
+  "BPCreditStandingRating": "774",
+  "BPLegalProceedingStatus": "74",
+  "BPLglProceedingInitiationDate": "2015-01-05",
+  "BusinessPartnerIsUnderOath": true,
+  "BusinessPartnerOathDate": "2023-07-03",
+  "BusinessPartnerIsBankrupt": true,
+  "BusinessPartnerBankruptcyDate": "2023-12-22",
+  "BPForeclosureIsInitiated": true,
+  "BPForeclosureDate": "2023-04-08",
+  "BPCrdtWrthnssAccessChkIsActive": "4"
+}
+
+
+### A_BPCreditWorthiness
+# @name A_BPCreditWorthiness_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BPCreditWorthiness/s-20370774
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPDataController
+# @name A_BPDataController_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BPDataController
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPDataController
+# @name A_BPDataController_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BPDataController
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "r-31447335",
+  "DataController": "A_BPDataController-31447335",
+  "PurposeForPersonalData": "A_BPDataController-31447335",
+  "DataControlAssignmentStatus": "5",
+  "BPDataControllerIsDerived": "5",
+  "PurposeDerived": "5",
+  "PurposeType": "5",
+  "BusinessPurposeFlag": "5"
+}
+
+
+### A_BPDataController
+# @name A_BPDataController_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BPDataController(BusinessPartner='r-31447335',DataController='A_BPDataController-31447335',PurposeForPersonalData='A_BPDataController-31447335')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "r-31447335",
+  "DataController": "A_BPDataController-31447335",
+  "PurposeForPersonalData": "A_BPDataController-31447335",
+  "DataControlAssignmentStatus": "5",
+  "BPDataControllerIsDerived": "5",
+  "PurposeDerived": "5",
+  "PurposeType": "5",
+  "BusinessPurposeFlag": "5"
+}
+
+
+### A_BPDataController
+# @name A_BPDataController_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BPDataController(BusinessPartner='r-31447335',DataController='A_BPDataController-31447335',PurposeForPersonalData='A_BPDataController-31447335')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPEmployment
+# @name A_BPEmployment_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BPEmployment
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPEmployment
+# @name A_BPEmployment_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BPEmployment
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "t-20992174",
+  "BPEmploymentStartDate": "2018-05-17",
+  "BPEmploymentEndDate": "2013-02-12",
+  "BPEmploymentStatus": "74",
+  "BusPartEmplrIndstryCode": "e-20992174",
+  "BusinessPartnerEmployerName": "usinessPartnerEmployerName-20992174",
+  "BusinessPartnerOccupationGroup": "2174"
+}
+
+
+### A_BPEmployment
+# @name A_BPEmployment_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BPEmployment(BusinessPartner='t-20992174',BPEmploymentStartDate=2018-05-17)
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "t-20992174",
+  "BPEmploymentStartDate": "2018-05-17",
+  "BPEmploymentEndDate": "2013-02-12",
+  "BPEmploymentStatus": "74",
+  "BusPartEmplrIndstryCode": "e-20992174",
+  "BusinessPartnerEmployerName": "usinessPartnerEmployerName-20992174",
+  "BusinessPartnerOccupationGroup": "2174"
+}
+
+
+### A_BPEmployment
+# @name A_BPEmployment_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BPEmployment(BusinessPartner='t-20992174',BPEmploymentStartDate=2018-05-17)
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPFinancialServicesReporting
+# @name A_BPFinancialServicesReporting_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BPFinancialServicesReporting
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPFinancialServicesReporting
+# @name A_BPFinancialServicesReporting_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BPFinancialServicesReporting
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "g-31088969",
+  "BPIsNonResident": false,
+  "BPNonResidencyStartDate": "2012-03-14",
+  "BPIsMultimillionLoanRecipient": false,
+  "BPLoanReportingBorrowerNumber": "31088969",
+  "BPLoanRptgBorrowerEntityNumber": "31088969",
+  "BPCreditStandingReview": "69",
+  "BPCreditStandingReviewDate": "2022-01-30",
+  "BusinessPartnerLoanToManager": "69",
+  "BPCompanyRelationship": "9",
+  "BPLoanReportingCreditorNumber": "31088969",
+  "BPOeNBIdentNumber": "er-31088969",
+  "BPOeNBTargetGroup": "69",
+  "BPOeNBIdentNumberAssigned": "9",
+  "BPOeNBInstituteNumber": "1088969",
+  "BusinessPartnerIsOeNBInstitute": false,
+  "BusinessPartnerGroup": "rGroup-31088969",
+  "BPGroupAssignmentCategory": "9",
+  "BusinessPartnerGroupName": "BusinessPartnerGroupName-31088969",
+  "BusinessPartnerLegalEntity": "69",
+  "BPGerAstRglnRestrictedAstQuota": "9",
+  "BusinessPartnerDebtorGroup": "9",
+  "BusinessPartnerBusinessPurpose": "69",
+  "BusinessPartnerRiskGroup": "9",
+  "BPRiskGroupingDate": "2019-12-11",
+  "BPHasGroupAffiliation": false,
+  "BPIsMonetaryFinInstitution": false,
+  "BPCrdtStandingReviewIsRequired": false,
+  "BPLoanMonitoringIsRequired": false,
+  "BPHasCreditingRelief": false,
+  "BPInvestInRstrcdAstIsAuthzd": false,
+  "BPCentralBankCountryRegion": "8969"
+}
+
+
+### A_BPFinancialServicesReporting
+# @name A_BPFinancialServicesReporting_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BPFinancialServicesReporting/g-31088969
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "g-31088969",
+  "BPIsNonResident": false,
+  "BPNonResidencyStartDate": "2012-03-14",
+  "BPIsMultimillionLoanRecipient": false,
+  "BPLoanReportingBorrowerNumber": "31088969",
+  "BPLoanRptgBorrowerEntityNumber": "31088969",
+  "BPCreditStandingReview": "69",
+  "BPCreditStandingReviewDate": "2022-01-30",
+  "BusinessPartnerLoanToManager": "69",
+  "BPCompanyRelationship": "9",
+  "BPLoanReportingCreditorNumber": "31088969",
+  "BPOeNBIdentNumber": "er-31088969",
+  "BPOeNBTargetGroup": "69",
+  "BPOeNBIdentNumberAssigned": "9",
+  "BPOeNBInstituteNumber": "1088969",
+  "BusinessPartnerIsOeNBInstitute": false,
+  "BusinessPartnerGroup": "rGroup-31088969",
+  "BPGroupAssignmentCategory": "9",
+  "BusinessPartnerGroupName": "BusinessPartnerGroupName-31088969",
+  "BusinessPartnerLegalEntity": "69",
+  "BPGerAstRglnRestrictedAstQuota": "9",
+  "BusinessPartnerDebtorGroup": "9",
+  "BusinessPartnerBusinessPurpose": "69",
+  "BusinessPartnerRiskGroup": "9",
+  "BPRiskGroupingDate": "2019-12-11",
+  "BPHasGroupAffiliation": false,
+  "BPIsMonetaryFinInstitution": false,
+  "BPCrdtStandingReviewIsRequired": false,
+  "BPLoanMonitoringIsRequired": false,
+  "BPHasCreditingRelief": false,
+  "BPInvestInRstrcdAstIsAuthzd": false,
+  "BPCentralBankCountryRegion": "8969"
+}
+
+
+### A_BPFinancialServicesReporting
+# @name A_BPFinancialServicesReporting_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BPFinancialServicesReporting/g-31088969
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPFiscalYearInformation
+# @name A_BPFiscalYearInformation_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BPFiscalYearInformation
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPFiscalYearInformation
+# @name A_BPFiscalYearInformation_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BPFiscalYearInformation
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "n-13892661",
+  "BusinessPartnerFiscalYear": "2661",
+  "BPBalanceSheetCurrency": "92661",
+  "BPAnnualStockholderMeetingDate": "2023-03-19",
+  "BPFiscalYearStartDate": "2008-08-24",
+  "BPFiscalYearEndDate": "2019-01-02",
+  "BPFiscalYearIsClosed": false,
+  "BPFiscalYearClosingDate": "2018-09-26",
+  "BPFsclYrCnsldtdFinStatementDte": "2021-04-08",
+  "BPCapitalStockAmtInBalShtCrcy": 977734090829.004,
+  "BPIssdStockCptlAmtInBalShtCrcy": 6827794948899.766,
+  "BPPartcipnCertAmtInBalShtCrcy": 5556776444496.967,
+  "BPEquityCapitalAmtInBalShtCrcy": 9297068830106.121,
+  "BPGrossPremiumAmtInBalShtCrcy": 9785673724457.39,
+  "BPNetPremiumAmtInBalShtCrcy": 9193992164798.723,
+  "BPAnnualSalesAmtInBalShtCrcy": 947070598760.67,
+  "BPAnnualNetIncAmtInBalShtCrcy": 1485146829142.41,
+  "BPDividendDistrAmtInBalShtCrcy": 7201489244631.021,
+  "BPDebtRatioInYears": 250.586,
+  "BPAnnualPnLAmtInBalShtCrcy": 9461429679377.69,
+  "BPBalSheetTotalAmtInBalShtCrcy": 9614760042714.146,
+  "BPNumberOfEmployees": "3892661",
+  "BPCptlReserveAmtInBalShtCrcy": 8261139091374.351,
+  "BPLglRevnRsrvAmtInBalShtCrcy": 4189843065610.144,
+  "RevnRsrvOwnStkAmtInBalShtCrcy": 1880234917564.469,
+  "BPStatryReserveAmtInBalShtCrcy": 1217374466146.149,
+  "BPOthRevnRsrvAmtInBalShtCrcy": 7630807086651.125,
+  "BPPnLCarryfwdAmtInBalShtCrcy": 1878008993827.263,
+  "BPSuborddLbltyAmtInBalShtCrcy": 1641694758476.013,
+  "BPRetOnTotalCptlEmpldInPercent": 525.04,
+  "BPDebtClearancePeriodInYears": 549.18,
+  "BPFinancingCoeffInPercent": 428.8,
+  "BPEquityRatioInPercent": 292.79
+}
+
+
+### A_BPFiscalYearInformation
+# @name A_BPFiscalYearInformation_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BPFiscalYearInformation(BusinessPartner='n-13892661',BusinessPartnerFiscalYear='2661')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "n-13892661",
+  "BusinessPartnerFiscalYear": "2661",
+  "BPBalanceSheetCurrency": "92661",
+  "BPAnnualStockholderMeetingDate": "2023-03-19",
+  "BPFiscalYearStartDate": "2008-08-24",
+  "BPFiscalYearEndDate": "2019-01-02",
+  "BPFiscalYearIsClosed": false,
+  "BPFiscalYearClosingDate": "2018-09-26",
+  "BPFsclYrCnsldtdFinStatementDte": "2021-04-08",
+  "BPCapitalStockAmtInBalShtCrcy": 977734090829.004,
+  "BPIssdStockCptlAmtInBalShtCrcy": 6827794948899.766,
+  "BPPartcipnCertAmtInBalShtCrcy": 5556776444496.967,
+  "BPEquityCapitalAmtInBalShtCrcy": 9297068830106.121,
+  "BPGrossPremiumAmtInBalShtCrcy": 9785673724457.39,
+  "BPNetPremiumAmtInBalShtCrcy": 9193992164798.723,
+  "BPAnnualSalesAmtInBalShtCrcy": 947070598760.67,
+  "BPAnnualNetIncAmtInBalShtCrcy": 1485146829142.41,
+  "BPDividendDistrAmtInBalShtCrcy": 7201489244631.021,
+  "BPDebtRatioInYears": 250.586,
+  "BPAnnualPnLAmtInBalShtCrcy": 9461429679377.69,
+  "BPBalSheetTotalAmtInBalShtCrcy": 9614760042714.146,
+  "BPNumberOfEmployees": "3892661",
+  "BPCptlReserveAmtInBalShtCrcy": 8261139091374.351,
+  "BPLglRevnRsrvAmtInBalShtCrcy": 4189843065610.144,
+  "RevnRsrvOwnStkAmtInBalShtCrcy": 1880234917564.469,
+  "BPStatryReserveAmtInBalShtCrcy": 1217374466146.149,
+  "BPOthRevnRsrvAmtInBalShtCrcy": 7630807086651.125,
+  "BPPnLCarryfwdAmtInBalShtCrcy": 1878008993827.263,
+  "BPSuborddLbltyAmtInBalShtCrcy": 1641694758476.013,
+  "BPRetOnTotalCptlEmpldInPercent": 525.04,
+  "BPDebtClearancePeriodInYears": 549.18,
+  "BPFinancingCoeffInPercent": 428.8,
+  "BPEquityRatioInPercent": 292.79
+}
+
+
+### A_BPFiscalYearInformation
+# @name A_BPFiscalYearInformation_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BPFiscalYearInformation(BusinessPartner='n-13892661',BusinessPartnerFiscalYear='2661')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPRelationship
+# @name A_BPRelationship_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BPRelationship
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPRelationship
+# @name A_BPRelationship_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BPRelationship
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "RelationshipNumber": "ship-1374845",
+  "BusinessPartner1": "ip-1374845",
+  "BusinessPartner2": "ip-1374845",
+  "ValidityEndDate": "2000-10-05",
+  "ValidityStartDate": "2005-04-17",
+  "IsStandardRelationship": false,
+  "RelationshipCategory": "374845",
+  "BPRelationshipType": "4845",
+  "CreatedByUser": "User-1374845",
+  "CreationDate": "2018-12-05",
+  "CreationTime": "22:59:53",
+  "LastChangedByUser": "User-1374845",
+  "LastChangeDate": "2013-07-29",
+  "LastChangeTime": "22:59:53"
+}
+
+
+### A_BPRelationship
+# @name A_BPRelationship_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BPRelationship(RelationshipNumber='ship-1374845',BusinessPartner1='ip-1374845',BusinessPartner2='ip-1374845',ValidityEndDate=2000-10-05)
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "RelationshipNumber": "ship-1374845",
+  "BusinessPartner1": "ip-1374845",
+  "BusinessPartner2": "ip-1374845",
+  "ValidityEndDate": "2000-10-05",
+  "ValidityStartDate": "2005-04-17",
+  "IsStandardRelationship": false,
+  "RelationshipCategory": "374845",
+  "BPRelationshipType": "4845",
+  "CreatedByUser": "User-1374845",
+  "CreationDate": "2018-12-05",
+  "CreationTime": "22:59:53",
+  "LastChangedByUser": "User-1374845",
+  "LastChangeDate": "2013-07-29",
+  "LastChangeTime": "22:59:53"
+}
+
+
+### A_BPRelationship
+# @name A_BPRelationship_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BPRelationship(RelationshipNumber='ship-1374845',BusinessPartner1='ip-1374845',BusinessPartner2='ip-1374845',ValidityEndDate=2000-10-05)
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BuPaIdentification
+# @name A_BuPaIdentification_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BuPaIdentification
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BuPaIdentification
+# @name A_BuPaIdentification_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BuPaIdentification
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "n-10619089",
+  "BPIdentificationType": "619089",
+  "BPIdentificationNumber": "A_BuPaIdentification-10619089",
+  "BPIdnNmbrIssuingInstitute": "BPIdnNmbrIssuingInstitute-10619089",
+  "BPIdentificationEntryDate": "2012-04-28",
+  "Country": "089",
+  "Region": "089",
+  "ValidityStartDate": "2016-12-14",
+  "ValidityEndDate": "2019-06-20",
+  "AuthorizationGroup": "9089"
+}
+
+
+### A_BuPaIdentification
+# @name A_BuPaIdentification_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BuPaIdentification(BusinessPartner='n-10619089',BPIdentificationType='619089',BPIdentificationNumber='A_BuPaIdentification-10619089')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "n-10619089",
+  "BPIdentificationType": "619089",
+  "BPIdentificationNumber": "A_BuPaIdentification-10619089",
+  "BPIdnNmbrIssuingInstitute": "BPIdnNmbrIssuingInstitute-10619089",
+  "BPIdentificationEntryDate": "2012-04-28",
+  "Country": "089",
+  "Region": "089",
+  "ValidityStartDate": "2016-12-14",
+  "ValidityEndDate": "2019-06-20",
+  "AuthorizationGroup": "9089"
+}
+
+
+### A_BuPaIdentification
+# @name A_BuPaIdentification_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BuPaIdentification(BusinessPartner='n-10619089',BPIdentificationType='619089',BPIdentificationNumber='A_BuPaIdentification-10619089')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BuPaIndustry
+# @name A_BuPaIndustry_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BuPaIndustry
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BuPaIndustry
+# @name A_BuPaIndustry_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BuPaIndustry
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "IndustrySector": "y-13548913",
+  "IndustrySystemType": "8913",
+  "BusinessPartner": "y-13548913",
+  "IsStandardIndustry": "3",
+  "IndustryKeyDescription": "IndustryKeyDescription-13548913"
+}
+
+
+### A_BuPaIndustry
+# @name A_BuPaIndustry_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BuPaIndustry(IndustrySector='y-13548913',IndustrySystemType='8913',BusinessPartner='y-13548913')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "IndustrySector": "y-13548913",
+  "IndustrySystemType": "8913",
+  "BusinessPartner": "y-13548913",
+  "IsStandardIndustry": "3",
+  "IndustryKeyDescription": "IndustryKeyDescription-13548913"
+}
+
+
+### A_BuPaIndustry
+# @name A_BuPaIndustry_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BuPaIndustry(IndustrySector='y-13548913',IndustrySystemType='8913',BusinessPartner='y-13548913')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPFinancialServicesExtn
+# @name A_BPFinancialServicesExtn_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BPFinancialServicesExtn
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPFinancialServicesExtn
+# @name A_BPFinancialServicesExtn_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BPFinancialServicesExtn
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "tn-1714854",
+  "BusinessPartnerIsVIP": true,
+  "TradingPartner": "714854",
+  "FactoryCalendar": "54",
+  "BusinessPartnerOfficeCountry": "854",
+  "BusinessPartnerOfficeRegion": "854",
+  "BPRegisteredOfficeName": "BPRegisteredOfficeName-1714854",
+  "BPBalanceSheetCurrency": "14854",
+  "BPLastCptlIncrAmtInBalShtCrcy": 6943213484874.107,
+  "BPLastCapitalIncreaseYear": "4854",
+  "BPBalanceSheetDisplayType": "4",
+  "BusinessPartnerCitizenship": "854",
+  "BPMaritalPropertyRegime": "54",
+  "BusinessPartnerIncomeCurrency": "14854",
+  "BPNumberOfChildren": 14,
+  "BPNumberOfHouseholdMembers": 23,
+  "BPAnnualNetIncAmtInIncomeCrcy": 310231394103.927,
+  "BPMonthlyNetIncAmtInIncomeCrcy": 5640643384798.238,
+  "BPAnnualNetIncomeYear": "4854",
+  "BPMonthlyNetIncomeMonth": "54",
+  "BPMonthlyNetIncomeYear": "4854",
+  "BPPlaceOfDeathName": "BPPlaceOfDeathName-1714854",
+  "CustomerIsUnwanted": true,
+  "UndesirabilityReason": "54",
+  "UndesirabilityComment": "UndesirabilityComment-1714854",
+  "LastCustomerContactDate": "2000-08-21",
+  "BPGroupingCharacter": "er-1714854",
+  "BPLetterSalutation": "54",
+  "BusinessPartnerTargetGroup": "4854",
+  "BusinessPartnerEmployeeGroup": "4854",
+  "BusinessPartnerIsEmployee": true,
+  "BPTermnBusRelationsBankDate": "2006-04-02"
+}
+
+
+### A_BPFinancialServicesExtn
+# @name A_BPFinancialServicesExtn_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BPFinancialServicesExtn/tn-1714854
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "tn-1714854",
+  "BusinessPartnerIsVIP": true,
+  "TradingPartner": "714854",
+  "FactoryCalendar": "54",
+  "BusinessPartnerOfficeCountry": "854",
+  "BusinessPartnerOfficeRegion": "854",
+  "BPRegisteredOfficeName": "BPRegisteredOfficeName-1714854",
+  "BPBalanceSheetCurrency": "14854",
+  "BPLastCptlIncrAmtInBalShtCrcy": 6943213484874.107,
+  "BPLastCapitalIncreaseYear": "4854",
+  "BPBalanceSheetDisplayType": "4",
+  "BusinessPartnerCitizenship": "854",
+  "BPMaritalPropertyRegime": "54",
+  "BusinessPartnerIncomeCurrency": "14854",
+  "BPNumberOfChildren": 14,
+  "BPNumberOfHouseholdMembers": 23,
+  "BPAnnualNetIncAmtInIncomeCrcy": 310231394103.927,
+  "BPMonthlyNetIncAmtInIncomeCrcy": 5640643384798.238,
+  "BPAnnualNetIncomeYear": "4854",
+  "BPMonthlyNetIncomeMonth": "54",
+  "BPMonthlyNetIncomeYear": "4854",
+  "BPPlaceOfDeathName": "BPPlaceOfDeathName-1714854",
+  "CustomerIsUnwanted": true,
+  "UndesirabilityReason": "54",
+  "UndesirabilityComment": "UndesirabilityComment-1714854",
+  "LastCustomerContactDate": "2000-08-21",
+  "BPGroupingCharacter": "er-1714854",
+  "BPLetterSalutation": "54",
+  "BusinessPartnerTargetGroup": "4854",
+  "BusinessPartnerEmployeeGroup": "4854",
+  "BusinessPartnerIsEmployee": true,
+  "BPTermnBusRelationsBankDate": "2006-04-02"
+}
+
+
+### A_BPFinancialServicesExtn
+# @name A_BPFinancialServicesExtn_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BPFinancialServicesExtn/tn-1714854
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BusinessPartnerAddress
+# @name A_BusinessPartnerAddress_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerAddress
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BusinessPartnerAddress
+# @name A_BusinessPartnerAddress_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerAddress
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "s-29310867",
+  "AddressID": "s-29310867",
+  "ValidityStartDate": "2006-05-26T05:00:00.000Z",
+  "ValidityEndDate": "2021-02-12T05:00:00.000Z",
+  "AuthorizationGroup": "0867",
+  "AddressUUID": "29310867-d088-4cd5-b435-a0eb8e3b5222",
+  "AdditionalStreetPrefixName": "AdditionalStreetPrefixName-29310867",
+  "AdditionalStreetSuffixName": "AdditionalStreetSuffixName-29310867",
+  "AddressTimeZone": "310867",
+  "CareOfName": "CareOfName-29310867",
+  "CityCode": "ode-29310867",
+  "CityName": "CityName-29310867",
+  "CompanyPostalCode": "e-29310867",
+  "Country": "867",
+  "County": "County-29310867",
+  "DeliveryServiceNumber": "r-29310867",
+  "DeliveryServiceTypeCode": "0867",
+  "District": "District-29310867",
+  "FormOfAddress": "0867",
+  "FullName": "FullName-29310867",
+  "HomeCityName": "HomeCityName-29310867",
+  "HouseNumber": "r-29310867",
+  "HouseNumberSupplementText": "t-29310867",
+  "Language": "67",
+  "POBox": "x-29310867",
+  "POBoxDeviatingCityName": "POBoxDeviatingCityName-29310867",
+  "POBoxDeviatingCountry": "867",
+  "POBoxDeviatingRegion": "867",
+  "POBoxIsWithoutNumber": false,
+  "POBoxLobbyName": "POBoxLobbyName-29310867",
+  "POBoxPostalCode": "e-29310867",
+  "Person": "n-29310867",
+  "PostalCode": "e-29310867",
+  "PrfrdCommMediumType": "867",
+  "Region": "867",
+  "StreetName": "StreetName-29310867",
+  "StreetPrefixName": "StreetPrefixName-29310867",
+  "StreetSuffixName": "StreetSuffixName-29310867",
+  "TaxJurisdiction": "iction-29310867",
+  "TransportZone": "e-29310867",
+  "AddressIDByExternalSystem": "ernalSystem-29310867",
+  "CountyCode": "29310867",
+  "TownshipCode": "29310867",
+  "TownshipName": "TownshipName-29310867",
+  "Building": "Building-29310867",
+  "Floor": "r-29310867",
+  "RoomNumber": "r-29310867",
+  "to_BPAddrDepdntIntlLocNumber": {
+    "BusinessPartner": "r-18519894",
+    "AddressID": "r-18519894"
+  }
+}
+
+
+### A_BusinessPartnerAddress
+# @name A_BusinessPartnerAddress_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerAddress(BusinessPartner='s-29310867',AddressID='s-29310867')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "s-29310867",
+  "AddressID": "s-29310867",
+  "ValidityStartDate": "2006-05-26T05:00:00.000Z",
+  "ValidityEndDate": "2021-02-12T05:00:00.000Z",
+  "AuthorizationGroup": "0867",
+  "AddressUUID": "29310867-d088-4cd5-b435-a0eb8e3b5222",
+  "AdditionalStreetPrefixName": "AdditionalStreetPrefixName-29310867",
+  "AdditionalStreetSuffixName": "AdditionalStreetSuffixName-29310867",
+  "AddressTimeZone": "310867",
+  "CareOfName": "CareOfName-29310867",
+  "CityCode": "ode-29310867",
+  "CityName": "CityName-29310867",
+  "CompanyPostalCode": "e-29310867",
+  "Country": "867",
+  "County": "County-29310867",
+  "DeliveryServiceNumber": "r-29310867",
+  "DeliveryServiceTypeCode": "0867",
+  "District": "District-29310867",
+  "FormOfAddress": "0867",
+  "FullName": "FullName-29310867",
+  "HomeCityName": "HomeCityName-29310867",
+  "HouseNumber": "r-29310867",
+  "HouseNumberSupplementText": "t-29310867",
+  "Language": "67",
+  "POBox": "x-29310867",
+  "POBoxDeviatingCityName": "POBoxDeviatingCityName-29310867",
+  "POBoxDeviatingCountry": "867",
+  "POBoxDeviatingRegion": "867",
+  "POBoxIsWithoutNumber": false,
+  "POBoxLobbyName": "POBoxLobbyName-29310867",
+  "POBoxPostalCode": "e-29310867",
+  "Person": "n-29310867",
+  "PostalCode": "e-29310867",
+  "PrfrdCommMediumType": "867",
+  "Region": "867",
+  "StreetName": "StreetName-29310867",
+  "StreetPrefixName": "StreetPrefixName-29310867",
+  "StreetSuffixName": "StreetSuffixName-29310867",
+  "TaxJurisdiction": "iction-29310867",
+  "TransportZone": "e-29310867",
+  "AddressIDByExternalSystem": "ernalSystem-29310867",
+  "CountyCode": "29310867",
+  "TownshipCode": "29310867",
+  "TownshipName": "TownshipName-29310867",
+  "Building": "Building-29310867",
+  "Floor": "r-29310867",
+  "RoomNumber": "r-29310867",
+  "to_BPAddrDepdntIntlLocNumber": {
+    "BusinessPartner": "r-18519894",
+    "AddressID": "r-18519894"
+  }
+}
+
+
+### A_BusinessPartnerAddress
+# @name A_BusinessPartnerAddress_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerAddress(BusinessPartner='s-29310867',AddressID='s-29310867')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BuPaAddressUsage
+# @name A_BuPaAddressUsage_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BuPaAddressUsage
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BuPaAddressUsage
+# @name A_BuPaAddressUsage_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BuPaAddressUsage
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "e-17317619",
+  "ValidityEndDate": "2020-01-16T05:00:00.000Z",
+  "AddressUsage": "e-17317619",
+  "AddressID": "e-17317619",
+  "ValidityStartDate": "2010-05-08T05:00:00.000Z",
+  "StandardUsage": false,
+  "AuthorizationGroup": "7619"
+}
+
+
+### A_BuPaAddressUsage
+# @name A_BuPaAddressUsage_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BuPaAddressUsage(BusinessPartner='e-17317619',ValidityEndDate=2020-01-16T05:00:00.000Z,AddressUsage='e-17317619',AddressID='e-17317619')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "e-17317619",
+  "ValidityEndDate": "2020-01-16T05:00:00.000Z",
+  "AddressUsage": "e-17317619",
+  "AddressID": "e-17317619",
+  "ValidityStartDate": "2010-05-08T05:00:00.000Z",
+  "StandardUsage": false,
+  "AuthorizationGroup": "7619"
+}
+
+
+### A_BuPaAddressUsage
+# @name A_BuPaAddressUsage_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BuPaAddressUsage(BusinessPartner='e-17317619',ValidityEndDate=2020-01-16T05:00:00.000Z,AddressUsage='e-17317619',AddressID='e-17317619')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPAddrDepdntIntlLocNumber
+# @name A_BPAddrDepdntIntlLocNumber_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BPAddrDepdntIntlLocNumber
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPAddrDepdntIntlLocNumber
+# @name A_BPAddrDepdntIntlLocNumber_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BPAddrDepdntIntlLocNumber
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "r-18519894",
+  "AddressID": "r-18519894",
+  "InternationalLocationNumber1": "8519894",
+  "InternationalLocationNumber2": "19894",
+  "InternationalLocationNumber3": "4"
+}
+
+
+### A_BPAddrDepdntIntlLocNumber
+# @name A_BPAddrDepdntIntlLocNumber_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BPAddrDepdntIntlLocNumber(BusinessPartner='r-18519894',AddressID='r-18519894')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "r-18519894",
+  "AddressID": "r-18519894",
+  "InternationalLocationNumber1": "8519894",
+  "InternationalLocationNumber2": "19894",
+  "InternationalLocationNumber3": "4"
+}
+
+
+### A_BPAddrDepdntIntlLocNumber
+# @name A_BPAddrDepdntIntlLocNumber_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BPAddrDepdntIntlLocNumber(BusinessPartner='r-18519894',AddressID='r-18519894')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPIntlAddressVersion
+# @name A_BPIntlAddressVersion_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BPIntlAddressVersion
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPIntlAddressVersion
+# @name A_BPIntlAddressVersion_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BPIntlAddressVersion
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "n-11952304",
+  "AddressID": "n-11952304",
+  "AddressRepresentationCode": "4",
+  "AddresseeFullName": "AddresseeFullName-11952304",
+  "AddressIDByExternalSystem": "ernalSystem-11952304",
+  "AddressPersonID": "D-11952304",
+  "AddressSearchTerm1": "SearchTerm1-11952304",
+  "AddressSearchTerm2": "SearchTerm2-11952304",
+  "AddressTimeZone": "952304",
+  "CareOfName": "CareOfName-11952304",
+  "CityName": "CityName-11952304",
+  "CityNumber": "ber-11952304",
+  "CompanyPostalCode": "e-11952304",
+  "Country": "304",
+  "DeliveryServiceNumber": "r-11952304",
+  "DeliveryServiceTypeCode": "2304",
+  "DistrictName": "DistrictName-11952304",
+  "FormOfAddress": "2304",
+  "HouseNumber": "r-11952304",
+  "HouseNumberSupplementText": "t-11952304",
+  "Language": "04",
+  "OrganizationName1": "OrganizationName1-11952304",
+  "OrganizationName2": "OrganizationName2-11952304",
+  "OrganizationName3": "OrganizationName3-11952304",
+  "OrganizationName4": "OrganizationName4-11952304",
+  "PersonFamilyName": "PersonFamilyName-11952304",
+  "PersonGivenName": "PersonGivenName-11952304",
+  "POBox": "x-11952304",
+  "POBoxDeviatingCityName": "POBoxDeviatingCityName-11952304",
+  "POBoxDeviatingCountry": "304",
+  "POBoxDeviatingRegion": "304",
+  "POBoxIsWithoutNumber": true,
+  "POBoxLobbyName": "POBoxLobbyName-11952304",
+  "POBoxPostalCode": "e-11952304",
+  "PostalCode": "e-11952304",
+  "PrfrdCommMediumType": "304",
+  "Region": "304",
+  "SecondaryRegion": "11952304",
+  "SecondaryRegionName": "SecondaryRegionName-11952304",
+  "StreetName": "StreetName-11952304",
+  "StreetPrefixName1": "StreetPrefixName1-11952304",
+  "StreetPrefixName2": "StreetPrefixName2-11952304",
+  "StreetSuffixName1": "StreetSuffixName1-11952304",
+  "StreetSuffixName2": "StreetSuffixName2-11952304",
+  "TaxJurisdiction": "iction-11952304",
+  "TertiaryRegion": "11952304",
+  "TertiaryRegionName": "TertiaryRegionName-11952304",
+  "TransportZone": "e-11952304",
+  "VillageName": "VillageName-11952304"
+}
+
+
+### A_BPIntlAddressVersion
+# @name A_BPIntlAddressVersion_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BPIntlAddressVersion(BusinessPartner='n-11952304',AddressID='n-11952304',AddressRepresentationCode='4')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "n-11952304",
+  "AddressID": "n-11952304",
+  "AddressRepresentationCode": "4",
+  "AddresseeFullName": "AddresseeFullName-11952304",
+  "AddressIDByExternalSystem": "ernalSystem-11952304",
+  "AddressPersonID": "D-11952304",
+  "AddressSearchTerm1": "SearchTerm1-11952304",
+  "AddressSearchTerm2": "SearchTerm2-11952304",
+  "AddressTimeZone": "952304",
+  "CareOfName": "CareOfName-11952304",
+  "CityName": "CityName-11952304",
+  "CityNumber": "ber-11952304",
+  "CompanyPostalCode": "e-11952304",
+  "Country": "304",
+  "DeliveryServiceNumber": "r-11952304",
+  "DeliveryServiceTypeCode": "2304",
+  "DistrictName": "DistrictName-11952304",
+  "FormOfAddress": "2304",
+  "HouseNumber": "r-11952304",
+  "HouseNumberSupplementText": "t-11952304",
+  "Language": "04",
+  "OrganizationName1": "OrganizationName1-11952304",
+  "OrganizationName2": "OrganizationName2-11952304",
+  "OrganizationName3": "OrganizationName3-11952304",
+  "OrganizationName4": "OrganizationName4-11952304",
+  "PersonFamilyName": "PersonFamilyName-11952304",
+  "PersonGivenName": "PersonGivenName-11952304",
+  "POBox": "x-11952304",
+  "POBoxDeviatingCityName": "POBoxDeviatingCityName-11952304",
+  "POBoxDeviatingCountry": "304",
+  "POBoxDeviatingRegion": "304",
+  "POBoxIsWithoutNumber": true,
+  "POBoxLobbyName": "POBoxLobbyName-11952304",
+  "POBoxPostalCode": "e-11952304",
+  "PostalCode": "e-11952304",
+  "PrfrdCommMediumType": "304",
+  "Region": "304",
+  "SecondaryRegion": "11952304",
+  "SecondaryRegionName": "SecondaryRegionName-11952304",
+  "StreetName": "StreetName-11952304",
+  "StreetPrefixName1": "StreetPrefixName1-11952304",
+  "StreetPrefixName2": "StreetPrefixName2-11952304",
+  "StreetSuffixName1": "StreetSuffixName1-11952304",
+  "StreetSuffixName2": "StreetSuffixName2-11952304",
+  "TaxJurisdiction": "iction-11952304",
+  "TertiaryRegion": "11952304",
+  "TertiaryRegionName": "TertiaryRegionName-11952304",
+  "TransportZone": "e-11952304",
+  "VillageName": "VillageName-11952304"
+}
+
+
+### A_BPIntlAddressVersion
+# @name A_BPIntlAddressVersion_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BPIntlAddressVersion(BusinessPartner='n-11952304',AddressID='n-11952304',AddressRepresentationCode='4')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_AddressEmailAddress
+# @name A_AddressEmailAddress_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_AddressEmailAddress
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_AddressEmailAddress
+# @name A_AddressEmailAddress_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_AddressEmailAddress
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "AddressID": "s-28323399",
+  "Person": "s-28323399",
+  "OrdinalNumber": "399",
+  "IsDefaultEmailAddress": false,
+  "EmailAddress": "EmailAddress-28323399",
+  "SearchEmailAddress": "mailAddress-28323399",
+  "AddressCommunicationRemarkText": "AddressCommunicationRemarkText-28323399"
+}
+
+
+### A_AddressEmailAddress
+# @name A_AddressEmailAddress_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_AddressEmailAddress(AddressID='s-28323399',Person='s-28323399',OrdinalNumber='399')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "AddressID": "s-28323399",
+  "Person": "s-28323399",
+  "OrdinalNumber": "399",
+  "IsDefaultEmailAddress": false,
+  "EmailAddress": "EmailAddress-28323399",
+  "SearchEmailAddress": "mailAddress-28323399",
+  "AddressCommunicationRemarkText": "AddressCommunicationRemarkText-28323399"
+}
+
+
+### A_AddressEmailAddress
+# @name A_AddressEmailAddress_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_AddressEmailAddress(AddressID='s-28323399',Person='s-28323399',OrdinalNumber='399')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_AddressFaxNumber
+# @name A_AddressFaxNumber_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_AddressFaxNumber
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_AddressFaxNumber
+# @name A_AddressFaxNumber_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_AddressFaxNumber
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "AddressID": "r-13121480",
+  "Person": "r-13121480",
+  "OrdinalNumber": "480",
+  "IsDefaultFaxNumber": true,
+  "FaxCountry": "480",
+  "FaxNumber": "FaxNumber-13121480",
+  "FaxNumberExtension": "n-13121480",
+  "InternationalFaxNumber": "nternationalFaxNumber-13121480",
+  "AddressCommunicationRemarkText": "AddressCommunicationRemarkText-13121480"
+}
+
+
+### A_AddressFaxNumber
+# @name A_AddressFaxNumber_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_AddressFaxNumber(AddressID='r-13121480',Person='r-13121480',OrdinalNumber='480')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "AddressID": "r-13121480",
+  "Person": "r-13121480",
+  "OrdinalNumber": "480",
+  "IsDefaultFaxNumber": true,
+  "FaxCountry": "480",
+  "FaxNumber": "FaxNumber-13121480",
+  "FaxNumberExtension": "n-13121480",
+  "InternationalFaxNumber": "nternationalFaxNumber-13121480",
+  "AddressCommunicationRemarkText": "AddressCommunicationRemarkText-13121480"
+}
+
+
+### A_AddressFaxNumber
+# @name A_AddressFaxNumber_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_AddressFaxNumber(AddressID='r-13121480',Person='r-13121480',OrdinalNumber='480')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_AddressPhoneNumber
+# @name A_AddressPhoneNumber_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_AddressPhoneNumber
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_AddressPhoneNumber
+# @name A_AddressPhoneNumber_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_AddressPhoneNumber
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "AddressID": "r-27789178",
+  "Person": "r-27789178",
+  "OrdinalNumber": "178",
+  "DestinationLocationCountry": "178",
+  "IsDefaultPhoneNumber": true,
+  "PhoneNumber": "PhoneNumber-27789178",
+  "PhoneNumberExtension": "n-27789178",
+  "InternationalPhoneNumber": "ernationalPhoneNumber-27789178",
+  "PhoneNumberType": "8",
+  "AddressCommunicationRemarkText": "AddressCommunicationRemarkText-27789178"
+}
+
+
+### A_AddressPhoneNumber
+# @name A_AddressPhoneNumber_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_AddressPhoneNumber(AddressID='r-27789178',Person='r-27789178',OrdinalNumber='178')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "AddressID": "r-27789178",
+  "Person": "r-27789178",
+  "OrdinalNumber": "178",
+  "DestinationLocationCountry": "178",
+  "IsDefaultPhoneNumber": true,
+  "PhoneNumber": "PhoneNumber-27789178",
+  "PhoneNumberExtension": "n-27789178",
+  "InternationalPhoneNumber": "ernationalPhoneNumber-27789178",
+  "PhoneNumberType": "8",
+  "AddressCommunicationRemarkText": "AddressCommunicationRemarkText-27789178"
+}
+
+
+### A_AddressPhoneNumber
+# @name A_AddressPhoneNumber_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_AddressPhoneNumber(AddressID='r-27789178',Person='r-27789178',OrdinalNumber='178')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_AddressHomePageURL
+# @name A_AddressHomePageURL_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_AddressHomePageURL
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_AddressHomePageURL
+# @name A_AddressHomePageURL_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_AddressHomePageURL
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "AddressID": "L-31507422",
+  "Person": "L-31507422",
+  "OrdinalNumber": "422",
+  "ValidityStartDate": "2001-03-27",
+  "IsDefaultURLAddress": true,
+  "SearchURLAddress": "SearchURLAddress-31507422",
+  "AddressCommunicationRemarkText": "AddressCommunicationRemarkText-31507422",
+  "URLFieldLength": 63,
+  "WebsiteURL": "WebsiteURL-31507422"
+}
+
+
+### A_AddressHomePageURL
+# @name A_AddressHomePageURL_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_AddressHomePageURL(AddressID='L-31507422',Person='L-31507422',OrdinalNumber='422',ValidityStartDate=2001-03-27,IsDefaultURLAddress=true)
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "AddressID": "L-31507422",
+  "Person": "L-31507422",
+  "OrdinalNumber": "422",
+  "ValidityStartDate": "2001-03-27",
+  "IsDefaultURLAddress": true,
+  "SearchURLAddress": "SearchURLAddress-31507422",
+  "AddressCommunicationRemarkText": "AddressCommunicationRemarkText-31507422",
+  "URLFieldLength": 63,
+  "WebsiteURL": "WebsiteURL-31507422"
+}
+
+
+### A_AddressHomePageURL
+# @name A_AddressHomePageURL_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_AddressHomePageURL(AddressID='L-31507422',Person='L-31507422',OrdinalNumber='422',ValidityStartDate=2001-03-27,IsDefaultURLAddress=true)
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BusinessPartnerAlias
+# @name A_BusinessPartnerAlias_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerAlias
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BusinessPartnerAlias
+# @name A_BusinessPartnerAlias_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerAlias
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "as-8302332",
+  "BPAliasPositionNumber": "332",
+  "BusinessPartnerAliasName": "BusinessPartnerAliasName-8302332"
+}
+
+
+### A_BusinessPartnerAlias
+# @name A_BusinessPartnerAlias_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerAlias(BusinessPartner='as-8302332',BPAliasPositionNumber='332')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "as-8302332",
+  "BPAliasPositionNumber": "332",
+  "BusinessPartnerAliasName": "BusinessPartnerAliasName-8302332"
+}
+
+
+### A_BusinessPartnerAlias
+# @name A_BusinessPartnerAlias_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerAlias(BusinessPartner='as-8302332',BPAliasPositionNumber='332')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BusinessPartnerBank
+# @name A_BusinessPartnerBank_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerBank
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BusinessPartnerBank
+# @name A_BusinessPartnerBank_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerBank
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "k-31541569",
+  "BankIdentification": "1569",
+  "BankCountryKey": "569",
+  "BankName": "BankName-31541569",
+  "BankNumber": "Number-31541569",
+  "SWIFTCode": "de-31541569",
+  "BankControlKey": "69",
+  "BankAccountHolderName": "BankAccountHolderName-31541569",
+  "BankAccountName": "BankAccountName-31541569",
+  "ValidityStartDate": "2011-04-14T05:00:00.000Z",
+  "ValidityEndDate": "2006-09-09T05:00:00.000Z",
+  "IBAN": "IBAN-31541569",
+  "IBANValidityStartDate": "2007-05-09",
+  "BankAccount": "nkAccount-31541569",
+  "BankAccountReferenceText": "ferenceText-31541569",
+  "CollectionAuthInd": false,
+  "CityName": "CityName-31541569",
+  "AuthorizationGroup": "1569"
+}
+
+
+### A_BusinessPartnerBank
+# @name A_BusinessPartnerBank_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerBank(BusinessPartner='k-31541569',BankIdentification='1569')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "k-31541569",
+  "BankIdentification": "1569",
+  "BankCountryKey": "569",
+  "BankName": "BankName-31541569",
+  "BankNumber": "Number-31541569",
+  "SWIFTCode": "de-31541569",
+  "BankControlKey": "69",
+  "BankAccountHolderName": "BankAccountHolderName-31541569",
+  "BankAccountName": "BankAccountName-31541569",
+  "ValidityStartDate": "2011-04-14T05:00:00.000Z",
+  "ValidityEndDate": "2006-09-09T05:00:00.000Z",
+  "IBAN": "IBAN-31541569",
+  "IBANValidityStartDate": "2007-05-09",
+  "BankAccount": "nkAccount-31541569",
+  "BankAccountReferenceText": "ferenceText-31541569",
+  "CollectionAuthInd": false,
+  "CityName": "CityName-31541569",
+  "AuthorizationGroup": "1569"
+}
+
+
+### A_BusinessPartnerBank
+# @name A_BusinessPartnerBank_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerBank(BusinessPartner='k-31541569',BankIdentification='1569')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BusinessPartnerContact
+# @name A_BusinessPartnerContact_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerContact
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BusinessPartnerContact
+# @name A_BusinessPartnerContact_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerContact
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "RelationshipNumber": "tact-7548655",
+  "BusinessPartnerCompany": "ct-7548655",
+  "BusinessPartnerPerson": "ct-7548655",
+  "ValidityEndDate": "2013-05-13",
+  "ValidityStartDate": "2021-04-04",
+  "IsStandardRelationship": false,
+  "RelationshipCategory": "548655",
+  "to_ContactRelationship": {
+    "RelationshipNumber": "ept-22705497",
+    "BusinessPartnerCompany": "t-22705497",
+    "BusinessPartnerPerson": "t-22705497",
+    "ValidityEndDate": "2013-11-24"
+  }
+}
+
+
+### A_BusinessPartnerContact
+# @name A_BusinessPartnerContact_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerContact(RelationshipNumber='tact-7548655',BusinessPartnerCompany='ct-7548655',BusinessPartnerPerson='ct-7548655',ValidityEndDate=2013-05-13)
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "RelationshipNumber": "tact-7548655",
+  "BusinessPartnerCompany": "ct-7548655",
+  "BusinessPartnerPerson": "ct-7548655",
+  "ValidityEndDate": "2013-05-13",
+  "ValidityStartDate": "2021-04-04",
+  "IsStandardRelationship": false,
+  "RelationshipCategory": "548655",
+  "to_ContactRelationship": {
+    "RelationshipNumber": "ept-22705497",
+    "BusinessPartnerCompany": "t-22705497",
+    "BusinessPartnerPerson": "t-22705497",
+    "ValidityEndDate": "2013-11-24"
+  }
+}
+
+
+### A_BusinessPartnerContact
+# @name A_BusinessPartnerContact_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerContact(RelationshipNumber='tact-7548655',BusinessPartnerCompany='ct-7548655',BusinessPartnerPerson='ct-7548655',ValidityEndDate=2013-05-13)
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPContactToAddress
+# @name A_BPContactToAddress_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BPContactToAddress
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPContactToAddress
+# @name A_BPContactToAddress_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BPContactToAddress
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "RelationshipNumber": "ress-9559445",
+  "BusinessPartnerCompany": "ss-9559445",
+  "BusinessPartnerPerson": "ss-9559445",
+  "ValidityEndDate": "2023-11-24",
+  "AddressID": "ss-9559445",
+  "AddressNumber": "er-9559445",
+  "AdditionalStreetPrefixName": "AdditionalStreetPrefixName-9559445",
+  "AdditionalStreetSuffixName": "AdditionalStreetSuffixName-9559445",
+  "AddressTimeZone": "559445",
+  "CareOfName": "CareOfName-9559445",
+  "CityCode": "Code-9559445",
+  "CityName": "CityName-9559445",
+  "CompanyPostalCode": "de-9559445",
+  "Country": "445",
+  "County": "County-9559445",
+  "DeliveryServiceNumber": "er-9559445",
+  "DeliveryServiceTypeCode": "9445",
+  "District": "District-9559445",
+  "FormOfAddress": "9445",
+  "FullName": "FullName-9559445",
+  "HomeCityName": "HomeCityName-9559445",
+  "HouseNumber": "er-9559445",
+  "HouseNumberSupplementText": "xt-9559445",
+  "Language": "45",
+  "POBox": "ox-9559445",
+  "POBoxDeviatingCityName": "POBoxDeviatingCityName-9559445",
+  "POBoxDeviatingCountry": "445",
+  "POBoxDeviatingRegion": "445",
+  "POBoxIsWithoutNumber": false,
+  "POBoxLobbyName": "POBoxLobbyName-9559445",
+  "POBoxPostalCode": "de-9559445",
+  "Person": "on-9559445",
+  "PostalCode": "de-9559445",
+  "PrfrdCommMediumType": "445",
+  "Region": "445",
+  "StreetName": "StreetName-9559445",
+  "StreetPrefixName": "StreetPrefixName-9559445",
+  "StreetSuffixName": "StreetSuffixName-9559445",
+  "TaxJurisdiction": "diction-9559445",
+  "TransportZone": "ne-9559445",
+  "AddressRepresentationCode": "5",
+  "ContactPersonBuilding": "ng-9559445",
+  "ContactPersonPrfrdCommMedium": "445",
+  "ContactRelationshipDepartment": "ContactRelationshipDepartment-9559445",
+  "ContactRelationshipFunction": "ContactRelationshipFunction-9559445",
+  "CorrespondenceShortName": "me-9559445",
+  "Floor": "or-9559445",
+  "InhouseMail": "il-9559445",
+  "IsDefaultAddress": false,
+  "RoomNumber": "er-9559445",
+  "PersonNumber": "er-9559445"
+}
+
+
+### A_BPContactToAddress
+# @name A_BPContactToAddress_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BPContactToAddress(RelationshipNumber='ress-9559445',BusinessPartnerCompany='ss-9559445',BusinessPartnerPerson='ss-9559445',ValidityEndDate=2023-11-24,AddressID='ss-9559445')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "RelationshipNumber": "ress-9559445",
+  "BusinessPartnerCompany": "ss-9559445",
+  "BusinessPartnerPerson": "ss-9559445",
+  "ValidityEndDate": "2023-11-24",
+  "AddressID": "ss-9559445",
+  "AddressNumber": "er-9559445",
+  "AdditionalStreetPrefixName": "AdditionalStreetPrefixName-9559445",
+  "AdditionalStreetSuffixName": "AdditionalStreetSuffixName-9559445",
+  "AddressTimeZone": "559445",
+  "CareOfName": "CareOfName-9559445",
+  "CityCode": "Code-9559445",
+  "CityName": "CityName-9559445",
+  "CompanyPostalCode": "de-9559445",
+  "Country": "445",
+  "County": "County-9559445",
+  "DeliveryServiceNumber": "er-9559445",
+  "DeliveryServiceTypeCode": "9445",
+  "District": "District-9559445",
+  "FormOfAddress": "9445",
+  "FullName": "FullName-9559445",
+  "HomeCityName": "HomeCityName-9559445",
+  "HouseNumber": "er-9559445",
+  "HouseNumberSupplementText": "xt-9559445",
+  "Language": "45",
+  "POBox": "ox-9559445",
+  "POBoxDeviatingCityName": "POBoxDeviatingCityName-9559445",
+  "POBoxDeviatingCountry": "445",
+  "POBoxDeviatingRegion": "445",
+  "POBoxIsWithoutNumber": false,
+  "POBoxLobbyName": "POBoxLobbyName-9559445",
+  "POBoxPostalCode": "de-9559445",
+  "Person": "on-9559445",
+  "PostalCode": "de-9559445",
+  "PrfrdCommMediumType": "445",
+  "Region": "445",
+  "StreetName": "StreetName-9559445",
+  "StreetPrefixName": "StreetPrefixName-9559445",
+  "StreetSuffixName": "StreetSuffixName-9559445",
+  "TaxJurisdiction": "diction-9559445",
+  "TransportZone": "ne-9559445",
+  "AddressRepresentationCode": "5",
+  "ContactPersonBuilding": "ng-9559445",
+  "ContactPersonPrfrdCommMedium": "445",
+  "ContactRelationshipDepartment": "ContactRelationshipDepartment-9559445",
+  "ContactRelationshipFunction": "ContactRelationshipFunction-9559445",
+  "CorrespondenceShortName": "me-9559445",
+  "Floor": "or-9559445",
+  "InhouseMail": "il-9559445",
+  "IsDefaultAddress": false,
+  "RoomNumber": "er-9559445",
+  "PersonNumber": "er-9559445"
+}
+
+
+### A_BPContactToAddress
+# @name A_BPContactToAddress_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BPContactToAddress(RelationshipNumber='ress-9559445',BusinessPartnerCompany='ss-9559445',BusinessPartnerPerson='ss-9559445',ValidityEndDate=2023-11-24,AddressID='ss-9559445')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPContactPersonEmlAddr
+# @name A_BPContactPersonEmlAddr_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BPContactPersonEmlAddr
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPContactPersonEmlAddr
+# @name A_BPContactPersonEmlAddr_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BPContactPersonEmlAddr
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "RelationshipNumber": "ddr-14241989",
+  "BusinessPartnerCompany": "r-14241989",
+  "BusinessPartnerPerson": "r-14241989",
+  "ValidityEndDate": "2012-11-28",
+  "AddressID": "r-14241989",
+  "OrdinalNumber": "989",
+  "IsDefaultEmailAddress": false,
+  "EmailAddress": "EmailAddress-14241989",
+  "SearchEmailAddress": "mailAddress-14241989"
+}
+
+
+### A_BPContactPersonEmlAddr
+# @name A_BPContactPersonEmlAddr_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BPContactPersonEmlAddr(RelationshipNumber='ddr-14241989',BusinessPartnerCompany='r-14241989',BusinessPartnerPerson='r-14241989',ValidityEndDate=2012-11-28,AddressID='r-14241989',OrdinalNumber='989')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "RelationshipNumber": "ddr-14241989",
+  "BusinessPartnerCompany": "r-14241989",
+  "BusinessPartnerPerson": "r-14241989",
+  "ValidityEndDate": "2012-11-28",
+  "AddressID": "r-14241989",
+  "OrdinalNumber": "989",
+  "IsDefaultEmailAddress": false,
+  "EmailAddress": "EmailAddress-14241989",
+  "SearchEmailAddress": "mailAddress-14241989"
+}
+
+
+### A_BPContactPersonEmlAddr
+# @name A_BPContactPersonEmlAddr_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BPContactPersonEmlAddr(RelationshipNumber='ddr-14241989',BusinessPartnerCompany='r-14241989',BusinessPartnerPerson='r-14241989',ValidityEndDate=2012-11-28,AddressID='r-14241989',OrdinalNumber='989')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPContactPersonFaxNmbr
+# @name A_BPContactPersonFaxNmbr_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BPContactPersonFaxNmbr
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPContactPersonFaxNmbr
+# @name A_BPContactPersonFaxNmbr_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BPContactPersonFaxNmbr
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "RelationshipNumber": "mbr-10793359",
+  "BusinessPartnerCompany": "r-10793359",
+  "BusinessPartnerPerson": "r-10793359",
+  "ValidityEndDate": "2012-10-16",
+  "AddressID": "r-10793359",
+  "OrdinalNumber": "359",
+  "IsDefaultFaxNumber": false,
+  "FaxCountry": "359",
+  "FaxAreaCodeSubscriberNumber": "aCodeSubscriberNumber-10793359",
+  "FaxNumberExtension": "n-10793359",
+  "InternationalFaxNumber": "nternationalFaxNumber-10793359"
+}
+
+
+### A_BPContactPersonFaxNmbr
+# @name A_BPContactPersonFaxNmbr_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BPContactPersonFaxNmbr(RelationshipNumber='mbr-10793359',BusinessPartnerCompany='r-10793359',BusinessPartnerPerson='r-10793359',ValidityEndDate=2012-10-16,AddressID='r-10793359',OrdinalNumber='359')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "RelationshipNumber": "mbr-10793359",
+  "BusinessPartnerCompany": "r-10793359",
+  "BusinessPartnerPerson": "r-10793359",
+  "ValidityEndDate": "2012-10-16",
+  "AddressID": "r-10793359",
+  "OrdinalNumber": "359",
+  "IsDefaultFaxNumber": false,
+  "FaxCountry": "359",
+  "FaxAreaCodeSubscriberNumber": "aCodeSubscriberNumber-10793359",
+  "FaxNumberExtension": "n-10793359",
+  "InternationalFaxNumber": "nternationalFaxNumber-10793359"
+}
+
+
+### A_BPContactPersonFaxNmbr
+# @name A_BPContactPersonFaxNmbr_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BPContactPersonFaxNmbr(RelationshipNumber='mbr-10793359',BusinessPartnerCompany='r-10793359',BusinessPartnerPerson='r-10793359',ValidityEndDate=2012-10-16,AddressID='r-10793359',OrdinalNumber='359')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPContactPersonMblNmbr
+# @name A_BPContactPersonMblNmbr_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BPContactPersonMblNmbr
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPContactPersonMblNmbr
+# @name A_BPContactPersonMblNmbr_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BPContactPersonMblNmbr
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "RelationshipNumber": "Nmbr-2899917",
+  "BusinessPartnerCompany": "br-2899917",
+  "BusinessPartnerPerson": "br-2899917",
+  "ValidityEndDate": "2008-06-07",
+  "AddressID": "br-2899917",
+  "OrdinalNumber": "917",
+  "IsDefaultPhoneNumber": false,
+  "DestinationLocationCountry": "917",
+  "MobilePhoneNumber": "MobilePhoneNumber-2899917",
+  "PhoneNumberExtension": "on-2899917",
+  "InternationalPhoneNumber": "ternationalPhoneNumber-2899917",
+  "PhoneNumberType": "7"
+}
+
+
+### A_BPContactPersonMblNmbr
+# @name A_BPContactPersonMblNmbr_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BPContactPersonMblNmbr(RelationshipNumber='Nmbr-2899917',BusinessPartnerCompany='br-2899917',BusinessPartnerPerson='br-2899917',ValidityEndDate=2008-06-07,AddressID='br-2899917',OrdinalNumber='917')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "RelationshipNumber": "Nmbr-2899917",
+  "BusinessPartnerCompany": "br-2899917",
+  "BusinessPartnerPerson": "br-2899917",
+  "ValidityEndDate": "2008-06-07",
+  "AddressID": "br-2899917",
+  "OrdinalNumber": "917",
+  "IsDefaultPhoneNumber": false,
+  "DestinationLocationCountry": "917",
+  "MobilePhoneNumber": "MobilePhoneNumber-2899917",
+  "PhoneNumberExtension": "on-2899917",
+  "InternationalPhoneNumber": "ternationalPhoneNumber-2899917",
+  "PhoneNumberType": "7"
+}
+
+
+### A_BPContactPersonMblNmbr
+# @name A_BPContactPersonMblNmbr_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BPContactPersonMblNmbr(RelationshipNumber='Nmbr-2899917',BusinessPartnerCompany='br-2899917',BusinessPartnerPerson='br-2899917',ValidityEndDate=2008-06-07,AddressID='br-2899917',OrdinalNumber='917')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPContactPersonTelNmbr
+# @name A_BPContactPersonTelNmbr_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BPContactPersonTelNmbr
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPContactPersonTelNmbr
+# @name A_BPContactPersonTelNmbr_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BPContactPersonTelNmbr
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "RelationshipNumber": "mbr-19295123",
+  "BusinessPartnerCompany": "r-19295123",
+  "BusinessPartnerPerson": "r-19295123",
+  "ValidityEndDate": "2009-07-19",
+  "AddressID": "r-19295123",
+  "OrdinalNumber": "123",
+  "IsDefaultPhoneNumber": false,
+  "DestinationLocationCountry": "123",
+  "PhoneNumber": "PhoneNumber-19295123",
+  "PhoneNumberExtension": "n-19295123",
+  "InternationalPhoneNumber": "ernationalPhoneNumber-19295123",
+  "PhoneNumberType": "3"
+}
+
+
+### A_BPContactPersonTelNmbr
+# @name A_BPContactPersonTelNmbr_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BPContactPersonTelNmbr(RelationshipNumber='mbr-19295123',BusinessPartnerCompany='r-19295123',BusinessPartnerPerson='r-19295123',ValidityEndDate=2009-07-19,AddressID='r-19295123',OrdinalNumber='123')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "RelationshipNumber": "mbr-19295123",
+  "BusinessPartnerCompany": "r-19295123",
+  "BusinessPartnerPerson": "r-19295123",
+  "ValidityEndDate": "2009-07-19",
+  "AddressID": "r-19295123",
+  "OrdinalNumber": "123",
+  "IsDefaultPhoneNumber": false,
+  "DestinationLocationCountry": "123",
+  "PhoneNumber": "PhoneNumber-19295123",
+  "PhoneNumberExtension": "n-19295123",
+  "InternationalPhoneNumber": "ernationalPhoneNumber-19295123",
+  "PhoneNumberType": "3"
+}
+
+
+### A_BPContactPersonTelNmbr
+# @name A_BPContactPersonTelNmbr_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BPContactPersonTelNmbr(RelationshipNumber='mbr-19295123',BusinessPartnerCompany='r-19295123',BusinessPartnerPerson='r-19295123',ValidityEndDate=2009-07-19,AddressID='r-19295123',OrdinalNumber='123')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPContactPersonWbsteURL
+# @name A_BPContactPersonWbsteURL_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BPContactPersonWbsteURL
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPContactPersonWbsteURL
+# @name A_BPContactPersonWbsteURL_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BPContactPersonWbsteURL
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "RelationshipNumber": "URL-25669346",
+  "BusinessPartnerCompany": "L-25669346",
+  "BusinessPartnerPerson": "L-25669346",
+  "ValidityEndDate": "2022-06-10",
+  "AddressID": "L-25669346",
+  "OrdinalNumber": "346",
+  "IsDefaultURLAddress": true,
+  "SearchURLAddress": "SearchURLAddress-25669346",
+  "CommNumberIsNotUsed": true,
+  "URLFieldLength": 99,
+  "WebsiteURL": "WebsiteURL-25669346"
+}
+
+
+### A_BPContactPersonWbsteURL
+# @name A_BPContactPersonWbsteURL_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BPContactPersonWbsteURL(RelationshipNumber='URL-25669346',BusinessPartnerCompany='L-25669346',BusinessPartnerPerson='L-25669346',ValidityEndDate=2022-06-10,AddressID='L-25669346',OrdinalNumber='346')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "RelationshipNumber": "URL-25669346",
+  "BusinessPartnerCompany": "L-25669346",
+  "BusinessPartnerPerson": "L-25669346",
+  "ValidityEndDate": "2022-06-10",
+  "AddressID": "L-25669346",
+  "OrdinalNumber": "346",
+  "IsDefaultURLAddress": true,
+  "SearchURLAddress": "SearchURLAddress-25669346",
+  "CommNumberIsNotUsed": true,
+  "URLFieldLength": 99,
+  "WebsiteURL": "WebsiteURL-25669346"
+}
+
+
+### A_BPContactPersonWbsteURL
+# @name A_BPContactPersonWbsteURL_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BPContactPersonWbsteURL(RelationshipNumber='URL-25669346',BusinessPartnerCompany='L-25669346',BusinessPartnerPerson='L-25669346',ValidityEndDate=2022-06-10,AddressID='L-25669346',OrdinalNumber='346')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPContactToFuncAndDept
+# @name A_BPContactToFuncAndDept_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BPContactToFuncAndDept
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BPContactToFuncAndDept
+# @name A_BPContactToFuncAndDept_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BPContactToFuncAndDept
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "RelationshipNumber": "ept-22705497",
+  "BusinessPartnerCompany": "t-22705497",
+  "BusinessPartnerPerson": "t-22705497",
+  "ValidityEndDate": "2013-11-24",
+  "ContactPersonAuthorityType": "7",
+  "ContactPersonDepartment": "5497",
+  "ContactPersonDepartmentName": "ContactPersonDepartmentName-22705497",
+  "ContactPersonFunction": "5497",
+  "ContactPersonFunctionName": "ContactPersonFunctionName-22705497",
+  "ContactPersonRemarkText": "ContactPersonRemarkText-22705497",
+  "ContactPersonVIPType": "7",
+  "EmailAddress": "EmailAddress-22705497",
+  "FaxNumber": "FaxNumber-22705497",
+  "FaxNumberExtension": "n-22705497",
+  "PhoneNumber": "PhoneNumber-22705497",
+  "PhoneNumberExtension": "n-22705497",
+  "RelationshipCategory": "705497"
+}
+
+
+### A_BPContactToFuncAndDept
+# @name A_BPContactToFuncAndDept_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BPContactToFuncAndDept(RelationshipNumber='ept-22705497',BusinessPartnerCompany='t-22705497',BusinessPartnerPerson='t-22705497',ValidityEndDate=2013-11-24)
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "RelationshipNumber": "ept-22705497",
+  "BusinessPartnerCompany": "t-22705497",
+  "BusinessPartnerPerson": "t-22705497",
+  "ValidityEndDate": "2013-11-24",
+  "ContactPersonAuthorityType": "7",
+  "ContactPersonDepartment": "5497",
+  "ContactPersonDepartmentName": "ContactPersonDepartmentName-22705497",
+  "ContactPersonFunction": "5497",
+  "ContactPersonFunctionName": "ContactPersonFunctionName-22705497",
+  "ContactPersonRemarkText": "ContactPersonRemarkText-22705497",
+  "ContactPersonVIPType": "7",
+  "EmailAddress": "EmailAddress-22705497",
+  "FaxNumber": "FaxNumber-22705497",
+  "FaxNumberExtension": "n-22705497",
+  "PhoneNumber": "PhoneNumber-22705497",
+  "PhoneNumberExtension": "n-22705497",
+  "RelationshipCategory": "705497"
+}
+
+
+### A_BPContactToFuncAndDept
+# @name A_BPContactToFuncAndDept_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BPContactToFuncAndDept(RelationshipNumber='ept-22705497',BusinessPartnerCompany='t-22705497',BusinessPartnerPerson='t-22705497',ValidityEndDate=2013-11-24)
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BusinessPartnerIsBank
+# @name A_BusinessPartnerIsBank_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerIsBank
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BusinessPartnerIsBank
+# @name A_BusinessPartnerIsBank_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerIsBank
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "k-20686187",
+  "BankKey": "ankKey-20686187",
+  "BankCountry": "187",
+  "BPMinimumReserve": "7"
+}
+
+
+### A_BusinessPartnerIsBank
+# @name A_BusinessPartnerIsBank_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerIsBank/k-20686187
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "k-20686187",
+  "BankKey": "ankKey-20686187",
+  "BankCountry": "187",
+  "BPMinimumReserve": "7"
+}
+
+
+### A_BusinessPartnerIsBank
+# @name A_BusinessPartnerIsBank_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerIsBank/k-20686187
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BusinessPartnerRating
+# @name A_BusinessPartnerRating_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerRating
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BusinessPartnerRating
+# @name A_BusinessPartnerRating_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerRating
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "g-16398176",
+  "BusinessPartnerRatingProcedure": "g-16398176",
+  "BPRatingValidityEndDate": "2007-01-24",
+  "BusinessPartnerRatingGrade": "e-16398176",
+  "BusinessPartnerRatingTrend": "76",
+  "BPRatingValidityStartDate": "2009-03-02",
+  "BPRatingCreationDate": "2008-12-16",
+  "BusinessPartnerRatingComment": "BusinessPartnerRatingComment-16398176",
+  "BusinessPartnerRatingIsAllowed": true,
+  "BPRatingIsValidOnKeyDate": true,
+  "BusinessPartnerRatingKeyDate": "2000-02-13",
+  "BusinessPartnerRatingIsExpired": true,
+  "BPRatingLongComment": "BPRatingLongComment-16398176"
+}
+
+
+### A_BusinessPartnerRating
+# @name A_BusinessPartnerRating_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerRating(BusinessPartner='g-16398176',BusinessPartnerRatingProcedure='g-16398176',BPRatingValidityEndDate=2007-01-24)
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "g-16398176",
+  "BusinessPartnerRatingProcedure": "g-16398176",
+  "BPRatingValidityEndDate": "2007-01-24",
+  "BusinessPartnerRatingGrade": "e-16398176",
+  "BusinessPartnerRatingTrend": "76",
+  "BPRatingValidityStartDate": "2009-03-02",
+  "BPRatingCreationDate": "2008-12-16",
+  "BusinessPartnerRatingComment": "BusinessPartnerRatingComment-16398176",
+  "BusinessPartnerRatingIsAllowed": true,
+  "BPRatingIsValidOnKeyDate": true,
+  "BusinessPartnerRatingKeyDate": "2000-02-13",
+  "BusinessPartnerRatingIsExpired": true,
+  "BPRatingLongComment": "BPRatingLongComment-16398176"
+}
+
+
+### A_BusinessPartnerRating
+# @name A_BusinessPartnerRating_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerRating(BusinessPartner='g-16398176',BusinessPartnerRatingProcedure='g-16398176',BPRatingValidityEndDate=2007-01-24)
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BusinessPartnerRole
+# @name A_BusinessPartnerRole_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerRole
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BusinessPartnerRole
+# @name A_BusinessPartnerRole_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerRole
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "e-28978988",
+  "BusinessPartnerRole": "978988",
+  "ValidFrom": "2009-05-12T05:00:00.000Z",
+  "ValidTo": "2018-10-19T05:00:00.000Z",
+  "AuthorizationGroup": "8988"
+}
+
+
+### A_BusinessPartnerRole
+# @name A_BusinessPartnerRole_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerRole(BusinessPartner='e-28978988',BusinessPartnerRole='978988')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "e-28978988",
+  "BusinessPartnerRole": "978988",
+  "ValidFrom": "2009-05-12T05:00:00.000Z",
+  "ValidTo": "2018-10-19T05:00:00.000Z",
+  "AuthorizationGroup": "8988"
+}
+
+
+### A_BusinessPartnerRole
+# @name A_BusinessPartnerRole_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerRole(BusinessPartner='e-28978988',BusinessPartnerRole='978988')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BusinessPartnerTaxNumber
+# @name A_BusinessPartnerTaxNumber_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerTaxNumber
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BusinessPartnerTaxNumber
+# @name A_BusinessPartnerTaxNumber_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerTaxNumber
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "r-11624633",
+  "BPTaxType": "4633",
+  "BPTaxNumber": "BPTaxNumber-11624633",
+  "BPTaxLongNumber": "BPTaxLongNumber-11624633",
+  "AuthorizationGroup": "4633"
+}
+
+
+### A_BusinessPartnerTaxNumber
+# @name A_BusinessPartnerTaxNumber_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerTaxNumber(BusinessPartner='r-11624633',BPTaxType='4633')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "r-11624633",
+  "BPTaxType": "4633",
+  "BPTaxNumber": "BPTaxNumber-11624633",
+  "BPTaxLongNumber": "BPTaxLongNumber-11624633",
+  "AuthorizationGroup": "4633"
+}
+
+
+### A_BusinessPartnerTaxNumber
+# @name A_BusinessPartnerTaxNumber_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerTaxNumber(BusinessPartner='r-11624633',BPTaxType='4633')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BusPartAddrDepdntTaxNmbr
+# @name A_BusPartAddrDepdntTaxNmbr_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BusPartAddrDepdntTaxNmbr
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BusPartAddrDepdntTaxNmbr
+# @name A_BusPartAddrDepdntTaxNmbr_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BusPartAddrDepdntTaxNmbr
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "r-17760870",
+  "AddressID": "r-17760870",
+  "BPTaxType": "0870",
+  "BPTaxNumber": "BPTaxNumber-17760870",
+  "BPTaxLongNumber": "BPTaxLongNumber-17760870",
+  "AuthorizationGroup": "0870"
+}
+
+
+### A_BusPartAddrDepdntTaxNmbr
+# @name A_BusPartAddrDepdntTaxNmbr_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BusPartAddrDepdntTaxNmbr(BusinessPartner='r-17760870',AddressID='r-17760870',BPTaxType='0870')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "r-17760870",
+  "AddressID": "r-17760870",
+  "BPTaxType": "0870",
+  "BPTaxNumber": "BPTaxNumber-17760870",
+  "BPTaxLongNumber": "BPTaxLongNumber-17760870",
+  "AuthorizationGroup": "0870"
+}
+
+
+### A_BusPartAddrDepdntTaxNmbr
+# @name A_BusPartAddrDepdntTaxNmbr_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BusPartAddrDepdntTaxNmbr(BusinessPartner='r-17760870',AddressID='r-17760870',BPTaxType='0870')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_Customer
+# @name A_Customer_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_Customer
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_Customer
+# @name A_Customer_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_Customer
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "r-27443134",
+  "AuthorizationGroup": "3134",
+  "BillingIsBlockedForCustomer": "34",
+  "CreatedByUser": "ser-27443134",
+  "CreationDate": "2018-10-30",
+  "CustomerAccountGroup": "3134",
+  "CustomerClassification": "34",
+  "CustomerFullName": "CustomerFullName-27443134",
+  "BPCustomerFullName": "BPCustomerFullName-27443134",
+  "CustomerName": "CustomerName-27443134",
+  "BPCustomerName": "BPCustomerName-27443134",
+  "DeliveryIsBlocked": "34",
+  "FreeDefinedAttribute01": "34",
+  "FreeDefinedAttribute02": "34",
+  "FreeDefinedAttribute03": "34",
+  "FreeDefinedAttribute04": "34",
+  "FreeDefinedAttribute05": "34",
+  "FreeDefinedAttribute06": "134",
+  "FreeDefinedAttribute07": "134",
+  "FreeDefinedAttribute08": "134",
+  "FreeDefinedAttribute09": "134",
+  "FreeDefinedAttribute10": "134",
+  "NFPartnerIsNaturalPerson": "4",
+  "OrderIsBlockedForCustomer": "34",
+  "PostingIsBlocked": true,
+  "Supplier": "r-27443134",
+  "CustomerCorporateGroup": "p-27443134",
+  "FiscalAddress": "s-27443134",
+  "Industry": "3134",
+  "IndustryCode1": "1-27443134",
+  "IndustryCode2": "2-27443134",
+  "IndustryCode3": "3-27443134",
+  "IndustryCode4": "4-27443134",
+  "IndustryCode5": "5-27443134",
+  "InternationalLocationNumber1": "7443134",
+  "InternationalLocationNumber2": "43134",
+  "InternationalLocationNumber3": "4",
+  "NielsenRegion": "34",
+  "PaymentReason": "3134",
+  "ResponsibleType": "34",
+  "TaxNumber1": "Number1-27443134",
+  "TaxNumber2": "r2-27443134",
+  "TaxNumber3": "axNumber3-27443134",
+  "TaxNumber4": "axNumber4-27443134",
+  "TaxNumber5": "TaxNumber5-27443134",
+  "TaxNumberType": "34",
+  "VATRegistration": "egistration-27443134",
+  "DeletionIndicator": true,
+  "ExpressTrainStationName": "TrainStationName-27443134",
+  "TrainStationName": "TrainStationName-27443134",
+  "CityCode": "3134",
+  "County": "134",
+  "BR_ICMSTaxPayerType": "34"
+}
+
+
+### A_Customer
+# @name A_Customer_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_Customer/r-27443134
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "r-27443134",
+  "AuthorizationGroup": "3134",
+  "BillingIsBlockedForCustomer": "34",
+  "CreatedByUser": "ser-27443134",
+  "CreationDate": "2018-10-30",
+  "CustomerAccountGroup": "3134",
+  "CustomerClassification": "34",
+  "CustomerFullName": "CustomerFullName-27443134",
+  "BPCustomerFullName": "BPCustomerFullName-27443134",
+  "CustomerName": "CustomerName-27443134",
+  "BPCustomerName": "BPCustomerName-27443134",
+  "DeliveryIsBlocked": "34",
+  "FreeDefinedAttribute01": "34",
+  "FreeDefinedAttribute02": "34",
+  "FreeDefinedAttribute03": "34",
+  "FreeDefinedAttribute04": "34",
+  "FreeDefinedAttribute05": "34",
+  "FreeDefinedAttribute06": "134",
+  "FreeDefinedAttribute07": "134",
+  "FreeDefinedAttribute08": "134",
+  "FreeDefinedAttribute09": "134",
+  "FreeDefinedAttribute10": "134",
+  "NFPartnerIsNaturalPerson": "4",
+  "OrderIsBlockedForCustomer": "34",
+  "PostingIsBlocked": true,
+  "Supplier": "r-27443134",
+  "CustomerCorporateGroup": "p-27443134",
+  "FiscalAddress": "s-27443134",
+  "Industry": "3134",
+  "IndustryCode1": "1-27443134",
+  "IndustryCode2": "2-27443134",
+  "IndustryCode3": "3-27443134",
+  "IndustryCode4": "4-27443134",
+  "IndustryCode5": "5-27443134",
+  "InternationalLocationNumber1": "7443134",
+  "InternationalLocationNumber2": "43134",
+  "InternationalLocationNumber3": "4",
+  "NielsenRegion": "34",
+  "PaymentReason": "3134",
+  "ResponsibleType": "34",
+  "TaxNumber1": "Number1-27443134",
+  "TaxNumber2": "r2-27443134",
+  "TaxNumber3": "axNumber3-27443134",
+  "TaxNumber4": "axNumber4-27443134",
+  "TaxNumber5": "TaxNumber5-27443134",
+  "TaxNumberType": "34",
+  "VATRegistration": "egistration-27443134",
+  "DeletionIndicator": true,
+  "ExpressTrainStationName": "TrainStationName-27443134",
+  "TrainStationName": "TrainStationName-27443134",
+  "CityCode": "3134",
+  "County": "134",
+  "BR_ICMSTaxPayerType": "34"
+}
+
+
+### A_Customer
+# @name A_Customer_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_Customer/r-27443134
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_CustAddrDepdntExtIdentifier
+# @name A_CustAddrDepdntExtIdentifier_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_CustAddrDepdntExtIdentifier
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_CustAddrDepdntExtIdentifier
+# @name A_CustAddrDepdntExtIdentifier_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_CustAddrDepdntExtIdentifier
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "r-29288003",
+  "AddressID": "r-29288003",
+  "CustomerExternalRefID": "fID-29288003"
+}
+
+
+### A_CustAddrDepdntExtIdentifier
+# @name A_CustAddrDepdntExtIdentifier_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_CustAddrDepdntExtIdentifier(Customer='r-29288003',AddressID='r-29288003')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "r-29288003",
+  "AddressID": "r-29288003",
+  "CustomerExternalRefID": "fID-29288003"
+}
+
+
+### A_CustAddrDepdntExtIdentifier
+# @name A_CustAddrDepdntExtIdentifier_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_CustAddrDepdntExtIdentifier(Customer='r-29288003',AddressID='r-29288003')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_CustAddrDepdntInformation
+# @name A_CustAddrDepdntInformation_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_CustAddrDepdntInformation
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_CustAddrDepdntInformation
+# @name A_CustAddrDepdntInformation_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_CustAddrDepdntInformation
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "n-29418880",
+  "AddressID": "n-29418880",
+  "ExpressTrainStationName": "TrainStationName-29418880",
+  "TrainStationName": "TrainStationName-29418880",
+  "CityCode": "8880",
+  "County": "880"
+}
+
+
+### A_CustAddrDepdntInformation
+# @name A_CustAddrDepdntInformation_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_CustAddrDepdntInformation(Customer='n-29418880',AddressID='n-29418880')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "n-29418880",
+  "AddressID": "n-29418880",
+  "ExpressTrainStationName": "TrainStationName-29418880",
+  "TrainStationName": "TrainStationName-29418880",
+  "CityCode": "8880",
+  "County": "880"
+}
+
+
+### A_CustAddrDepdntInformation
+# @name A_CustAddrDepdntInformation_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_CustAddrDepdntInformation(Customer='n-29418880',AddressID='n-29418880')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_CustomerCompany
+# @name A_CustomerCompany_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_CustomerCompany
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_CustomerCompany
+# @name A_CustomerCompany_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_CustomerCompany
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "y-13042725",
+  "CompanyCode": "2725",
+  "APARToleranceGroup": "2725",
+  "AccountByCustomer": "mer-13042725",
+  "AccountingClerk": "25",
+  "AccountingClerkFaxNumber": "countingClerkFaxNumber-13042725",
+  "AccountingClerkInternetAddress": "AccountingClerkInternetAddress-13042725",
+  "AccountingClerkPhoneNumber": "ntingClerkPhoneNumber-13042725",
+  "AlternativePayerAccount": "t-13042725",
+  "AuthorizationGroup": "2725",
+  "CollectiveInvoiceVariant": "5",
+  "CustomerAccountNote": "CustomerAccountNote-13042725",
+  "CustomerHeadOffice": "e-13042725",
+  "CustomerSupplierClearingIsUsed": false,
+  "HouseBank": "42725",
+  "InterestCalculationCode": "25",
+  "InterestCalculationDate": "2015-03-11",
+  "IntrstCalcFrequencyInMonths": "25",
+  "IsToBeLocallyProcessed": false,
+  "ItemIsToBePaidSeparately": false,
+  "LayoutSortingRule": "725",
+  "PaymentBlockingReason": "5",
+  "PaymentMethodsList": "t-13042725",
+  "PaymentReason": "2725",
+  "PaymentTerms": "2725",
+  "PaytAdviceIsSentbyEDI": false,
+  "PhysicalInventoryBlockInd": false,
+  "ReconciliationAccount": "t-13042725",
+  "RecordPaymentHistoryIndicator": false,
+  "UserAtCustomer": "stomer-13042725",
+  "DeletionIndicator": false,
+  "CashPlanningGroup": "p-13042725",
+  "KnownOrNegotiatedLeave": "2725",
+  "ValueAdjustmentKey": "25",
+  "CustomerAccountGroup": "2725"
+}
+
+
+### A_CustomerCompany
+# @name A_CustomerCompany_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_CustomerCompany(Customer='y-13042725',CompanyCode='2725')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "y-13042725",
+  "CompanyCode": "2725",
+  "APARToleranceGroup": "2725",
+  "AccountByCustomer": "mer-13042725",
+  "AccountingClerk": "25",
+  "AccountingClerkFaxNumber": "countingClerkFaxNumber-13042725",
+  "AccountingClerkInternetAddress": "AccountingClerkInternetAddress-13042725",
+  "AccountingClerkPhoneNumber": "ntingClerkPhoneNumber-13042725",
+  "AlternativePayerAccount": "t-13042725",
+  "AuthorizationGroup": "2725",
+  "CollectiveInvoiceVariant": "5",
+  "CustomerAccountNote": "CustomerAccountNote-13042725",
+  "CustomerHeadOffice": "e-13042725",
+  "CustomerSupplierClearingIsUsed": false,
+  "HouseBank": "42725",
+  "InterestCalculationCode": "25",
+  "InterestCalculationDate": "2015-03-11",
+  "IntrstCalcFrequencyInMonths": "25",
+  "IsToBeLocallyProcessed": false,
+  "ItemIsToBePaidSeparately": false,
+  "LayoutSortingRule": "725",
+  "PaymentBlockingReason": "5",
+  "PaymentMethodsList": "t-13042725",
+  "PaymentReason": "2725",
+  "PaymentTerms": "2725",
+  "PaytAdviceIsSentbyEDI": false,
+  "PhysicalInventoryBlockInd": false,
+  "ReconciliationAccount": "t-13042725",
+  "RecordPaymentHistoryIndicator": false,
+  "UserAtCustomer": "stomer-13042725",
+  "DeletionIndicator": false,
+  "CashPlanningGroup": "p-13042725",
+  "KnownOrNegotiatedLeave": "2725",
+  "ValueAdjustmentKey": "25",
+  "CustomerAccountGroup": "2725"
+}
+
+
+### A_CustomerCompany
+# @name A_CustomerCompany_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_CustomerCompany(Customer='y-13042725',CompanyCode='2725')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_CustomerCompanyText
+# @name A_CustomerCompanyText_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_CustomerCompanyText
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_CustomerCompanyText
+# @name A_CustomerCompanyText_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_CustomerCompanyText
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "ext-582688",
+  "CompanyCode": "2688",
+  "Language": "88",
+  "LongTextID": "2688",
+  "LongText": "LongText-582688"
+}
+
+
+### A_CustomerCompanyText
+# @name A_CustomerCompanyText_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_CustomerCompanyText(Customer='ext-582688',CompanyCode='2688',Language='88',LongTextID='2688')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "ext-582688",
+  "CompanyCode": "2688",
+  "Language": "88",
+  "LongTextID": "2688",
+  "LongText": "LongText-582688"
+}
+
+
+### A_CustomerCompanyText
+# @name A_CustomerCompanyText_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_CustomerCompanyText(Customer='ext-582688',CompanyCode='2688',Language='88',LongTextID='2688')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_CustomerDunning
+# @name A_CustomerDunning_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_CustomerDunning
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_CustomerDunning
+# @name A_CustomerDunning_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_CustomerDunning
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "ng-3307839",
+  "CompanyCode": "7839",
+  "DunningArea": "39",
+  "DunningBlock": "9",
+  "DunningLevel": "9",
+  "DunningProcedure": "7839",
+  "DunningRecipient": "nt-3307839",
+  "LastDunnedOn": "2023-10-18",
+  "LegDunningProcedureOn": "2020-12-07",
+  "DunningClerk": "39",
+  "AuthorizationGroup": "7839",
+  "CustomerAccountGroup": "7839"
+}
+
+
+### A_CustomerDunning
+# @name A_CustomerDunning_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_CustomerDunning(Customer='ng-3307839',CompanyCode='7839',DunningArea='39')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "ng-3307839",
+  "CompanyCode": "7839",
+  "DunningArea": "39",
+  "DunningBlock": "9",
+  "DunningLevel": "9",
+  "DunningProcedure": "7839",
+  "DunningRecipient": "nt-3307839",
+  "LastDunnedOn": "2023-10-18",
+  "LegDunningProcedureOn": "2020-12-07",
+  "DunningClerk": "39",
+  "AuthorizationGroup": "7839",
+  "CustomerAccountGroup": "7839"
+}
+
+
+### A_CustomerDunning
+# @name A_CustomerDunning_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_CustomerDunning(Customer='ng-3307839',CompanyCode='7839',DunningArea='39')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_CustomerWithHoldingTax
+# @name A_CustomerWithHoldingTax_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_CustomerWithHoldingTax
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_CustomerWithHoldingTax
+# @name A_CustomerWithHoldingTax_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_CustomerWithHoldingTax
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "x-14871063",
+  "CompanyCode": "1063",
+  "WithholdingTaxType": "63",
+  "WithholdingTaxCode": "63",
+  "WithholdingTaxAgent": false,
+  "ObligationDateBegin": "2016-05-28",
+  "ObligationDateEnd": "2022-07-11",
+  "WithholdingTaxNumber": "xNumber-14871063",
+  "WithholdingTaxCertificate": "ngTaxCertificate-14871063",
+  "WithholdingTaxExmptPercent": 656.72,
+  "ExemptionDateBegin": "2021-02-18",
+  "ExemptionDateEnd": "2014-07-18",
+  "ExemptionReason": "63",
+  "RecipientType": "63",
+  "AuthorizationGroup": "1063"
+}
+
+
+### A_CustomerWithHoldingTax
+# @name A_CustomerWithHoldingTax_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_CustomerWithHoldingTax(Customer='x-14871063',CompanyCode='1063',WithholdingTaxType='63')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "x-14871063",
+  "CompanyCode": "1063",
+  "WithholdingTaxType": "63",
+  "WithholdingTaxCode": "63",
+  "WithholdingTaxAgent": false,
+  "ObligationDateBegin": "2016-05-28",
+  "ObligationDateEnd": "2022-07-11",
+  "WithholdingTaxNumber": "xNumber-14871063",
+  "WithholdingTaxCertificate": "ngTaxCertificate-14871063",
+  "WithholdingTaxExmptPercent": 656.72,
+  "ExemptionDateBegin": "2021-02-18",
+  "ExemptionDateEnd": "2014-07-18",
+  "ExemptionReason": "63",
+  "RecipientType": "63",
+  "AuthorizationGroup": "1063"
+}
+
+
+### A_CustomerWithHoldingTax
+# @name A_CustomerWithHoldingTax_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_CustomerWithHoldingTax(Customer='x-14871063',CompanyCode='1063',WithholdingTaxType='63')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_CustomerSalesArea
+# @name A_CustomerSalesArea_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_CustomerSalesArea
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_CustomerSalesArea
+# @name A_CustomerSalesArea_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_CustomerSalesArea
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "ea-7815832",
+  "SalesOrganization": "5832",
+  "DistributionChannel": "32",
+  "Division": "32",
+  "AccountByCustomer": "omer-7815832",
+  "AuthorizationGroup": "5832",
+  "BillingIsBlockedForCustomer": "32",
+  "CompleteDeliveryIsDefined": true,
+  "CreditControlArea": "5832",
+  "Currency": "15832",
+  "CustIsRlvtForSettlmtMgmt": true,
+  "CustomerABCClassification": "32",
+  "CustomerAccountAssignmentGroup": "32",
+  "CustomerGroup": "32",
+  "CustomerIsRebateRelevant": true,
+  "CustomerPaymentTerms": "5832",
+  "CustomerPriceGroup": "32",
+  "CustomerPricingProcedure": "32",
+  "CustomerStatisticsGroup": "2",
+  "CustProdProposalProcedure": "32",
+  "DeliveryIsBlockedForCustomer": "32",
+  "DeliveryPriority": "32",
+  "IncotermsClassification": "832",
+  "IncotermsLocation2": "IncotermsLocation2-7815832",
+  "IncotermsVersion": "5832",
+  "IncotermsLocation1": "IncotermsLocation1-7815832",
+  "IncotermsSupChnLoc1AddlUUID": "78158321-58b1-400f-9634-f730fe582fc5",
+  "IncotermsSupChnLoc2AddlUUID": "78158320-f92d-4749-b83e-07851d94c74c",
+  "IncotermsSupChnDvtgLocAddlUUID": "7815832a-cda0-493d-ae57-4d1854acd024",
+  "DeletionIndicator": true,
+  "IncotermsTransferLocation": "ermsTransferLocation-7815832",
+  "InspSbstHasNoTimeOrQuantity": true,
+  "InvoiceDate": "32",
+  "ItemOrderProbabilityInPercent": "832",
+  "ManualInvoiceMaintIsRelevant": true,
+  "MaxNmbrOfPartialDelivery": 7,
+  "OrderCombinationIsAllowed": true,
+  "OrderIsBlockedForCustomer": "32",
+  "OverdelivTolrtdLmtRatioInPct": 66.4,
+  "PartialDeliveryIsAllowed": "2",
+  "PriceListType": "32",
+  "ProductUnitGroup": "5832",
+  "ProofOfDeliveryTimeValue": 2578.6,
+  "SalesGroup": "832",
+  "SalesItemProposal": "al-7815832",
+  "SalesOffice": "5832",
+  "ShippingCondition": "32",
+  "SlsDocIsRlvtForProofOfDeliv": true,
+  "SlsUnlmtdOvrdelivIsAllwd": true,
+  "SupplyingPlant": "5832",
+  "SalesDistrict": "815832",
+  "UnderdelivTolrtdLmtRatioInPct": 15.5,
+  "InvoiceListSchedule": "32",
+  "ExchangeRateType": "5832",
+  "AdditionalCustomerGroup1": "832",
+  "AdditionalCustomerGroup2": "832",
+  "AdditionalCustomerGroup3": "832",
+  "AdditionalCustomerGroup4": "832",
+  "AdditionalCustomerGroup5": "832",
+  "PaymentGuaranteeProcedure": "5832",
+  "CustomerAccountGroup": "5832"
+}
+
+
+### A_CustomerSalesArea
+# @name A_CustomerSalesArea_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_CustomerSalesArea(Customer='ea-7815832',SalesOrganization='5832',DistributionChannel='32',Division='32')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "ea-7815832",
+  "SalesOrganization": "5832",
+  "DistributionChannel": "32",
+  "Division": "32",
+  "AccountByCustomer": "omer-7815832",
+  "AuthorizationGroup": "5832",
+  "BillingIsBlockedForCustomer": "32",
+  "CompleteDeliveryIsDefined": true,
+  "CreditControlArea": "5832",
+  "Currency": "15832",
+  "CustIsRlvtForSettlmtMgmt": true,
+  "CustomerABCClassification": "32",
+  "CustomerAccountAssignmentGroup": "32",
+  "CustomerGroup": "32",
+  "CustomerIsRebateRelevant": true,
+  "CustomerPaymentTerms": "5832",
+  "CustomerPriceGroup": "32",
+  "CustomerPricingProcedure": "32",
+  "CustomerStatisticsGroup": "2",
+  "CustProdProposalProcedure": "32",
+  "DeliveryIsBlockedForCustomer": "32",
+  "DeliveryPriority": "32",
+  "IncotermsClassification": "832",
+  "IncotermsLocation2": "IncotermsLocation2-7815832",
+  "IncotermsVersion": "5832",
+  "IncotermsLocation1": "IncotermsLocation1-7815832",
+  "IncotermsSupChnLoc1AddlUUID": "78158321-58b1-400f-9634-f730fe582fc5",
+  "IncotermsSupChnLoc2AddlUUID": "78158320-f92d-4749-b83e-07851d94c74c",
+  "IncotermsSupChnDvtgLocAddlUUID": "7815832a-cda0-493d-ae57-4d1854acd024",
+  "DeletionIndicator": true,
+  "IncotermsTransferLocation": "ermsTransferLocation-7815832",
+  "InspSbstHasNoTimeOrQuantity": true,
+  "InvoiceDate": "32",
+  "ItemOrderProbabilityInPercent": "832",
+  "ManualInvoiceMaintIsRelevant": true,
+  "MaxNmbrOfPartialDelivery": 7,
+  "OrderCombinationIsAllowed": true,
+  "OrderIsBlockedForCustomer": "32",
+  "OverdelivTolrtdLmtRatioInPct": 66.4,
+  "PartialDeliveryIsAllowed": "2",
+  "PriceListType": "32",
+  "ProductUnitGroup": "5832",
+  "ProofOfDeliveryTimeValue": 2578.6,
+  "SalesGroup": "832",
+  "SalesItemProposal": "al-7815832",
+  "SalesOffice": "5832",
+  "ShippingCondition": "32",
+  "SlsDocIsRlvtForProofOfDeliv": true,
+  "SlsUnlmtdOvrdelivIsAllwd": true,
+  "SupplyingPlant": "5832",
+  "SalesDistrict": "815832",
+  "UnderdelivTolrtdLmtRatioInPct": 15.5,
+  "InvoiceListSchedule": "32",
+  "ExchangeRateType": "5832",
+  "AdditionalCustomerGroup1": "832",
+  "AdditionalCustomerGroup2": "832",
+  "AdditionalCustomerGroup3": "832",
+  "AdditionalCustomerGroup4": "832",
+  "AdditionalCustomerGroup5": "832",
+  "PaymentGuaranteeProcedure": "5832",
+  "CustomerAccountGroup": "5832"
+}
+
+
+### A_CustomerSalesArea
+# @name A_CustomerSalesArea_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_CustomerSalesArea(Customer='ea-7815832',SalesOrganization='5832',DistributionChannel='32',Division='32')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_CustSalesPartnerFunc
+# @name A_CustSalesPartnerFunc_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_CustSalesPartnerFunc
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_CustSalesPartnerFunc
+# @name A_CustSalesPartnerFunc_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_CustSalesPartnerFunc
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "c-13307397",
+  "SalesOrganization": "7397",
+  "DistributionChannel": "97",
+  "Division": "97",
+  "PartnerCounter": "397",
+  "PartnerFunction": "97",
+  "BPCustomerNumber": "r-13307397",
+  "CustomerPartnerDescription": "merPartnerDescription-13307397",
+  "DefaultPartner": false,
+  "Supplier": "r-13307397",
+  "PersonnelNumber": "13307397",
+  "ContactPerson": "n-13307397",
+  "AddressID": "D-13307397",
+  "AuthorizationGroup": "7397"
+}
+
+
+### A_CustSalesPartnerFunc
+# @name A_CustSalesPartnerFunc_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_CustSalesPartnerFunc(Customer='c-13307397',SalesOrganization='7397',DistributionChannel='97',Division='97',PartnerCounter='397',PartnerFunction='97')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "c-13307397",
+  "SalesOrganization": "7397",
+  "DistributionChannel": "97",
+  "Division": "97",
+  "PartnerCounter": "397",
+  "PartnerFunction": "97",
+  "BPCustomerNumber": "r-13307397",
+  "CustomerPartnerDescription": "merPartnerDescription-13307397",
+  "DefaultPartner": false,
+  "Supplier": "r-13307397",
+  "PersonnelNumber": "13307397",
+  "ContactPerson": "n-13307397",
+  "AddressID": "D-13307397",
+  "AuthorizationGroup": "7397"
+}
+
+
+### A_CustSalesPartnerFunc
+# @name A_CustSalesPartnerFunc_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_CustSalesPartnerFunc(Customer='c-13307397',SalesOrganization='7397',DistributionChannel='97',Division='97',PartnerCounter='397',PartnerFunction='97')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_CustomerSalesAreaTax
+# @name A_CustomerSalesAreaTax_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_CustomerSalesAreaTax
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_CustomerSalesAreaTax
+# @name A_CustomerSalesAreaTax_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_CustomerSalesAreaTax
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "x-21359105",
+  "SalesOrganization": "9105",
+  "DistributionChannel": "05",
+  "Division": "05",
+  "DepartureCountry": "105",
+  "CustomerTaxCategory": "9105",
+  "CustomerTaxClassification": "5"
+}
+
+
+### A_CustomerSalesAreaTax
+# @name A_CustomerSalesAreaTax_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_CustomerSalesAreaTax(Customer='x-21359105',SalesOrganization='9105',DistributionChannel='05',Division='05',DepartureCountry='105',CustomerTaxCategory='9105')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "x-21359105",
+  "SalesOrganization": "9105",
+  "DistributionChannel": "05",
+  "Division": "05",
+  "DepartureCountry": "105",
+  "CustomerTaxCategory": "9105",
+  "CustomerTaxClassification": "5"
+}
+
+
+### A_CustomerSalesAreaTax
+# @name A_CustomerSalesAreaTax_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_CustomerSalesAreaTax(Customer='x-21359105',SalesOrganization='9105',DistributionChannel='05',Division='05',DepartureCountry='105',CustomerTaxCategory='9105')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_CustSlsAreaAddrDepdntTaxInfo
+# @name A_CustSlsAreaAddrDepdntTaxInfo_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_CustSlsAreaAddrDepdntTaxInfo
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_CustSlsAreaAddrDepdntTaxInfo
+# @name A_CustSlsAreaAddrDepdntTaxInfo_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_CustSlsAreaAddrDepdntTaxInfo
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "o-27494844",
+  "SalesOrganization": "4844",
+  "DistributionChannel": "44",
+  "Division": "44",
+  "AddressID": "o-27494844",
+  "DepartureCountry": "844",
+  "CustomerTaxCategory": "4844",
+  "CustomerTaxClassification": "4"
+}
+
+
+### A_CustSlsAreaAddrDepdntTaxInfo
+# @name A_CustSlsAreaAddrDepdntTaxInfo_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_CustSlsAreaAddrDepdntTaxInfo(Customer='o-27494844',SalesOrganization='4844',DistributionChannel='44',Division='44',AddressID='o-27494844',DepartureCountry='844',CustomerTaxCategory='4844')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "o-27494844",
+  "SalesOrganization": "4844",
+  "DistributionChannel": "44",
+  "Division": "44",
+  "AddressID": "o-27494844",
+  "DepartureCountry": "844",
+  "CustomerTaxCategory": "4844",
+  "CustomerTaxClassification": "4"
+}
+
+
+### A_CustSlsAreaAddrDepdntTaxInfo
+# @name A_CustSlsAreaAddrDepdntTaxInfo_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_CustSlsAreaAddrDepdntTaxInfo(Customer='o-27494844',SalesOrganization='4844',DistributionChannel='44',Division='44',AddressID='o-27494844',DepartureCountry='844',CustomerTaxCategory='4844')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_CustomerSalesAreaText
+# @name A_CustomerSalesAreaText_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_CustomerSalesAreaText
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_CustomerSalesAreaText
+# @name A_CustomerSalesAreaText_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_CustomerSalesAreaText
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "t-17353644",
+  "SalesOrganization": "3644",
+  "DistributionChannel": "44",
+  "Division": "44",
+  "Language": "44",
+  "LongTextID": "3644",
+  "LongText": "LongText-17353644"
+}
+
+
+### A_CustomerSalesAreaText
+# @name A_CustomerSalesAreaText_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_CustomerSalesAreaText(Customer='t-17353644',SalesOrganization='3644',DistributionChannel='44',Division='44',Language='44',LongTextID='3644')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "t-17353644",
+  "SalesOrganization": "3644",
+  "DistributionChannel": "44",
+  "Division": "44",
+  "Language": "44",
+  "LongTextID": "3644",
+  "LongText": "LongText-17353644"
+}
+
+
+### A_CustomerSalesAreaText
+# @name A_CustomerSalesAreaText_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_CustomerSalesAreaText(Customer='t-17353644',SalesOrganization='3644',DistributionChannel='44',Division='44',Language='44',LongTextID='3644')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_CustSlsAreaAddrDepdntInfo
+# @name A_CustSlsAreaAddrDepdntInfo_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_CustSlsAreaAddrDepdntInfo
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_CustSlsAreaAddrDepdntInfo
+# @name A_CustSlsAreaAddrDepdntInfo_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_CustSlsAreaAddrDepdntInfo
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "fo-2469007",
+  "SalesOrganization": "9007",
+  "DistributionChannel": "07",
+  "Division": "07",
+  "AddressID": "fo-2469007",
+  "IncotermsClassification": "007",
+  "IncotermsLocation1": "IncotermsLocation1-2469007",
+  "IncotermsLocation2": "IncotermsLocation2-2469007",
+  "IncotermsSupChnLoc1AddlUUID": "24690073-badb-4d5e-8534-df040faea0ae",
+  "IncotermsSupChnLoc2AddlUUID": "24690076-3349-44de-9850-ee857b66b489",
+  "IncotermsSupChnDvtgLocAddlUUID": "24690072-d86e-49f6-a069-2070c6dbc9a7",
+  "DeliveryIsBlocked": "07",
+  "SalesOffice": "9007",
+  "SalesGroup": "007",
+  "ShippingCondition": "07",
+  "SupplyingPlant": "9007",
+  "IncotermsVersion": "9007"
+}
+
+
+### A_CustSlsAreaAddrDepdntInfo
+# @name A_CustSlsAreaAddrDepdntInfo_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_CustSlsAreaAddrDepdntInfo(Customer='fo-2469007',SalesOrganization='9007',DistributionChannel='07',Division='07',AddressID='fo-2469007')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "fo-2469007",
+  "SalesOrganization": "9007",
+  "DistributionChannel": "07",
+  "Division": "07",
+  "AddressID": "fo-2469007",
+  "IncotermsClassification": "007",
+  "IncotermsLocation1": "IncotermsLocation1-2469007",
+  "IncotermsLocation2": "IncotermsLocation2-2469007",
+  "IncotermsSupChnLoc1AddlUUID": "24690073-badb-4d5e-8534-df040faea0ae",
+  "IncotermsSupChnLoc2AddlUUID": "24690076-3349-44de-9850-ee857b66b489",
+  "IncotermsSupChnDvtgLocAddlUUID": "24690072-d86e-49f6-a069-2070c6dbc9a7",
+  "DeliveryIsBlocked": "07",
+  "SalesOffice": "9007",
+  "SalesGroup": "007",
+  "ShippingCondition": "07",
+  "SupplyingPlant": "9007",
+  "IncotermsVersion": "9007"
+}
+
+
+### A_CustSlsAreaAddrDepdntInfo
+# @name A_CustSlsAreaAddrDepdntInfo_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_CustSlsAreaAddrDepdntInfo(Customer='fo-2469007',SalesOrganization='9007',DistributionChannel='07',Division='07',AddressID='fo-2469007')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_CustomerTaxGrouping
+# @name A_CustomerTaxGrouping_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_CustomerTaxGrouping
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_CustomerTaxGrouping
+# @name A_CustomerTaxGrouping_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_CustomerTaxGrouping
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "g-10763864",
+  "CustomerTaxGroupingCode": "864",
+  "CustTaxGrpExemptionCertificate": "ficate-10763864",
+  "CustTaxGroupExemptionRate": 209.93,
+  "CustTaxGroupExemptionStartDate": "2006-02-12",
+  "CustTaxGroupExemptionEndDate": "2006-02-07",
+  "CustTaxGroupSubjectedStartDate": "2006-11-14",
+  "CustTaxGroupSubjectedEndDate": "2021-11-16"
+}
+
+
+### A_CustomerTaxGrouping
+# @name A_CustomerTaxGrouping_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_CustomerTaxGrouping(Customer='g-10763864',CustomerTaxGroupingCode='864')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "g-10763864",
+  "CustomerTaxGroupingCode": "864",
+  "CustTaxGrpExemptionCertificate": "ficate-10763864",
+  "CustTaxGroupExemptionRate": 209.93,
+  "CustTaxGroupExemptionStartDate": "2006-02-12",
+  "CustTaxGroupExemptionEndDate": "2006-02-07",
+  "CustTaxGroupSubjectedStartDate": "2006-11-14",
+  "CustTaxGroupSubjectedEndDate": "2021-11-16"
+}
+
+
+### A_CustomerTaxGrouping
+# @name A_CustomerTaxGrouping_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_CustomerTaxGrouping(Customer='g-10763864',CustomerTaxGroupingCode='864')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_CustomerText
+# @name A_CustomerText_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_CustomerText
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_CustomerText
+# @name A_CustomerText_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_CustomerText
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "ext-186466",
+  "Language": "66",
+  "LongTextID": "6466",
+  "LongText": "LongText-186466"
+}
+
+
+### A_CustomerText
+# @name A_CustomerText_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_CustomerText(Customer='ext-186466',Language='66',LongTextID='6466')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "ext-186466",
+  "Language": "66",
+  "LongTextID": "6466",
+  "LongText": "LongText-186466"
+}
+
+
+### A_CustomerText
+# @name A_CustomerText_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_CustomerText(Customer='ext-186466',Language='66',LongTextID='6466')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_CustomerUnloadingPoint
+# @name A_CustomerUnloadingPoint_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_CustomerUnloadingPoint
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_CustomerUnloadingPoint
+# @name A_CustomerUnloadingPoint_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_CustomerUnloadingPoint
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "nt-7092294",
+  "UnloadingPointName": "merUnloadingPoint-7092294",
+  "CustomerFactoryCalenderCode": "94",
+  "BPGoodsReceivingHoursCode": "294",
+  "IsDfltBPUnloadingPoint": true,
+  "MondayMorningOpeningTime": "22:59:53",
+  "MondayMorningClosingTime": "22:59:53",
+  "MondayAfternoonOpeningTime": "22:59:53",
+  "MondayAfternoonClosingTime": "22:59:53",
+  "TuesdayMorningOpeningTime": "22:59:53",
+  "TuesdayMorningClosingTime": "22:59:53",
+  "TuesdayAfternoonOpeningTime": "22:59:53",
+  "TuesdayAfternoonClosingTime": "22:59:53",
+  "WednesdayMorningOpeningTime": "22:59:53",
+  "WednesdayMorningClosingTime": "22:59:53",
+  "WednesdayAfternoonOpeningTime": "22:59:53",
+  "WednesdayAfternoonClosingTime": "22:59:53",
+  "ThursdayMorningOpeningTime": "22:59:53",
+  "ThursdayMorningClosingTime": "22:59:53",
+  "ThursdayAfternoonOpeningTime": "22:59:53",
+  "ThursdayAfternoonClosingTime": "22:59:53",
+  "FridayMorningOpeningTime": "22:59:53",
+  "FridayMorningClosingTime": "22:59:53",
+  "FridayAfternoonOpeningTime": "22:59:53",
+  "FridayAfternoonClosingTime": "22:59:53",
+  "SaturdayMorningOpeningTime": "22:59:53",
+  "SaturdayMorningClosingTime": "22:59:53",
+  "SaturdayAfternoonOpeningTime": "22:59:53",
+  "SaturdayAfternoonClosingTime": "22:59:53",
+  "SundayMorningOpeningTime": "22:59:53",
+  "SundayMorningClosingTime": "22:59:53",
+  "SundayAfternoonOpeningTime": "22:59:53",
+  "SundayAfternoonClosingTime": "22:59:53"
+}
+
+
+### A_CustomerUnloadingPoint
+# @name A_CustomerUnloadingPoint_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_CustomerUnloadingPoint(Customer='nt-7092294',UnloadingPointName='merUnloadingPoint-7092294')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "nt-7092294",
+  "UnloadingPointName": "merUnloadingPoint-7092294",
+  "CustomerFactoryCalenderCode": "94",
+  "BPGoodsReceivingHoursCode": "294",
+  "IsDfltBPUnloadingPoint": true,
+  "MondayMorningOpeningTime": "22:59:53",
+  "MondayMorningClosingTime": "22:59:53",
+  "MondayAfternoonOpeningTime": "22:59:53",
+  "MondayAfternoonClosingTime": "22:59:53",
+  "TuesdayMorningOpeningTime": "22:59:53",
+  "TuesdayMorningClosingTime": "22:59:53",
+  "TuesdayAfternoonOpeningTime": "22:59:53",
+  "TuesdayAfternoonClosingTime": "22:59:53",
+  "WednesdayMorningOpeningTime": "22:59:53",
+  "WednesdayMorningClosingTime": "22:59:53",
+  "WednesdayAfternoonOpeningTime": "22:59:53",
+  "WednesdayAfternoonClosingTime": "22:59:53",
+  "ThursdayMorningOpeningTime": "22:59:53",
+  "ThursdayMorningClosingTime": "22:59:53",
+  "ThursdayAfternoonOpeningTime": "22:59:53",
+  "ThursdayAfternoonClosingTime": "22:59:53",
+  "FridayMorningOpeningTime": "22:59:53",
+  "FridayMorningClosingTime": "22:59:53",
+  "FridayAfternoonOpeningTime": "22:59:53",
+  "FridayAfternoonClosingTime": "22:59:53",
+  "SaturdayMorningOpeningTime": "22:59:53",
+  "SaturdayMorningClosingTime": "22:59:53",
+  "SaturdayAfternoonOpeningTime": "22:59:53",
+  "SaturdayAfternoonClosingTime": "22:59:53",
+  "SundayMorningOpeningTime": "22:59:53",
+  "SundayMorningClosingTime": "22:59:53",
+  "SundayAfternoonOpeningTime": "22:59:53",
+  "SundayAfternoonClosingTime": "22:59:53"
+}
+
+
+### A_CustomerUnloadingPoint
+# @name A_CustomerUnloadingPoint_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_CustomerUnloadingPoint(Customer='nt-7092294',UnloadingPointName='merUnloadingPoint-7092294')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_CustUnldgPtAddrDepdntInfo
+# @name A_CustUnldgPtAddrDepdntInfo_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_CustUnldgPtAddrDepdntInfo
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_CustUnldgPtAddrDepdntInfo
+# @name A_CustUnldgPtAddrDepdntInfo_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_CustUnldgPtAddrDepdntInfo
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "o-29225728",
+  "AddressID": "o-29225728",
+  "UnloadingPointName": "PtAddrDepdntInfo-29225728",
+  "CustomerFactoryCalenderCode": "28",
+  "BPGoodsReceivingHoursCode": "728",
+  "IsDfltBPUnloadingPoint": true,
+  "MondayMorningOpeningTime": "22:59:53",
+  "MondayMorningClosingTime": "22:59:53",
+  "MondayAfternoonOpeningTime": "22:59:53",
+  "MondayAfternoonClosingTime": "22:59:53",
+  "TuesdayMorningOpeningTime": "22:59:53",
+  "TuesdayMorningClosingTime": "22:59:53",
+  "TuesdayAfternoonOpeningTime": "22:59:53",
+  "TuesdayAfternoonClosingTime": "22:59:53",
+  "WednesdayMorningOpeningTime": "22:59:53",
+  "WednesdayMorningClosingTime": "22:59:53",
+  "WednesdayAfternoonOpeningTime": "22:59:53",
+  "WednesdayAfternoonClosingTime": "22:59:53",
+  "ThursdayMorningOpeningTime": "22:59:53",
+  "ThursdayMorningClosingTime": "22:59:53",
+  "ThursdayAfternoonOpeningTime": "22:59:53",
+  "ThursdayAfternoonClosingTime": "22:59:53",
+  "FridayMorningOpeningTime": "22:59:53",
+  "FridayMorningClosingTime": "22:59:53",
+  "FridayAfternoonOpeningTime": "22:59:53",
+  "FridayAfternoonClosingTime": "22:59:53",
+  "SaturdayMorningOpeningTime": "22:59:53",
+  "SaturdayMorningClosingTime": "22:59:53",
+  "SaturdayAfternoonOpeningTime": "22:59:53",
+  "SaturdayAfternoonClosingTime": "22:59:53",
+  "SundayMorningOpeningTime": "22:59:53",
+  "SundayMorningClosingTime": "22:59:53",
+  "SundayAfternoonOpeningTime": "22:59:53",
+  "SundayAfternoonClosingTime": "22:59:53"
+}
+
+
+### A_CustUnldgPtAddrDepdntInfo
+# @name A_CustUnldgPtAddrDepdntInfo_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_CustUnldgPtAddrDepdntInfo(Customer='o-29225728',AddressID='o-29225728',UnloadingPointName='PtAddrDepdntInfo-29225728')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Customer": "o-29225728",
+  "AddressID": "o-29225728",
+  "UnloadingPointName": "PtAddrDepdntInfo-29225728",
+  "CustomerFactoryCalenderCode": "28",
+  "BPGoodsReceivingHoursCode": "728",
+  "IsDfltBPUnloadingPoint": true,
+  "MondayMorningOpeningTime": "22:59:53",
+  "MondayMorningClosingTime": "22:59:53",
+  "MondayAfternoonOpeningTime": "22:59:53",
+  "MondayAfternoonClosingTime": "22:59:53",
+  "TuesdayMorningOpeningTime": "22:59:53",
+  "TuesdayMorningClosingTime": "22:59:53",
+  "TuesdayAfternoonOpeningTime": "22:59:53",
+  "TuesdayAfternoonClosingTime": "22:59:53",
+  "WednesdayMorningOpeningTime": "22:59:53",
+  "WednesdayMorningClosingTime": "22:59:53",
+  "WednesdayAfternoonOpeningTime": "22:59:53",
+  "WednesdayAfternoonClosingTime": "22:59:53",
+  "ThursdayMorningOpeningTime": "22:59:53",
+  "ThursdayMorningClosingTime": "22:59:53",
+  "ThursdayAfternoonOpeningTime": "22:59:53",
+  "ThursdayAfternoonClosingTime": "22:59:53",
+  "FridayMorningOpeningTime": "22:59:53",
+  "FridayMorningClosingTime": "22:59:53",
+  "FridayAfternoonOpeningTime": "22:59:53",
+  "FridayAfternoonClosingTime": "22:59:53",
+  "SaturdayMorningOpeningTime": "22:59:53",
+  "SaturdayMorningClosingTime": "22:59:53",
+  "SaturdayAfternoonOpeningTime": "22:59:53",
+  "SaturdayAfternoonClosingTime": "22:59:53",
+  "SundayMorningOpeningTime": "22:59:53",
+  "SundayMorningClosingTime": "22:59:53",
+  "SundayAfternoonOpeningTime": "22:59:53",
+  "SundayAfternoonClosingTime": "22:59:53"
+}
+
+
+### A_CustUnldgPtAddrDepdntInfo
+# @name A_CustUnldgPtAddrDepdntInfo_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_CustUnldgPtAddrDepdntInfo(Customer='o-29225728',AddressID='o-29225728',UnloadingPointName='PtAddrDepdntInfo-29225728')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BusinessPartnerPaymentCard
+# @name A_BusinessPartnerPaymentCard_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerPaymentCard
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_BusinessPartnerPaymentCard
+# @name A_BusinessPartnerPaymentCard_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerPaymentCard
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "d-14205776",
+  "PaymentCardID": "205776",
+  "PaymentCardType": "5776",
+  "CardNumber": "rtnerPaymentCard-14205776",
+  "IsStandardCard": true,
+  "CardDescription": "CardDescription-14205776",
+  "ValidityDate": "2022-08-21",
+  "ValidityEndDate": "2018-06-29",
+  "CardHolder": "CardHolder-14205776",
+  "CardIssuingBank": "CardIssuingBank-14205776",
+  "CardIssueDate": "2004-05-10",
+  "PaymentCardLock": "76",
+  "MaskedCardNumber": "MaskedCardNumber-14205776"
+}
+
+
+### A_BusinessPartnerPaymentCard
+# @name A_BusinessPartnerPaymentCard_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerPaymentCard(BusinessPartner='d-14205776',PaymentCardID='205776',PaymentCardType='5776',CardNumber='rtnerPaymentCard-14205776')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "BusinessPartner": "d-14205776",
+  "PaymentCardID": "205776",
+  "PaymentCardType": "5776",
+  "CardNumber": "rtnerPaymentCard-14205776",
+  "IsStandardCard": true,
+  "CardDescription": "CardDescription-14205776",
+  "ValidityDate": "2022-08-21",
+  "ValidityEndDate": "2018-06-29",
+  "CardHolder": "CardHolder-14205776",
+  "CardIssuingBank": "CardIssuingBank-14205776",
+  "CardIssueDate": "2004-05-10",
+  "PaymentCardLock": "76",
+  "MaskedCardNumber": "MaskedCardNumber-14205776"
+}
+
+
+### A_BusinessPartnerPaymentCard
+# @name A_BusinessPartnerPaymentCard_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_BusinessPartnerPaymentCard(BusinessPartner='d-14205776',PaymentCardID='205776',PaymentCardType='5776',CardNumber='rtnerPaymentCard-14205776')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_Supplier
+# @name A_Supplier_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_Supplier
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_Supplier
+# @name A_Supplier_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_Supplier
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Supplier": "r-31742140",
+  "AlternativePayeeAccountNumber": "r-31742140",
+  "AuthorizationGroup": "2140",
+  "BusinessPartnerPanNumber": "BusinessPartnerPanNumber-31742140",
+  "CreatedByUser": "ser-31742140",
+  "CreationDate": "2003-11-29",
+  "Customer": "r-31742140",
+  "PaymentIsBlockedForSupplier": true,
+  "PostingIsBlocked": true,
+  "PurchasingIsBlocked": true,
+  "SupplierAccountGroup": "2140",
+  "SupplierFullName": "SupplierFullName-31742140",
+  "SupplierName": "SupplierName-31742140",
+  "VATRegistration": "egistration-31742140",
+  "BirthDate": "2004-02-18",
+  "ConcatenatedInternationalLocNo": "tionalLocNo-31742140",
+  "DeletionIndicator": true,
+  "FiscalAddress": "s-31742140",
+  "Industry": "2140",
+  "InternationalLocationNumber1": "1742140",
+  "InternationalLocationNumber2": "42140",
+  "InternationalLocationNumber3": "0",
+  "IsNaturalPerson": "0",
+  "PaymentReason": "2140",
+  "ResponsibleType": "40",
+  "SuplrQltyInProcmtCertfnValidTo": "2018-02-10",
+  "SuplrQualityManagementSystem": "2140",
+  "SupplierCorporateGroup": "p-31742140",
+  "SupplierProcurementBlock": "40",
+  "TaxNumber1": "Number1-31742140",
+  "TaxNumber2": "r2-31742140",
+  "TaxNumber3": "axNumber3-31742140",
+  "TaxNumber4": "axNumber4-31742140",
+  "TaxNumber5": "TaxNumber5-31742140",
+  "TaxNumberResponsible": "sponsible-31742140",
+  "TaxNumberType": "40",
+  "SuplrProofOfDelivRlvtCode": "0",
+  "BR_TaxIsSplit": true,
+  "DataExchangeInstructionKey": "40",
+  "JP_SuplrAmtInCapitalAmount": 5450471513148.15,
+  "JP_SupplierCapitalAmountCrcy": "42140"
+}
+
+
+### A_Supplier
+# @name A_Supplier_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_Supplier/r-31742140
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Supplier": "r-31742140",
+  "AlternativePayeeAccountNumber": "r-31742140",
+  "AuthorizationGroup": "2140",
+  "BusinessPartnerPanNumber": "BusinessPartnerPanNumber-31742140",
+  "CreatedByUser": "ser-31742140",
+  "CreationDate": "2003-11-29",
+  "Customer": "r-31742140",
+  "PaymentIsBlockedForSupplier": true,
+  "PostingIsBlocked": true,
+  "PurchasingIsBlocked": true,
+  "SupplierAccountGroup": "2140",
+  "SupplierFullName": "SupplierFullName-31742140",
+  "SupplierName": "SupplierName-31742140",
+  "VATRegistration": "egistration-31742140",
+  "BirthDate": "2004-02-18",
+  "ConcatenatedInternationalLocNo": "tionalLocNo-31742140",
+  "DeletionIndicator": true,
+  "FiscalAddress": "s-31742140",
+  "Industry": "2140",
+  "InternationalLocationNumber1": "1742140",
+  "InternationalLocationNumber2": "42140",
+  "InternationalLocationNumber3": "0",
+  "IsNaturalPerson": "0",
+  "PaymentReason": "2140",
+  "ResponsibleType": "40",
+  "SuplrQltyInProcmtCertfnValidTo": "2018-02-10",
+  "SuplrQualityManagementSystem": "2140",
+  "SupplierCorporateGroup": "p-31742140",
+  "SupplierProcurementBlock": "40",
+  "TaxNumber1": "Number1-31742140",
+  "TaxNumber2": "r2-31742140",
+  "TaxNumber3": "axNumber3-31742140",
+  "TaxNumber4": "axNumber4-31742140",
+  "TaxNumber5": "TaxNumber5-31742140",
+  "TaxNumberResponsible": "sponsible-31742140",
+  "TaxNumberType": "40",
+  "SuplrProofOfDelivRlvtCode": "0",
+  "BR_TaxIsSplit": true,
+  "DataExchangeInstructionKey": "40",
+  "JP_SuplrAmtInCapitalAmount": 5450471513148.15,
+  "JP_SupplierCapitalAmountCrcy": "42140"
+}
+
+
+### A_Supplier
+# @name A_Supplier_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_Supplier/r-31742140
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_SupplierCompany
+# @name A_SupplierCompany_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_SupplierCompany
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_SupplierCompany
+# @name A_SupplierCompany_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_SupplierCompany
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Supplier": "y-15016338",
+  "CompanyCode": "6338",
+  "AuthorizationGroup": "6338",
+  "CompanyCodeName": "CompanyCodeName-15016338",
+  "PaymentBlockingReason": "8",
+  "SupplierIsBlockedForPosting": true,
+  "AccountingClerk": "38",
+  "AccountingClerkFaxNumber": "countingClerkFaxNumber-15016338",
+  "AccountingClerkPhoneNumber": "ntingClerkPhoneNumber-15016338",
+  "SupplierClerk": "rClerk-15016338",
+  "SupplierClerkURL": "SupplierClerkURL-15016338",
+  "PaymentMethodsList": "t-15016338",
+  "PaymentReason": "6338",
+  "PaymentTerms": "6338",
+  "ClearCustomerSupplier": true,
+  "IsToBeLocallyProcessed": true,
+  "ItemIsToBePaidSeparately": true,
+  "PaymentIsToBeSentByEDI": true,
+  "HouseBank": "16338",
+  "CheckPaidDurationInDays": 318,
+  "Currency": "16338",
+  "BillOfExchLmtAmtInCoCodeCrcy": 13323983593.068,
+  "SupplierClerkIDBySupplier": "ier-15016338",
+  "ReconciliationAccount": "t-15016338",
+  "InterestCalculationCode": "38",
+  "InterestCalculationDate": "2017-07-06",
+  "IntrstCalcFrequencyInMonths": "38",
+  "SupplierHeadOffice": "e-15016338",
+  "AlternativePayee": "e-15016338",
+  "LayoutSortingRule": "338",
+  "APARToleranceGroup": "6338",
+  "SupplierCertificationDate": "2018-12-19",
+  "SupplierAccountNote": "SupplierAccountNote-15016338",
+  "WithholdingTaxCountry": "338",
+  "DeletionIndicator": true,
+  "CashPlanningGroup": "p-15016338",
+  "IsToBeCheckedForDuplicates": true,
+  "MinorityGroup": "338",
+  "CreditMemoPaymentTerms": "6338",
+  "SupplierAccountGroup": "6338",
+  "to_Supplier": {
+    "Supplier": "r-31742140"
+  }
+}
+
+
+### A_SupplierCompany
+# @name A_SupplierCompany_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_SupplierCompany(Supplier='y-15016338',CompanyCode='6338')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Supplier": "y-15016338",
+  "CompanyCode": "6338",
+  "AuthorizationGroup": "6338",
+  "CompanyCodeName": "CompanyCodeName-15016338",
+  "PaymentBlockingReason": "8",
+  "SupplierIsBlockedForPosting": true,
+  "AccountingClerk": "38",
+  "AccountingClerkFaxNumber": "countingClerkFaxNumber-15016338",
+  "AccountingClerkPhoneNumber": "ntingClerkPhoneNumber-15016338",
+  "SupplierClerk": "rClerk-15016338",
+  "SupplierClerkURL": "SupplierClerkURL-15016338",
+  "PaymentMethodsList": "t-15016338",
+  "PaymentReason": "6338",
+  "PaymentTerms": "6338",
+  "ClearCustomerSupplier": true,
+  "IsToBeLocallyProcessed": true,
+  "ItemIsToBePaidSeparately": true,
+  "PaymentIsToBeSentByEDI": true,
+  "HouseBank": "16338",
+  "CheckPaidDurationInDays": 318,
+  "Currency": "16338",
+  "BillOfExchLmtAmtInCoCodeCrcy": 13323983593.068,
+  "SupplierClerkIDBySupplier": "ier-15016338",
+  "ReconciliationAccount": "t-15016338",
+  "InterestCalculationCode": "38",
+  "InterestCalculationDate": "2017-07-06",
+  "IntrstCalcFrequencyInMonths": "38",
+  "SupplierHeadOffice": "e-15016338",
+  "AlternativePayee": "e-15016338",
+  "LayoutSortingRule": "338",
+  "APARToleranceGroup": "6338",
+  "SupplierCertificationDate": "2018-12-19",
+  "SupplierAccountNote": "SupplierAccountNote-15016338",
+  "WithholdingTaxCountry": "338",
+  "DeletionIndicator": true,
+  "CashPlanningGroup": "p-15016338",
+  "IsToBeCheckedForDuplicates": true,
+  "MinorityGroup": "338",
+  "CreditMemoPaymentTerms": "6338",
+  "SupplierAccountGroup": "6338",
+  "to_Supplier": {
+    "Supplier": "r-31742140"
+  }
+}
+
+
+### A_SupplierCompany
+# @name A_SupplierCompany_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_SupplierCompany(Supplier='y-15016338',CompanyCode='6338')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_SupplierCompanyText
+# @name A_SupplierCompanyText_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_SupplierCompanyText
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_SupplierCompanyText
+# @name A_SupplierCompanyText_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_SupplierCompanyText
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Supplier": "xt-9982303",
+  "CompanyCode": "2303",
+  "Language": "03",
+  "LongTextID": "2303",
+  "LongText": "LongText-9982303"
+}
+
+
+### A_SupplierCompanyText
+# @name A_SupplierCompanyText_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_SupplierCompanyText(Supplier='xt-9982303',CompanyCode='2303',Language='03',LongTextID='2303')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Supplier": "xt-9982303",
+  "CompanyCode": "2303",
+  "Language": "03",
+  "LongTextID": "2303",
+  "LongText": "LongText-9982303"
+}
+
+
+### A_SupplierCompanyText
+# @name A_SupplierCompanyText_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_SupplierCompanyText(Supplier='xt-9982303',CompanyCode='2303',Language='03',LongTextID='2303')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_SupplierDunning
+# @name A_SupplierDunning_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_SupplierDunning
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_SupplierDunning
+# @name A_SupplierDunning_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_SupplierDunning
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Supplier": "g-19239043",
+  "CompanyCode": "9043",
+  "DunningArea": "43",
+  "DunningBlock": "3",
+  "DunningLevel": "3",
+  "DunningProcedure": "9043",
+  "DunningRecipient": "t-19239043",
+  "LastDunnedOn": "2001-05-22",
+  "LegDunningProcedureOn": "2017-02-18",
+  "DunningClerk": "43",
+  "AuthorizationGroup": "9043",
+  "SupplierAccountGroup": "9043"
+}
+
+
+### A_SupplierDunning
+# @name A_SupplierDunning_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_SupplierDunning(Supplier='g-19239043',CompanyCode='9043',DunningArea='43')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Supplier": "g-19239043",
+  "CompanyCode": "9043",
+  "DunningArea": "43",
+  "DunningBlock": "3",
+  "DunningLevel": "3",
+  "DunningProcedure": "9043",
+  "DunningRecipient": "t-19239043",
+  "LastDunnedOn": "2001-05-22",
+  "LegDunningProcedureOn": "2017-02-18",
+  "DunningClerk": "43",
+  "AuthorizationGroup": "9043",
+  "SupplierAccountGroup": "9043"
+}
+
+
+### A_SupplierDunning
+# @name A_SupplierDunning_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_SupplierDunning(Supplier='g-19239043',CompanyCode='9043',DunningArea='43')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_SupplierWithHoldingTax
+# @name A_SupplierWithHoldingTax_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_SupplierWithHoldingTax
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_SupplierWithHoldingTax
+# @name A_SupplierWithHoldingTax_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_SupplierWithHoldingTax
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Supplier": "ax-1832686",
+  "CompanyCode": "2686",
+  "WithholdingTaxType": "86",
+  "ExemptionDateBegin": "2007-09-30",
+  "ExemptionDateEnd": "2019-03-07",
+  "ExemptionReason": "86",
+  "IsWithholdingTaxSubject": true,
+  "RecipientType": "86",
+  "WithholdingTaxCertificate": "ingTaxCertificate-1832686",
+  "WithholdingTaxCode": "86",
+  "WithholdingTaxExmptPercent": 190.18,
+  "WithholdingTaxNumber": "axNumber-1832686",
+  "AuthorizationGroup": "2686"
+}
+
+
+### A_SupplierWithHoldingTax
+# @name A_SupplierWithHoldingTax_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_SupplierWithHoldingTax(Supplier='ax-1832686',CompanyCode='2686',WithholdingTaxType='86')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Supplier": "ax-1832686",
+  "CompanyCode": "2686",
+  "WithholdingTaxType": "86",
+  "ExemptionDateBegin": "2007-09-30",
+  "ExemptionDateEnd": "2019-03-07",
+  "ExemptionReason": "86",
+  "IsWithholdingTaxSubject": true,
+  "RecipientType": "86",
+  "WithholdingTaxCertificate": "ingTaxCertificate-1832686",
+  "WithholdingTaxCode": "86",
+  "WithholdingTaxExmptPercent": 190.18,
+  "WithholdingTaxNumber": "axNumber-1832686",
+  "AuthorizationGroup": "2686"
+}
+
+
+### A_SupplierWithHoldingTax
+# @name A_SupplierWithHoldingTax_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_SupplierWithHoldingTax(Supplier='ax-1832686',CompanyCode='2686',WithholdingTaxType='86')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_SupplierPurchasingOrg
+# @name A_SupplierPurchasingOrg_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_SupplierPurchasingOrg
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_SupplierPurchasingOrg
+# @name A_SupplierPurchasingOrg_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_SupplierPurchasingOrg
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Supplier": "rg-6533470",
+  "PurchasingOrganization": "3470",
+  "AutomaticEvaluatedRcptSettlmt": true,
+  "CalculationSchemaGroupCode": "70",
+  "DeletionIndicator": true,
+  "EvaldReceiptSettlementIsActive": true,
+  "IncotermsClassification": "470",
+  "IncotermsTransferLocation": "ermsTransferLocation-6533470",
+  "IncotermsVersion": "3470",
+  "IncotermsLocation1": "IncotermsLocation1-6533470",
+  "IncotermsLocation2": "IncotermsLocation2-6533470",
+  "IncotermsSupChnLoc1AddlUUID": "6533470d-e94f-4247-9ae2-5c7de80fc342",
+  "IncotermsSupChnLoc2AddlUUID": "6533470d-9958-4f9c-96b9-6c772063d005",
+  "IncotermsSupChnDvtgLocAddlUUID": "65334700-2ca2-4543-9b84-26cb5726ec92",
+  "IntrastatCrsBorderTrMode": "0",
+  "InvoiceIsGoodsReceiptBased": true,
+  "InvoiceIsMMServiceEntryBased": true,
+  "MaterialPlannedDeliveryDurn": 183,
+  "MinimumOrderAmount": 82044807879.573,
+  "PaymentTerms": "3470",
+  "PlanningCycle": "470",
+  "PricingDateControl": "0",
+  "ProdStockAndSlsDataTransfPrfl": "3470",
+  "ProductUnitGroup": "3470",
+  "PurOrdAutoGenerationIsAllowed": true,
+  "PurchaseOrderCurrency": "33470",
+  "PurchasingGroup": "470",
+  "PurchasingIsBlockedForSupplier": true,
+  "RoundingProfile": "3470",
+  "ShippingCondition": "70",
+  "SuplrDiscountInKindIsGranted": true,
+  "SuplrInvcRevalIsAllowed": true,
+  "SuplrIsRlvtForSettlmtMgmt": true,
+  "SuplrPurgOrgIsRlvtForPriceDetn": true,
+  "SupplierABCClassificationCode": "0",
+  "SupplierAccountNumber": "mber-6533470",
+  "SupplierIsReturnsSupplier": true,
+  "SupplierPhoneNumber": "neNumber-6533470",
+  "SupplierRespSalesPersonName": "ierRespSalesPersonName-6533470",
+  "SupplierConfirmationControlKey": "3470",
+  "IsOrderAcknRqd": true,
+  "AuthorizationGroup": "3470",
+  "SupplierAccountGroup": "3470"
+}
+
+
+### A_SupplierPurchasingOrg
+# @name A_SupplierPurchasingOrg_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_SupplierPurchasingOrg(Supplier='rg-6533470',PurchasingOrganization='3470')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Supplier": "rg-6533470",
+  "PurchasingOrganization": "3470",
+  "AutomaticEvaluatedRcptSettlmt": true,
+  "CalculationSchemaGroupCode": "70",
+  "DeletionIndicator": true,
+  "EvaldReceiptSettlementIsActive": true,
+  "IncotermsClassification": "470",
+  "IncotermsTransferLocation": "ermsTransferLocation-6533470",
+  "IncotermsVersion": "3470",
+  "IncotermsLocation1": "IncotermsLocation1-6533470",
+  "IncotermsLocation2": "IncotermsLocation2-6533470",
+  "IncotermsSupChnLoc1AddlUUID": "6533470d-e94f-4247-9ae2-5c7de80fc342",
+  "IncotermsSupChnLoc2AddlUUID": "6533470d-9958-4f9c-96b9-6c772063d005",
+  "IncotermsSupChnDvtgLocAddlUUID": "65334700-2ca2-4543-9b84-26cb5726ec92",
+  "IntrastatCrsBorderTrMode": "0",
+  "InvoiceIsGoodsReceiptBased": true,
+  "InvoiceIsMMServiceEntryBased": true,
+  "MaterialPlannedDeliveryDurn": 183,
+  "MinimumOrderAmount": 82044807879.573,
+  "PaymentTerms": "3470",
+  "PlanningCycle": "470",
+  "PricingDateControl": "0",
+  "ProdStockAndSlsDataTransfPrfl": "3470",
+  "ProductUnitGroup": "3470",
+  "PurOrdAutoGenerationIsAllowed": true,
+  "PurchaseOrderCurrency": "33470",
+  "PurchasingGroup": "470",
+  "PurchasingIsBlockedForSupplier": true,
+  "RoundingProfile": "3470",
+  "ShippingCondition": "70",
+  "SuplrDiscountInKindIsGranted": true,
+  "SuplrInvcRevalIsAllowed": true,
+  "SuplrIsRlvtForSettlmtMgmt": true,
+  "SuplrPurgOrgIsRlvtForPriceDetn": true,
+  "SupplierABCClassificationCode": "0",
+  "SupplierAccountNumber": "mber-6533470",
+  "SupplierIsReturnsSupplier": true,
+  "SupplierPhoneNumber": "neNumber-6533470",
+  "SupplierRespSalesPersonName": "ierRespSalesPersonName-6533470",
+  "SupplierConfirmationControlKey": "3470",
+  "IsOrderAcknRqd": true,
+  "AuthorizationGroup": "3470",
+  "SupplierAccountGroup": "3470"
+}
+
+
+### A_SupplierPurchasingOrg
+# @name A_SupplierPurchasingOrg_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_SupplierPurchasingOrg(Supplier='rg-6533470',PurchasingOrganization='3470')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_SupplierPartnerFunc
+# @name A_SupplierPartnerFunc_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_SupplierPartnerFunc
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_SupplierPartnerFunc
+# @name A_SupplierPartnerFunc_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_SupplierPartnerFunc
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Supplier": "c-10320073",
+  "PurchasingOrganization": "0073",
+  "SupplierSubrange": "320073",
+  "Plant": "0073",
+  "PartnerFunction": "73",
+  "PartnerCounter": "073",
+  "DefaultPartner": false,
+  "CreationDate": "2017-07-11",
+  "CreatedByUser": "ser-10320073",
+  "ReferenceSupplier": "r-10320073",
+  "AuthorizationGroup": "0073"
+}
+
+
+### A_SupplierPartnerFunc
+# @name A_SupplierPartnerFunc_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_SupplierPartnerFunc(Supplier='c-10320073',PurchasingOrganization='0073',SupplierSubrange='320073',Plant='0073',PartnerFunction='73',PartnerCounter='073')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Supplier": "c-10320073",
+  "PurchasingOrganization": "0073",
+  "SupplierSubrange": "320073",
+  "Plant": "0073",
+  "PartnerFunction": "73",
+  "PartnerCounter": "073",
+  "DefaultPartner": false,
+  "CreationDate": "2017-07-11",
+  "CreatedByUser": "ser-10320073",
+  "ReferenceSupplier": "r-10320073",
+  "AuthorizationGroup": "0073"
+}
+
+
+### A_SupplierPartnerFunc
+# @name A_SupplierPartnerFunc_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_SupplierPartnerFunc(Supplier='c-10320073',PurchasingOrganization='0073',SupplierSubrange='320073',Plant='0073',PartnerFunction='73',PartnerCounter='073')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_SupplierPurchasingOrgText
+# @name A_SupplierPurchasingOrgText_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_SupplierPurchasingOrgText
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_SupplierPurchasingOrgText
+# @name A_SupplierPurchasingOrgText_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_SupplierPurchasingOrgText
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Supplier": "t-20880155",
+  "PurchasingOrganization": "0155",
+  "Language": "55",
+  "LongTextID": "0155",
+  "LongText": "LongText-20880155"
+}
+
+
+### A_SupplierPurchasingOrgText
+# @name A_SupplierPurchasingOrgText_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_SupplierPurchasingOrgText(Supplier='t-20880155',PurchasingOrganization='0155',Language='55',LongTextID='0155')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Supplier": "t-20880155",
+  "PurchasingOrganization": "0155",
+  "Language": "55",
+  "LongTextID": "0155",
+  "LongText": "LongText-20880155"
+}
+
+
+### A_SupplierPurchasingOrgText
+# @name A_SupplierPurchasingOrgText_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_SupplierPurchasingOrgText(Supplier='t-20880155',PurchasingOrganization='0155',Language='55',LongTextID='0155')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_SupplierText
+# @name A_SupplierText_GET
+GET {{server}}/odata/v4/business-partner-a2-x/A_SupplierText
+Authorization: Basic {{username}}:{{password}}
+
+
+### A_SupplierText
+# @name A_SupplierText_POST
+POST {{server}}/odata/v4/business-partner-a2-x/A_SupplierText
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Supplier": "t-24428608",
+  "Language": "08",
+  "LongTextID": "8608",
+  "LongText": "LongText-24428608"
+}
+
+
+### A_SupplierText
+# @name A_SupplierText_PATCH
+PATCH {{server}}/odata/v4/business-partner-a2-x/A_SupplierText(Supplier='t-24428608',Language='08',LongTextID='8608')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "Supplier": "t-24428608",
+  "Language": "08",
+  "LongTextID": "8608",
+  "LongText": "LongText-24428608"
+}
+
+
+### A_SupplierText
+# @name A_SupplierText_DELETE
+DELETE {{server}}/odata/v4/business-partner-a2-x/A_SupplierText(Supplier='t-24428608',Language='08',LongTextID='8608')
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
