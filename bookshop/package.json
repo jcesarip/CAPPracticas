@@ -31,7 +31,12 @@
     "requires": {
       "BusinessPartnerA2X": {
         "kind": "odata-v2",
-        "model": "srv/external/BusinessPartnerA2X"
+        "model": "srv/external/BusinessPartnerA2X",
+        "[sandbox]": {
+          "credentials": {
+            "url": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_BUSINESS_PARTNER"
+          }
+        }
       }
     }
   }

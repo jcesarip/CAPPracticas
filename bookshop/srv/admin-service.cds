@@ -10,7 +10,12 @@ service AdminService @(odata: '/admin') {
     entity Authors           as projection on mysrvadmin.Authors;
     entity Genres            as projection on mysrvadmin.Genres;
     entity Orders            as projection on mysrvadmin.Orders;
-    entity A_BusinessPartner as projection on externalBP.A_BusinessPartner;
+    entity A_BusinessPartner as projection on externalBP.A_BusinessPartner  {
+            BusinessPartner  as BusinessPartner,
+            BusinessPartnerName as PartnerName,
+            BusinessPartnerOccupation as Ocupation
+            
+    };
 
     function getTotalRevenue() returns Decimal(9, 2)
 
