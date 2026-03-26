@@ -98,12 +98,23 @@
           "target": [
             "TargetMainView"
           ]
+        },
+         {
+          "name": "RouteDetails",
+          "pattern": "RouteDetails",
+          "target": [
+            "TargetMainView"
+          ]
         }
       ],
       "targets": {
         "TargetMainView": {
           "id": "MainView",
           "name": "MainView"
+        },
+          "TargetDetails": {
+          "id": "DetailView",
+          "name": "DetailView"
         }
       }
     },

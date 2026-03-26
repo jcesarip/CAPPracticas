@@ -1,0 +1,16 @@
+<c:FragmentDefinition xmlns="sap.m"
+    xmlns:c="sap.ui.core">
+
+    <Dialog id="idDialog" title="Este es un Dialgo">
+        <content>
+            <c:Icon src="sap-icon://hello-world" size="2rem" class="sapUiMediumMargin"></c:Icon>
+
+            <Text text="Esta es la ventana Emegente"></Text>
+        </content>
+
+        <beginButton>
+            <Button text="Cerrar" press="onCerrarButton" class="sapUiMediumMargin"></Button>
+        </beginButton>
+
+    </Dialog>
+</c:FragmentDefinition>

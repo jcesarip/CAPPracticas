@@ -20,7 +20,7 @@ sap.ui.define([
             // set the device model
             this.setModel(models.createDeviceModel(), "device");
 
-            // enable routing
+            // enable routing  based on the url/hash
             this.getRouter().initialize();
 
             const i18nModel = new ResourceModel({

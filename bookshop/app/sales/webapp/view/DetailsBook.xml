@@ -1,0 +1,8 @@
+<mvc:View controllerName="sales.controller.DetailsBook"
+    xmlns:mvc="sap.ui.core.mvc"
+     xmlns="sap.m">
+    <Page title="Pagina Detalles">
+		<ObjectHeader title="Invoice"/>
+       
+    </Page> 
+</mvc:View>
