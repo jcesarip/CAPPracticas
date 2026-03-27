@@ -32,3 +32,4 @@ annotate annotationAdmin.Books with @UI: {
         qualifiiier: 'Default'
     }],
 }
+

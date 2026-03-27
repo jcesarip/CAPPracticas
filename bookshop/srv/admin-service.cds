@@ -35,3 +35,4 @@ service AdminService @(odata: '/admin') {
     })                         returns array of Genres;
 
 }
+annotate AdminService with @(requires:'admin')

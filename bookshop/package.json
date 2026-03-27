@@ -30,6 +30,19 @@
   ],
   "cds": {
     "requires": {
+      "auth": {
+        "[sandbox]": {
+          "kind": "mocked",
+          "users": {
+            "cesitar": {
+              "password": "pass",
+              "roles": [
+                "admin"
+              ]
+            }
+          }
+        }
+      },
       "BusinessPartnerA2X": {
         "kind": "odata-v2",
         "model": "srv/external/BusinessPartnerA2X",
