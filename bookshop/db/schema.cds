@@ -4,6 +4,8 @@ using {
     managed,
     sap
 } from '@sap/cds/common';
+using { BusinessPartnerA2X as BP } from '../srv/external/BusinessPartnerA2X';
+
 
 namespace bookshop.com.co;
 
@@ -18,7 +20,8 @@ entity Books : managed {
         price        : Price;
         isbn         : ISBN;
         currency     : Currency;
-        publisher_ID : String;
+        bpPublishier : String(10)
+       
 }
 
 entity Authors : managed {
@@ -54,11 +57,6 @@ entity OrderItems : cuid {
         netAmount   : Decimal(9, 2)
 }
 
-entity Publisher {
-    name : String;
-    city : String;
-    book : Association to Books;
-}
 
 aspect TechnicalInfo {
     isDigital : Boolean default false;
