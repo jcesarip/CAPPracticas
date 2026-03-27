@@ -1,0 +1,12 @@
+VIEW ShopService_Author AS SELECT
+  Authors_0.createdAt,
+  Authors_0.createdBy,
+  Authors_0.modifiedAt,
+  Authors_0.modifiedBy,
+  Authors_0.ID,
+  Authors_0.name,
+  Authors_0.dateOfBirth,
+  Authors_0.dateOfDeath,
+  Authors_0.placeOfBirth,
+  Authors_0.placeOfDeath
+FROM bookshop_com_co_Authors AS Authors_0

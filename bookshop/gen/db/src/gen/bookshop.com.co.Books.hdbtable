@@ -1,0 +1,17 @@
+COLUMN TABLE bookshop_com_co_Books (
+  createdAt TIMESTAMP,
+  createdBy NVARCHAR(255),
+  modifiedAt TIMESTAMP,
+  modifiedBy NVARCHAR(255),
+  ID NVARCHAR(36) NOT NULL,
+  author_ID NVARCHAR(36),
+  title NVARCHAR(5000),
+  descr NVARCHAR(2000),
+  genres_ID INTEGER,
+  stock INTEGER,
+  price DECIMAL(9, 2),
+  isbn NVARCHAR(13),
+  currency_code NVARCHAR(3),
+  bpPublishier NVARCHAR(10),
+  PRIMARY KEY(ID)
+)

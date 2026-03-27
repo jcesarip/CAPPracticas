@@ -1,0 +1,15 @@
+VIEW localized_ShopService_Books AS SELECT
+  Books_0.createdBy,
+  Books_0.modifiedBy,
+  Books_0.ID,
+  Books_0.author_ID,
+  Books_0.title,
+  Books_0.descr,
+  Books_0.genres_ID,
+  Books_0.stock,
+  Books_0.price,
+  Books_0.isbn,
+  Books_0.currency_code,
+  Books_0.bpPublishier,
+  author_1.name AS authorName
+FROM (localized_bookshop_com_co_Books AS Books_0 LEFT JOIN bookshop_com_co_Authors AS author_1 ON Books_0.author_ID = author_1.ID)

@@ -1,0 +1,7 @@
+VIEW AdminService_OrderItems AS SELECT
+  OrderItems_0.ID,
+  OrderItems_0.orderparent_ID,
+  OrderItems_0.book_ID,
+  OrderItems_0.quantity,
+  OrderItems_0.netAmount
+FROM bookshop_com_co_OrderItems AS OrderItems_0

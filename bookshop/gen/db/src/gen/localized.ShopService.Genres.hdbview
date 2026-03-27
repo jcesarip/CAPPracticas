@@ -1,0 +1,5 @@
+VIEW localized_ShopService_Genres AS SELECT
+  Genres_0.name,
+  Genres_0.descr,
+  Genres_0.ID
+FROM localized_bookshop_com_co_Genres AS Genres_0

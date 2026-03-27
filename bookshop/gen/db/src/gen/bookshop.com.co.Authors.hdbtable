@@ -1,0 +1,13 @@
+COLUMN TABLE bookshop_com_co_Authors (
+  createdAt TIMESTAMP,
+  createdBy NVARCHAR(255),
+  modifiedAt TIMESTAMP,
+  modifiedBy NVARCHAR(255),
+  ID NVARCHAR(36) NOT NULL,
+  name NVARCHAR(5000),
+  dateOfBirth DATE,
+  dateOfDeath DATE,
+  placeOfBirth NVARCHAR(5000),
+  placeOfDeath NVARCHAR(5000),
+  PRIMARY KEY(ID)
+)

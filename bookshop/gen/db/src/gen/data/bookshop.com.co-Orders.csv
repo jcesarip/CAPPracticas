@@ -1,0 +1,2 @@
+ID,orderNumber,customer,totalPrice,currency_code,isDigital,weight
+9a8b7c6d-5e4f-3a2b-1c0d-e9f8a7b6c5d4,ORD-1001,John Doe,45.49,USD,false,1.20

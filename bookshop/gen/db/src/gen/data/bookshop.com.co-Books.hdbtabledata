@@ -1,0 +1,43 @@
+{
+  "format_version": 1,
+  "imports": [
+    {
+      "target_table": "BOOKSHOP_COM_CO_BOOKS",
+      "source_data": {
+        "data_type": "CSV",
+        "file_name": "bookshop.com.co-Books.csv",
+        "has_header": true,
+        "type_config": {
+          "delimiter": ","
+        }
+      },
+      "import_settings": {
+        "import_columns": [
+          "ID",
+          "AUTHOR_ID",
+          "TITLE",
+          "DESCR",
+          "GENRES_ID",
+          "STOCK",
+          "PRICE",
+          "ISBN",
+          "CURRENCY_CODE",
+          "BPPUBLISHIER"
+        ],
+        "include_filter": []
+      },
+      "column_mappings": {
+        "ID": "ID",
+        "AUTHOR_ID": "author_ID",
+        "TITLE": "title",
+        "DESCR": "descr",
+        "GENRES_ID": "genres_ID",
+        "STOCK": "stock",
+        "PRICE": "price",
+        "ISBN": "isbn",
+        "CURRENCY_CODE": "currency_code",
+        "BPPUBLISHIER": "bpPublishier"
+      }
+    }
+  ]
+}

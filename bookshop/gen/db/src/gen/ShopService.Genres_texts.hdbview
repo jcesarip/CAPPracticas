@@ -1,0 +1,5 @@
+VIEW ShopService_Genres_texts AS SELECT
+  texts_0.locale,
+  texts_0.descr,
+  texts_0.ID
+FROM bookshop_com_co_Genres_texts AS texts_0

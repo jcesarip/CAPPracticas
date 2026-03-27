@@ -1,0 +1,6 @@
+COLUMN TABLE bookshop_com_co_Genres (
+  name NVARCHAR(5000),
+  descr NVARCHAR(1000),
+  ID INTEGER NOT NULL,
+  PRIMARY KEY(ID)
+)

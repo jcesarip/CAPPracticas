@@ -1,0 +1,14 @@
+COLUMN TABLE bookshop_com_co_Orders (
+  ID NVARCHAR(36) NOT NULL,
+  createdAt TIMESTAMP,
+  createdBy NVARCHAR(255),
+  modifiedAt TIMESTAMP,
+  modifiedBy NVARCHAR(255),
+  isDigital BOOLEAN DEFAULT FALSE,
+  weight DECIMAL(10, 2),
+  orderNumber NVARCHAR(5000),
+  customer NVARCHAR(5000),
+  totalPrice DECIMAL(9, 2),
+  currency_code NVARCHAR(3),
+  PRIMARY KEY(ID)
+)

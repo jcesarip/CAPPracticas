@@ -1,0 +1,6 @@
+COLUMN TABLE bookshop_com_co_Books_texts (
+  locale NVARCHAR(14) NOT NULL,
+  ID NVARCHAR(36) NOT NULL,
+  title NVARCHAR(5000),
+  PRIMARY KEY(locale, ID)
+)

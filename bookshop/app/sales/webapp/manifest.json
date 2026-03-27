@@ -17,11 +17,23 @@
     },
     "dataSources": {
       "mainService": {
-        "uri": "/shop/",
+        "uri": "/shop",
         "type": "OData",
         "settings": {
           "annotations": [],
           "odataVersion": "4.0"
+        }
+      }
+    },
+    "crossNavigation": {
+      "inbounds": {
+        "sales-display": {
+          "semanticObject": "sales",
+          "action": "display",
+          "signature": {
+            "parameters": {},
+            "additionalParameters": "allowed"
+          }
         }
       }
     }
@@ -99,7 +111,7 @@
             "TargetMainView"
           ]
         },
-         {
+        {
           "name": "RouteDetails",
           "pattern": "RouteDetails",
           "target": [
@@ -112,7 +124,7 @@
           "id": "MainView",
           "name": "MainView"
         },
-          "TargetDetails": {
+        "TargetDetails": {
           "id": "DetailView",
           "name": "DetailView"
         }
@@ -124,5 +136,9 @@
       "id": "App",
       "async": true
     }
+  },
+  "sap.cloud": {
+    "public": true,
+    "service": "bookshop.service"
   }
 }

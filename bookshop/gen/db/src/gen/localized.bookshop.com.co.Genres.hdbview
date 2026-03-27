@@ -1,0 +1,5 @@
+VIEW localized_bookshop_com_co_Genres AS SELECT
+  L_0.name,
+  coalesce(localized_1.descr, L_0.descr) AS descr,
+  L_0.ID
+FROM (bookshop_com_co_Genres AS L_0 LEFT JOIN bookshop_com_co_Genres_texts AS localized_1 ON localized_1.ID = L_0.ID AND localized_1.locale = SESSION_CONTEXT('LOCALE'))

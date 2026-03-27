@@ -1,0 +1,37 @@
+{
+  "format_version": 1,
+  "imports": [
+    {
+      "target_table": "BOOKSHOP_COM_CO_ORDERS",
+      "source_data": {
+        "data_type": "CSV",
+        "file_name": "bookshop.com.co-Orders.csv",
+        "has_header": true,
+        "type_config": {
+          "delimiter": ","
+        }
+      },
+      "import_settings": {
+        "import_columns": [
+          "ID",
+          "ORDERNUMBER",
+          "CUSTOMER",
+          "TOTALPRICE",
+          "CURRENCY_CODE",
+          "ISDIGITAL",
+          "WEIGHT"
+        ],
+        "include_filter": []
+      },
+      "column_mappings": {
+        "ID": "ID",
+        "ORDERNUMBER": "orderNumber",
+        "CUSTOMER": "customer",
+        "TOTALPRICE": "totalPrice",
+        "CURRENCY_CODE": "currency_code",
+        "ISDIGITAL": "isDigital",
+        "WEIGHT": "weight"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+VIEW AdminService_Orders AS SELECT
+  Orders_0.ID,
+  Orders_0.createdAt,
+  Orders_0.createdBy,
+  Orders_0.modifiedAt,
+  Orders_0.modifiedBy,
+  Orders_0.isDigital,
+  Orders_0.weight,
+  Orders_0.orderNumber,
+  Orders_0.customer,
+  Orders_0.totalPrice,
+  Orders_0.currency_code
+FROM bookshop_com_co_Orders AS Orders_0

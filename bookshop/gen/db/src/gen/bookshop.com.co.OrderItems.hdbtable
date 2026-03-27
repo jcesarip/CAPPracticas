@@ -1,0 +1,8 @@
+COLUMN TABLE bookshop_com_co_OrderItems (
+  ID NVARCHAR(36) NOT NULL,
+  orderparent_ID NVARCHAR(36) NOT NULL,
+  book_ID NVARCHAR(36),
+  quantity INTEGER,
+  netAmount DECIMAL(9, 2),
+  PRIMARY KEY(ID, orderparent_ID)
+)
