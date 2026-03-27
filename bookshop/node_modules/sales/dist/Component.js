@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/UIComponent","sales/model/models","sap/ui/model/resource/ResourceModel"],(e,t,i)=>{"use strict";return e.extend("sales.Component",{metadata:{manifest:"json",interfaces:["sap.ui.core.IAsyncContentCreation"]},init(){e.prototype.init.apply(this,arguments);this.setModel(t.createDeviceModel(),"device");this.getRouter().initialize();const s=new i({bundleName:"sales.i18n.i18n"});this.setModel(s,"i18n")}})});
+//# sourceMappingURL=Component.js.map

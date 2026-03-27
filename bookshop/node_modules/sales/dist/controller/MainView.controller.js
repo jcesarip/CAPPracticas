@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/mvc/Controller","sap/m/MessageToast"],(e,s)=>{"use strict";return e.extend("sales.controller.MainView",{onInit(){},onPress(){s.show("Esto te llevara a la siguiente pagina")},async onOpenDialog(){this.oDialog??=await this.loadFragment({name:"sales.view.fragments.Advise"});this.oDialog.open()},onCerrarButton(){this.byId("idDialog").close()},onListItemPress(){const e=this.getOwnerComponent().getRouter();e.navTo("RouteDetails")}})});
+//# sourceMappingURL=MainView.controller.js.map

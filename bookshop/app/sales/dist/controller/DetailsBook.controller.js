@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/mvc/Controller","sap/m/MessageToast"],(e,s)=>{"use strict";return e.extend("sales.controller.DetailsBook",{onInit(){}})});
+//# sourceMappingURL=DetailsBook.controller.js.map

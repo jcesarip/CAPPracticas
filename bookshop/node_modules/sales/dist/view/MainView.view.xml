@@ -1,0 +1,19 @@
+<mvc:View controllerName="sales.controller.MainView"
+    xmlns:mvc="sap.ui.core.mvc"
+     xmlns="sap.m">
+    <Page >
+        <Panel >
+            <List id="idBooksList" items="{/Books}" mode="SingleSelectMaster">
+                <headerToolbar>
+                    <OverflowToolbar>
+                        <Title text="List Of Books"/>
+                        <ToolbarSpacer/>
+                        <Button press="onPress" text="Presioname" class="sapUiSmallMarginEnd"/>
+                        <Button press="onOpenDialog" text="AbrirFragment" class="sapUiSmallMarginEnd"  icon="sap-icon://world"/>
+                    </OverflowToolbar>
+                </headerToolbar>
+                <StandardListItem title="{title}" description="{author_ID}" info="{price}" type="Navigation" press="onListItemPress"></StandardListItem>
+            </List>
+        </Panel>
+    </Page> 
+</mvc:View>
