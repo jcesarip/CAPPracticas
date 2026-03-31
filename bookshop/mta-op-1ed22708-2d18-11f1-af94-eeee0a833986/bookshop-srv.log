@@ -1,0 +1,176 @@
+#2026 03 31 15:43:00.151#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17179#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:42:01.489783] Added process: "web" (STDOUT, API)#
+#2026 03 31 15:43:00.151#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17179#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:42:01.497842] Created app with guid ade25197-05ca-403e-b6bf-51a3acf27001 (STDOUT, API)#
+#2026 03 31 15:43:00.151#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17179#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:42:01.590426] Updating process: "web" (STDOUT, API)#
+#2026 03 31 15:43:00.151#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17179#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:42:01.652148] Scaling process: "web" (STDOUT, API)#
+#2026 03 31 15:43:00.151#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17179#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:42:30.630627] Uploading app package for app with guid ade25197-05ca-403e-b6bf-51a3acf27001 (STDOUT, API)#
+#2026 03 31 15:43:00.151#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17179#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:42:30.871595] Updated app with guid ade25197-05ca-403e-b6bf-51a3acf27001 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 03 31 15:43:00.151#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17179#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:42:50.313418] Creating build for app with guid ade25197-05ca-403e-b6bf-51a3acf27001 (STDOUT, API)#
+#2026 03 31 15:43:00.151#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17179#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:42:50.637483] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 03 31 15:43:00.151#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17179#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:42:50.727558] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 03 31 15:43:00.151#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17179#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:42:50.727627] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 creating container for instance 811d5c53-8cee-41f7-9424-cdc0691c6087 (STDOUT, STG)#
+#2026 03 31 15:43:00.151#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17179#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:42:51.859634] Security group rules were updated (STDOUT, STG)#
+#2026 03 31 15:43:00.151#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17179#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:42:51.923373] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully created container for instance 811d5c53-8cee-41f7-9424-cdc0691c6087 (STDOUT, STG)#
+#2026 03 31 15:43:00.151#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17179#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:42:52.277191] Downloading app package... (STDOUT, STG)#
+#2026 03 31 15:43:00.151#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17179#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:42:55.510337] Downloaded app package (38.8M) (STDOUT, STG)#
+#2026 03 31 15:43:00.151#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17179#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:42:55.584111] -----> Nodejs Buildpack version 1.8.44 (STDOUT, STG)#
+#2026 03 31 15:43:00.151#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17179#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:42:56.542013] -----> Bootstrapping python (STDOUT, STG)#
+#2026 03 31 15:43:00.151#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17179#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:42:56.542046] -----> Installing python 3.11.14 (STDOUT, STG)#
+#2026 03 31 15:43:00.151#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17179#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:42:56.542111] Copy [/tmp/buildpacks/978cee5ec9c58000/dependencies/b5e0345ae0ae1932e7d56fffaa49a487/python_3.11.14_linux_x64_cflinuxfs4_66f53248.tgz] (STDOUT, STG)#
+#2026 03 31 15:43:00.151#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17179#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:42:59.675724] -----> Installing binaries (STDOUT, STG)#
+#2026 03 31 15:43:00.151#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17179#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:42:59.676003] engines.node (package.json): >=20 (STDOUT, STG)#
+#2026 03 31 15:43:00.151#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17179#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:42:59.676026] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 03 31 15:43:00.151#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17179#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:42:59.676030] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 03 31 15:43:00.151#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17179#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:42:59.676033] -----> Installing node 24.13.0 (STDOUT, STG)#
+#2026 03 31 15:43:00.151#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17179#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:42:59.676051] Copy [/tmp/buildpacks/978cee5ec9c58000/dependencies/2f5692219fecc3eee6e6d507a6bfe7b9/node_24.13.0_linux_x64_cflinuxfs4_a816dee1.tgz] (STDOUT, STG)#
+#2026 03 31 15:43:10.185#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17187#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:01.562303] Using default npm version: 11.6.2 (STDOUT, STG)#
+#2026 03 31 15:43:10.185#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17187#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:01.562335] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 03 31 15:43:10.185#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17187#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:01.562364] Copy [/tmp/buildpacks/978cee5ec9c58000/dependencies/e3a39aedd1236924d69cc2d0637a8ed2/yarn_1.22.22_linux_noarch_any-stack_4911d0a6.tgz] (STDOUT, STG)#
+#2026 03 31 15:43:10.185#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17187#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:01.838551] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 03 31 15:43:10.185#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17187#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:01.838578] -----> Creating runtime environment (STDOUT, STG)#
+#2026 03 31 15:43:10.185#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17187#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:01.840264] NODE_ENV=production (STDOUT, STG)#
+#2026 03 31 15:43:10.185#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17187#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:01.840279] NODE_HOME=/tmp/contents3406953893/deps/0/node (STDOUT, STG)#
+#2026 03 31 15:43:10.185#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17187#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:01.840283] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 03 31 15:43:10.185#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17187#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:01.840287] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 03 31 15:43:10.185#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17187#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:01.840290] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 03 31 15:43:10.185#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17187#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:01.840309] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 03 31 15:43:10.185#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17187#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:01.840312] -----> Building dependencies (STDOUT, STG)#
+#2026 03 31 15:43:10.185#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17187#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:01.840314] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 03 31 15:43:10.185#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17187#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:01.840370] Rebuilding any native modules (STDOUT, STG)#
+#2026 03 31 15:43:10.185#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17187#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:02.751628] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 03 31 15:43:10.185#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17187#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:02.752996] npm notice (STDOUT, STG)#
+#2026 03 31 15:43:10.185#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17187#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:02.753010] npm notice New minor version of npm available! 11.6.2 -> 11.12.1 (STDOUT, STG)#
+#2026 03 31 15:43:10.185#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17187#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:02.753015] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.12.1 (STDOUT, STG)#
+#2026 03 31 15:43:10.185#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17187#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:02.753019] npm notice To update run: npm install -g npm@11.12.1 (STDOUT, STG)#
+#2026 03 31 15:43:10.185#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17187#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:02.753024] npm notice (STDOUT, STG)#
+#2026 03 31 15:43:10.185#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17187#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:02.814589] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 03 31 15:43:10.185#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17187#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:04.094892] up to date in 1s (STDOUT, STG)#
+#2026 03 31 15:43:10.185#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17187#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:04.095161] 133 packages are looking for funding (STDOUT, STG)#
+#2026 03 31 15:43:10.185#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17187#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:04.095189] run `npm fund` for details (STDOUT, STG)#
+#2026 03 31 15:43:10.185#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17187#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:06.083512] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 03 31 15:43:30.288#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12289#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:20.701037] Exit status 0 (STDOUT, STG)#
+#2026 03 31 15:43:30.288#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12289#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:20.701120] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 03 31 15:43:30.288#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12289#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:20.701172] Uploading droplet... (STDOUT, STG)#
+#2026 03 31 15:43:30.288#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12289#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:20.701183] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 03 31 15:43:30.288#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12289#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:20.717826] Uploaded build artifacts cache (216B) (STDOUT, STG)#
+#2026 03 31 15:43:30.288#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12289#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:21.608655] Creating droplet for app with guid ade25197-05ca-403e-b6bf-51a3acf27001 (STDOUT, API)#
+#2026 03 31 15:43:30.288#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12289#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:26.699415] Uploaded droplet (88.6M) (STDOUT, STG)#
+#2026 03 31 15:43:30.288#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12289#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:26.723389] Uploading complete (STDOUT, STG)#
+#2026 03 31 15:43:30.288#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12289#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:27.140639] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 stopping instance 811d5c53-8cee-41f7-9424-cdc0691c6087 (STDOUT, STG)#
+#2026 03 31 15:43:30.288#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12289#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:27.140673] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 destroying container for instance 811d5c53-8cee-41f7-9424-cdc0691c6087 (STDOUT, STG)#
+#2026 03 31 15:43:30.288#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12289#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:27.197462] Staging complete for build 811d5c53-8cee-41f7-9424-cdc0691c6087 (STDOUT, API)#
+#2026 03 31 15:43:30.288#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12289#
+[PollStageAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:29.790965] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully destroyed container for instance 811d5c53-8cee-41f7-9424-cdc0691c6087 (STDOUT, STG)#
+#2026 03 31 15:43:40.301#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12295#
+[PollStartAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:30.364354] Updated app with guid ade25197-05ca-403e-b6bf-51a3acf27001 ({:droplet_guid=>"41b19327-7639-4efc-9c8f-7594260bbc8f"}) (STDOUT, API)#
+#2026 03 31 15:43:40.301#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12295#
+[PollStartAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:30.562725] Creating revision for app with guid ade25197-05ca-403e-b6bf-51a3acf27001 (STDOUT, API)#
+#2026 03 31 15:43:40.301#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12295#
+[PollStartAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:30.601361] Starting app with guid ade25197-05ca-403e-b6bf-51a3acf27001 (STDOUT, API)#
+#2026 03 31 15:43:40.301#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12295#
+[PollStartAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:30.803668] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance ee7b8a98-dc4c-4ef2-6894-ecac (STDOUT, CELL)#
+#2026 03 31 15:43:40.301#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12295#
+[PollStartAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:31.984113] Security group rules were updated (STDOUT, CELL)#
+#2026 03 31 15:43:40.301#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12295#
+[PollStartAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:32.051757] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance ee7b8a98-dc4c-4ef2-6894-ecac (STDOUT, CELL)#
+#2026 03 31 15:43:40.301#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12295#
+[PollStartAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:32.457550] Downloading droplet... (STDOUT, CELL)#
+#2026 03 31 15:43:40.301#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12295#
+[PollStartAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:37.733276] Downloaded droplet (88.6M) (STDOUT, CELL)#
+#2026 03 31 15:43:40.301#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12295#
+[PollStartAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:37.733501] Starting health monitoring of container (STDOUT, CELL)#
+#2026 03 31 15:43:40.301#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12295#
+[PollStartAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:37.816868] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 03 31 15:43:40.301#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12295#
+[PollStartAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:37.988985] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 03 31 15:43:40.301#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12295#
+[PollStartAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:38.344282] > bookshop@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 03 31 15:43:40.301#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12295#
+[PollStartAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:38.344305] > cds-serve (STDOUT, APP/PROC/WEB)#
+#2026 03 31 15:43:40.301#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12295#
+[PollStartAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:38.685626] {"level":"info","logger":"cds","timestamp":"2026-03-31T15:43:38.684Z","layer":"cds","component_type":"application","container_id":"10.32.3.6","component_id":"ade25197-05ca-403e-b6bf-51a3acf27001","component_name":"bookshop-srv","component_instance":0,"source_instance":0,"organization_name":"821f3512trial","organization_id":"551af7f5-285c-406e-9bc9-4c4f3fc185dc","space_name":"dev","space_id":"dde0ff71-25ef-43e9-98a4-025614d66c41","msg":"loaded model from 1 file(s):\n ","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 03 31 15:43:40.301#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12295#
+[PollStartAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:38.685969] srv/csn.json (STDOUT, APP/PROC/WEB)#
+#2026 03 31 15:43:40.301#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12295#
+[PollStartAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:38.931593] {"level":"info","logger":"cds","timestamp":"2026-03-31T15:43:38.931Z","layer":"cds","component_type":"application","container_id":"10.32.3.6","component_id":"ade25197-05ca-403e-b6bf-51a3acf27001","component_name":"bookshop-srv","component_instance":0,"source_instance":0,"organization_name":"821f3512trial","organization_id":"551af7f5-285c-406e-9bc9-4c4f3fc185dc","space_name":"dev","space_id":"dde0ff71-25ef-43e9-98a4-025614d66c41","msg":"connect to db > hana {\n  database_id: '7bb80505-33b7-4f01-947f-2e9fd803d1f8',\n  host: '7bb80505-33b7-4f01-947f-2e9fd803d1f8.hna1.prod-us10.hanacloud.ondemand.com',\n  port: '443',\n  driver: 'com.sap.db.jdbc.Driver',\n  url: 'jdbc:sap://7bb80505-33b7-4f01-947f-2e9fd803d1f8.hna1.prod-us10.hanacloud.ondemand.com:443?encrypt=true&validateCertificate=true&currentschema=A971B6029379447CBAAF581ABA984458',\n  schema: 'A971B6029379447CBAAF581ABA984458',\n  certificate: '...',\n  hdi_user: 'A971B6029379447CBAAF581ABA984458_AOHV9PAOOLOCNO2IVWF9M0W29_DT',\n  hdi_password: '...',\n  user: 'A971B6029379447CBAAF581ABA984458_AOHV9PAOOLOCNO2IVWF9M0W29_RT',\n  password: '...'\n}","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 03 31 15:43:40.301#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12295#
+[PollStartAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:38.933700] Arranca servicio AdminService (STDOUT, APP/PROC/WEB)#
+#2026 03 31 15:43:40.301#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12295#
+[PollStartAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:38.938704] Arranca servicio CatalogService (STDOUT, APP/PROC/WEB)#
+#2026 03 31 15:43:40.301#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12295#
+[PollStartAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:38.940389] ApplicacitionService Iniciado... (STDOUT, APP/PROC/WEB)#
+#2026 03 31 15:43:40.301#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12295#
+[PollStartAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:38.961738] {"level":"info","logger":"cds","timestamp":"2026-03-31T15:43:38.961Z","layer":"cds","component_type":"application","container_id":"10.32.3.6","component_id":"ade25197-05ca-403e-b6bf-51a3acf27001","component_name":"bookshop-srv","component_instance":0,"source_instance":0,"organization_name":"821f3512trial","organization_id":"551af7f5-285c-406e-9bc9-4c4f3fc185dc","space_name":"dev","space_id":"dde0ff71-25ef-43e9-98a4-025614d66c41","msg":"using auth strategy { kind: 'xsuaa' }","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 03 31 15:43:40.301#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12295#
+[PollStartAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:39.009833] {"level":"info","logger":"cds","timestamp":"2026-03-31T15:43:39.009Z","layer":"cds","component_type":"application","container_id":"10.32.3.6","component_id":"ade25197-05ca-403e-b6bf-51a3acf27001","component_name":"bookshop-srv","component_instance":0,"source_instance":0,"organization_name":"821f3512trial","organization_id":"551af7f5-285c-406e-9bc9-4c4f3fc185dc","space_name":"dev","space_id":"dde0ff71-25ef-43e9-98a4-025614d66c41","msg":"serving AdminService {\n  at: [ '/admin' ],\n  decl: 'srv/csn.json:571',\n  impl: 'srv/admin-service.js'\n}","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 03 31 15:43:40.301#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12295#
+[PollStartAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:39.010398] {"level":"info","logger":"cds","timestamp":"2026-03-31T15:43:39.010Z","layer":"cds","component_type":"application","container_id":"10.32.3.6","component_id":"ade25197-05ca-403e-b6bf-51a3acf27001","component_name":"bookshop-srv","component_instance":0,"source_instance":0,"organization_name":"821f3512trial","organization_id":"551af7f5-285c-406e-9bc9-4c4f3fc185dc","space_name":"dev","space_id":"dde0ff71-25ef-43e9-98a4-025614d66c41","msg":"serving CatalogService {\n  at: [ '/browse' ],\n  decl: 'srv/csn.json:1300',\n  impl: 'srv/cat-service.js'\n}","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 03 31 15:43:40.301#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12295#
+[PollStartAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:39.010757] {"level":"info","logger":"cds","timestamp":"2026-03-31T15:43:39.010Z","layer":"cds","component_type":"application","container_id":"10.32.3.6","component_id":"ade25197-05ca-403e-b6bf-51a3acf27001","component_name":"bookshop-srv","component_instance":0,"source_instance":0,"organization_name":"821f3512trial","organization_id":"551af7f5-285c-406e-9bc9-4c4f3fc185dc","space_name":"dev","space_id":"dde0ff71-25ef-43e9-98a4-025614d66c41","msg":"serving ShopService {\n  at: [ '/shop' ],\n  decl: 'srv/csn.json:1700',\n  impl: 'srv/shops-service.js'\n}","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 03 31 15:43:40.301#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12295#
+[PollStartAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:39.016339] {"level":"info","logger":"cds","timestamp":"2026-03-31T15:43:39.015Z","layer":"cds","component_type":"application","container_id":"10.32.3.6","component_id":"ade25197-05ca-403e-b6bf-51a3acf27001","component_name":"bookshop-srv","component_instance":0,"source_instance":0,"organization_name":"821f3512trial","organization_id":"551af7f5-285c-406e-9bc9-4c4f3fc185dc","space_name":"dev","space_id":"dde0ff71-25ef-43e9-98a4-025614d66c41","msg":"server listening on { url: 'http://localhost:8080' }","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 03 31 15:43:40.301#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-12295#
+[PollStartAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:39.017444] {"level":"info","logger":"cds","timestamp":"2026-03-31T15:43:39.017Z","layer":"cds","component_type":"application","container_id":"10.32.3.6","component_id":"ade25197-05ca-403e-b6bf-51a3acf27001","component_name":"bookshop-srv","component_instance":0,"source_instance":0,"organization_name":"821f3512trial","organization_id":"551af7f5-285c-406e-9bc9-4c4f3fc185dc","space_name":"dev","space_id":"dde0ff71-25ef-43e9-98a4-025614d66c41","msg":"server v9.8.4 launched in 663 ms","type":"log"} (STDOUT, APP/PROC/WEB)#
+#2026 03 31 15:43:50.374#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17218#
+[PollStartAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:40.818016] Container became healthy (STDOUT, CELL)#
+#2026 03 31 15:43:50.374#Z#DEBUG#1ed22708-2d18-11f1-af94-eeee0a833986.bookshop-srv#flowable-async-job-executor-thread-17218#
+[PollStartAppStatusExecution] ade25197-05ca-403e-b6bf-51a3acf27001 [2026-03-31T15:43:40.843065] Process became ready with guid ade25197-05ca-403e-b6bf-51a3acf27001 payload: {"instance"=>"ee7b8a98-dc4c-4ef2-6894-ecac", "index"=>0, "cell_id"=>"77283d80-dfa7-40ba-ba4e-265aef112085", "ready"=>true, "version"=>"ceb270eb-89b6-4dc2-aca7-4cac0f207035"} (STDOUT, API)#

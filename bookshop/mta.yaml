@@ -40,6 +40,13 @@ modules:
   - name: bookshop-app-deployer
     type: com.sap.application.content
     path: gen
+    build-parameters:
+      build-result: app/
+      requires:
+        - name: bookshopsales
+          artifacts:
+            - sales.zip
+          target-path: app/
     requires:
       - name: bookshop-auth
       - name: srv-api
@@ -48,13 +55,6 @@ modules:
           content-target: true
           config:
             HTML5Runtime_enabled: true
-    build-parameters:
-      build-result: app/
-      requires:
-        - name: bookshopsales
-          artifacts:
-            - sales.zip
-          target-path: app/
 
   - name: bookshopsales
     type: html5
@@ -142,6 +142,7 @@ resources:
                 ProxyType: Internet
                 HTML5.ForwardAuthToken: true
                 HTML5.DynamicDestination: true
+
     requires:
       - name: srv-api
 
